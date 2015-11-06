@@ -1,0 +1,26 @@
+<!-- Block blockcallback -->
+{*<div id="blockcallback_block_left">*}
+<div class="blockcallback_block_left">
+    <a class="callback-js" rel="nofollow">Обратный звонок</a>
+    <div class="callback-popup">
+        <div class="h4">Оставьте заявку</div>
+        <p>и наш менеджер свяжется с<br>Вами в ближайшее время</p>
+        <div class="block_content">
+            <form action="{$smarty.server.REQUEST_URI}" method="post">
+            {if !empty($blockcallback_msg)}
+                <p class="{if isset($blockcallback_error) && $blockcallback_error}blockcallback_error{else}blockcallback_success{/if}">{$blockcallback_msg}</p>
+            {/if}
+                {*<input id="BlockCallbackName" name="BlockCallbackName" value="{if isset($blockcallback_error) && $blockcallback_error}{$smarty.post.BlockCallbackName|escape:'htmlall':'UTF-8'}{/if}" type="text" placeholder="Ваше имя"/>*}
+
+                {*<input id="BlockCallbackPhone" name="BlockCallbackPhone" value="{if isset($blockcallback_error) && $blockcallback_error}{$smarty.post.BlockCallbackPhone|escape:'htmlall':'UTF-8'}{/if}" type="text" placeholder="Телефон"/>*}
+
+                <input name="BlockCallbackName" value="{if isset($blockcallback_error) && $blockcallback_error}{$smarty.post.BlockCallbackName|escape:'htmlall':'UTF-8'}{/if}" type="text" placeholder="Ваше имя"/>
+
+                <input name="BlockCallbackPhone" value="{if isset($blockcallback_error) && $blockcallback_error}{$smarty.post.BlockCallbackPhone|escape:'htmlall':'UTF-8'}{/if}" type="text" placeholder="Телефон"/>
+
+                <button type="submit" class="button-green" name="submitBlockCallback">Отправить</button>
+            </form>
+        </div>
+    </div>
+</div>
+<!-- /Block blockcallback -->

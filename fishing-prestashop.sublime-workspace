@@ -1,0 +1,954 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"add",
+				"addClass〔function〕"
+			],
+			[
+				"list-",
+				"list-style-type"
+			],
+			[
+				"spa",
+				"span	Tag"
+			],
+			[
+				"list",
+				"list-style-type"
+			],
+			[
+				"lis",
+				"list-dc	list-style-type: decimal;"
+			],
+			[
+				"va",
+				"va-tt	vertical-align: text-top;"
+			],
+			[
+				"tt",
+				"tt-l	text-transform: lowercase;"
+			],
+			[
+				"border",
+				"bordercolor"
+			],
+			[
+				"inc",
+				"include	@include"
+			],
+			[
+				"nth",
+				"nth-child(  (pseudo-class)"
+			],
+			[
+				"f",
+				"first-child  (pseudo-class)"
+			],
+			[
+				"la",
+				"last-child  (pseudo-class)"
+			],
+			[
+				"bord",
+				"border-image:   (property)"
+			],
+			[
+				"n",
+				"nth-child(  (pseudo-class)"
+			],
+			[
+				"tra",
+				"transition"
+			],
+			[
+				"ff",
+				"ff:ss	font-family:sans-serif"
+			],
+			[
+				"firs",
+				"first-child"
+			],
+			[
+				"trs",
+				"trs	transition: ${1:prop} ${2:time};"
+			],
+			[
+				"imp",
+				"@import	@import url(${0});"
+			],
+			[
+				"li",
+				"lighten(color, 10%)"
+			],
+			[
+				"article-",
+				"article-title"
+			],
+			[
+				"d",
+				"disc"
+			],
+			[
+				"in",
+				"inside"
+			],
+			[
+				"list-style-",
+				"list-style-position"
+			],
+			[
+				"liststyle",
+				"list-style-type"
+			],
+			[
+				"box-z",
+				"-moz-box-sizing:   (property)"
+			],
+			[
+				"fi",
+				"first-child"
+			],
+			[
+				"tran",
+				"transparent"
+			],
+			[
+				"le",
+				"letter-spacing"
+			],
+			[
+				"fff",
+				"F0F0F0"
+			],
+			[
+				"fun",
+				"function"
+			],
+			[
+				"op",
+				"op:ms	-ms-filter:opacity"
+			],
+			[
+				"ri",
+				"right"
+			],
+			[
+				"no",
+				"none"
+			],
+			[
+				"bor",
+				"border-left"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 392.0,
+		"last_filter": "css",
+		"selected_items":
+		[
+			[
+				"css",
+				"SassBeautify: Convert from CSS to current type"
+			],
+			[
+				"sass",
+				"SassBeautify: Convert from SASS to current type"
+			],
+			[
+				"cssc",
+				"Run CSScomb"
+			],
+			[
+				"task",
+				"Tasks: Open URL"
+			],
+			[
+				"task op",
+				"Tasks: Open Link"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"remo",
+				"Package Control: Remove Package"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"emme",
+				"Emmet: Encode\\Decode Image to data:URL"
+			],
+			[
+				"encode/de",
+				"Emmet: Encode\\Decode Image to data:URL"
+			],
+			[
+				"emmet",
+				"Emmet: Encode\\Decode Image to data:URL"
+			],
+			[
+				"cssco",
+				"Run CSScomb"
+			],
+			[
+				"lint",
+				"Preferences: SublimeLinter Settings – Default"
+			],
+			[
+				"packe",
+				"Package Control: Upgrade Package"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"encod",
+				"Emmet: Encode\\Decode Image to data:URL"
+			],
+			[
+				"scss",
+				"Set Syntax: SCSS"
+			],
+			[
+				"emmet enc",
+				"Emmet: Encode\\Decode Image to data:URL"
+			],
+			[
+				"emmet en",
+				"Emmet: Encode\\Decode Image to data:URL"
+			],
+			[
+				"remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"remov",
+				"Package Control: Remove Package"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"au",
+				"Autoprefix CSS"
+			],
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"tor",
+				"TortoiseSVN: Commit"
+			],
+			[
+				"tid",
+				"Tidy HTML"
+			],
+			[
+				"tidy",
+				"Tidy CSS"
+			],
+			[
+				"ti",
+				"Tidy HTML"
+			],
+			[
+				"wo",
+				"WordPress: Open Config File"
+			],
+			[
+				"auto",
+				"Autoprefix CSS"
+			],
+			[
+				"html",
+				"Tidy HTML"
+			],
+			[
+				"snip de",
+				"Snippet: desktop  laptop"
+			],
+			[
+				"sni mo",
+				"Snippet: smartphone"
+			],
+			[
+				"snipe",
+				"Snippet: :focus"
+			],
+			[
+				"snip",
+				"Snippet: ipad"
+			],
+			[
+				"clea",
+				"Package Control: Upgrade Package"
+			],
+			[
+				"ty",
+				"Tidy HTML"
+			],
+			[
+				"bro",
+				"SFTP: Browse Server…"
+			],
+			[
+				"sft",
+				"SFTP: Setup Server…"
+			],
+			[
+				"pa",
+				"Package Control: Remove Package"
+			],
+			[
+				"pack",
+				"Package Control: Install Package"
+			],
+			[
+				"pac",
+				"Package Control: Install Package"
+			],
+			[
+				"packa",
+				"Package Control: List Packages"
+			],
+			[
+				"sftp",
+				"SFTP: Setup Server…"
+			],
+			[
+				"live",
+				"LiveStyle: Apply Patch"
+			],
+			[
+				"remoe",
+				"Package Control: Remove Package"
+			],
+			[
+				"qui",
+				"Git: Quick Commit"
+			],
+			[
+				"qu",
+				"Git: Quick Commit"
+			],
+			[
+				"qi",
+				"Git: Quick Commit"
+			],
+			[
+				"aut",
+				"Autoprefix CSS"
+			],
+			[
+				"git ",
+				"Git: Push"
+			],
+			[
+				"git qu",
+				"Git: Quick Commit"
+			],
+			[
+				"git q",
+				"Git: Quick Commit"
+			],
+			[
+				"git qui",
+				"Git: Quick Commit"
+			],
+			[
+				"git pu",
+				"Git: Push"
+			],
+			[
+				"git",
+				"Git: Push"
+			],
+			[
+				"gut",
+				"Git: Quick Commit"
+			],
+			[
+				"git s",
+				"Git: Status"
+			],
+			[
+				"gi",
+				"Git: Push"
+			],
+			[
+				"Package Control: re",
+				"Package Control: Remove Package"
+			],
+			[
+				"subl",
+				"SublimeZilla: Import FileZilla Server"
+			],
+			[
+				"",
+				"Autoprefix CSS"
+			],
+			[
+				"a",
+				"Autoprefix CSS"
+			],
+			[
+				"colo",
+				"BracketHighlighter: Toggle Global Enable"
+			]
+		],
+		"width": 528.0
+	},
+	"console":
+	{
+		"height": 199.0,
+		"history":
+		[
+			"restart",
+			"import urllib.request,os,hashlib; h = '7183a2d3e96f11eeadd761d777e62404' + 'e330c659d4bb41d3bdf022e94cab3cd0'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://sublime.wbond.net/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/D/Works/Verstka/fishing-prestashop"
+	],
+	"file_history":
+	[
+		"/D/Works/Verstka/fishing-prestashop/prestashop/CONTRIBUTING.md",
+		"/D/Works/Verstka/paulmitch.ru/assets/js/scripts.js",
+		"/D/Works/Verstka/paulmitch.ru/wordpress/wp-content/themes/zenon-lite/sidebar.php",
+		"/D/Works/Verstka/paulmitch.ru/wordpress/wp-content/themes/zenon-lite/functions.php",
+		"/D/Works/Verstka/paulmitch.ru/wordpress/wp-content/themes/zenon-lite/layout1.php",
+		"/D/Works/Verstka/paulmitch.ru/wordpress/wp-content/themes/zenon-lite/header.php",
+		"/D/Works/Verstka/paulmitch.ru/wordpress/wp-content/themes/zenon-lite/page-catalog.php",
+		"/D/Works/Verstka/paulmitch.ru/wordpress/wp-content/themes/zenon-lite/single-product.php",
+		"/D/Works/Verstka/paulmitch.ru/wordpress/wp-content/themes/zenon-lite/front-page.php",
+		"/D/Works/Verstka/paulmitch.ru/assets/sass/main.scss",
+		"/D/Works/Verstka/paulmitch.ru/wordpress/wp-content/themes/zenon-lite/easyslider.php",
+		"/D/Works/Verstka/paulmitch.ru/wordpress/wp-content/themes/zenon-lite/footer.php",
+		"/D/Works/Verstka/paulmitch.ru/wordpress/wp-content/themes/zenon-lite/category.php",
+		"/D/Works/Verstka/paulmitch.ru/wordpress/wp-content/themes/zenon-lite/js/scripts.js",
+		"/D/Works/Verstka/paulmitch.ru/assets/js/modernizr.js",
+		"/D/Works/Verstka/paulmitch.ru/assets/js/jquery.js",
+		"/D/Works/Verstka/paulmitch.ru/assets/js/jquery-migrate.min.js",
+		"/D/Works/Verstka/paulmitch.ru/wordpress/wp-content/themes/zenon-lite/js/html5shiv.js",
+		"/D/Works/Verstka/paulmitch.ru/wordpress/wp-content/themes/zenon-lite/js/buttons.js",
+		"/D/Works/Verstka/paulmitch.ru/wordpress/wp-content/themes/zenon-lite/js/admin.js",
+		"/D/Works/Verstka/paulmitch.ru/assets/js/buttons.js",
+		"/D/Works/Verstka/wp-framework/wordpress/wp-content/themes/wp-framework/header.php",
+		"/D/Works/Verstka/paulmitch.ru/wordpress/wp-content/themes/zenon-lite/page-order.php",
+		"/D/Works/Verstka/paulmitch.ru/src/wojodesign-simplecart-js-51a9a38/test/index.html",
+		"/D/Works/Verstka/paulmitch.ru/assets/sass/_yanone_kaffeesatz.scss",
+		"/D/Works/Verstka/paulmitch.ru/assets/sass/_old_main.scss",
+		"/D/Works/Verstka/paulmitch.ru/assets/sass/import/_forms.scss",
+		"/D/Works/Verstka/paulmitch.ru/assets/sass/import/_print.scss",
+		"/D/Works/Verstka/paulmitch.ru/assets/sass/fancybox.scss",
+		"/D/Works/Verstka/paulmitch.ru/assets/js/other.js",
+		"/D/Works/Verstka/paulmitch.ru/assets/js/fancybox.js",
+		"/D/Works/Verstka/paulmitch.ru/wordpress/wp-content/themes/zenon-lite/js/fancybox.js",
+		"/D/Works/Verstka/wp-framework/wordpress/wp-content/themes/wp-framework/functions.php",
+		"/D/Works/Verstka/paulmitch.ru/assets/js/easyslider.js",
+		"/D/Works/Verstka/paulmitch.ru/src/page-order.php",
+		"/D/Works/Verstka/paulmitch.ru/wordpress/wp-content/themes/zenon-lite/page.php",
+		"/D/Works/Verstka/paulmitch.ru/src/page-demo.php",
+		"/D/Works/Verstka/wp-framework/assets/js/scripts.js",
+		"/D/Works/Verstka/paulmitch.ru/assets/sass/admin-style.scss",
+		"/D/Works/Verstka/paulmitch.ru/assets/sass/colorpicker.scss",
+		"/D/Works/Verstka/paulmitch.ru/assets/sass/ie.scss",
+		"/D/Works/Verstka/paulmitch.ru/wordpress/wp-content/themes/zenon-lite/css/fancybox.css",
+		"/D/Works/Verstka/paulmitch.ru/wordpress/wp-content/themes/zenon-lite/css/control_panel.css",
+		"/D/Works/Verstka/paulmitch.ru/assets/sass/control_panel.css",
+		"/D/Works/Verstka/paulmitch.ru/assets/sass/control_panel.scss",
+		"/D/Works/Verstka/paulmitch.ru/wordpress/wp-content/themes/zenon-lite/css/editor-style.css",
+		"/D/Works/Verstka/paulmitch.ru/wordpress/wp-content/themes/zenon-lite/css/mobile.css",
+		"/D/Works/Verstka/paulmitch.ru/assets/sass/mobile.scss",
+		"/D/Works/Verstka/paulmitch.ru/assets/js/jquery.transform.min.js",
+		"/D/Works/Verstka/paulmitch.ru/wordpress/wp-content/themes/zenon-lite/js/other.js",
+		"/D/Works/Verstka/paulmitch.ru/assets/js/zenon.js",
+		"/D/Works/Verstka/paulmitch.ru/wordpress/wp-content/themes/zenon-lite/js/zenon.js",
+		"/D/Works/Verstka/paulmitch.ru/wordpress/wp-content/themes/zenon-lite/js/jquery.transform.min.js",
+		"/D/Works/Verstka/paulmitch.ru/assets/sass/old/_fancybox.scss",
+		"/D/Works/Verstka/paulmitch.ru/assets/sass/old/_yanone_kaffeesatz.scss",
+		"/D/Works/Verstka/paulmitch.ru/wordpress/wp-content/themes/zenon-lite/share_this.php",
+		"/D/Works/Verstka/wp-framework/assets/sass/main.scss",
+		"/D/Works/Verstka/paulmitch.ru/assets/sass/import/_mixin.scss",
+		"/D/Works/Verstka/paulmitch.ru/wordpress/wp-content/themes/zenon-lite/single.php",
+		"/D/Works/Verstka/paulmitch.ru/src/wojodesign-simplecart-js-51a9a38/test/test.core.js",
+		"/D/Works/Verstka/paulmitch.ru/wordpress/wp-content/themes/zenon-lite/js/easyslider.js",
+		"/D/Works/Verstka/wp-framework/wordpress/wp-content/themes/wp-framework/loop.php",
+		"/D/Works/Verstka/paulmitch.ru/src/wojodesign-simplecart-js-51a9a38/test/inc/qunit.js",
+		"/D/Works/Verstka/wp-framework/wordpress/wp-content/themes/wp-framework/footer.php",
+		"/D/Works/Verstka/wp-framework/wordpress/wp-content/themes/wp-framework/page-demo.php",
+		"/D/Works/Verstka/paulmitch.ru/gulpfile.js",
+		"/D/Works/Verstka/paulmitch.ru/assets/sass/_main.scss",
+		"/D/Works/Verstka/onesummerago.com/html/index.html",
+		"/D/Works/Verstka/onesummerago.com/assets/sass/main.scss",
+		"/D/Works/Verstka/onesummerago.com/assets/sass/_grid.scss",
+		"/D/web-starter-kit-0.5.4/app/styles/components/_utils.scss",
+		"/D/Works/Verstka/onesummerago.com/assets/sass/css/_default.scss",
+		"/D/Works/Verstka/onesummerago.com/assets/sass/css/_html.scss",
+		"/D/Works/Verstka/onesummerago.com/assets/js/scripts.js",
+		"/D/Works/Verstka/onesummerago.com/assets/sass/css/_authorization.scss",
+		"/D/Works/Verstka/onesummerago.com/assets/sass/css/_gsearch.scss",
+		"/D/Works/Verstka/onesummerago.com/assets/sass/css/_css_bundle.scss",
+		"/D/Works/Verstka/onesummerago.com/html_old/frontpage.html",
+		"/D/Works/Verstka/onesummerago.com/read.me",
+		"/D/Works/Verstka/onesummerago.com/task.TODO",
+		"/D/Works/Verstka/wp-framework/read.me",
+		"/D/Works/Verstka/onesummerago.com/.editorconfig",
+		"/D/Works/Verstka/onesummerago.com/.gitattributes",
+		"/D/Works/Verstka/wp-framework/html/index.html",
+		"/D/Works/Verstka/wp-framework/assets/sass/import/_buttons.scss",
+		"/D/Works/Verstka/wp-framework/assets/sass/import/_tables.scss",
+		"/D/Works/Verstka/wp-framework/assets/sass/import/_variables.scss",
+		"/D/Works/Verstka/wp-framework/assets/sass/import/_lists.scss",
+		"/D/Works/Lessons/webkitui/app/styles/components/components.scss",
+		"/D/Works/Verstka/wp-framework/gulpfile.js",
+		"/D/Works/Lessons/webkitui/app/styles/main.scss",
+		"/D/Works/Lessons/webkitui/app/styles/_h5bp.scss",
+		"/D/Works/Lessons/webkitui/app/scripts/main.js",
+		"/D/Works/Verstka/wp-framework/wordpress/wp-content/themes/wp-framework/comments.php",
+		"/D/Works/Verstka/wp-framework/assets/sass/import/_mixin.scss",
+		"/D/Works/Verstka/wp-framework/wordpress/wp-content/themes/wp-framework/index.php",
+		"/D/Works/Verstka/wp-framework/wordpress/wp-content/themes/wp-framework/single.php",
+		"/D/Works/Verstka/wp-framework/wordpress/wp-content/themes/wp-framework/page.php",
+		"/D/Works/Verstka/wp-framework/html/style.css",
+		"/D/Works/Verstka/wp-framework/wordpress/wp-content/themes/wp-framework/style.css",
+		"/D/Works/Verstka/wp-framework/assets/sass/_font_opensans.scss",
+		"/D/Works/Verstka/wp-framework/assets/sass/import/_wordpress.scss",
+		"/D/__temp/index.html",
+		"/D/Works/Verstka/wp-framework/assets/sass/editor-style.scss",
+		"/D/Works/Verstka/wp-framework/wordpress/wp-content/themes/wp-framework/category.php",
+		"/D/Works/Verstka/wp-framework/wordpress/wp-content/themes/wp-framework/pagination.php",
+		"/D/Works/Verstka/wp-framework/wordpress/wp-content/themes/wp-framework/search.php",
+		"/D/Works/Verstka/wp-framework/wordpress/wp-content/themes/wp-framework/searchform.php",
+		"/D/Works/Verstka/wp-framework/wordpress/wp-content/themes/wp-framework/404.php",
+		"/D/Works/Verstka/wp-framework/wordpress/wp-content/themes/wp-framework/sidebar.php",
+		"/D/Works/Verstka/wp-framework/wordpress/.htaccess",
+		"/D/rudcha_sass/source/_buttons.scss",
+		"/D/rudcha_sass/source/_formstyle.scss",
+		"/D/rudcha_sass/source/_buttons.sass",
+		"/D/rudcha_sass/source/plugins/_jquery.fancybox.sass",
+		"/D/rudcha_sass/source/lib/_default.sass",
+		"/D/rudcha_sass/index.sass",
+		"/D/rudcha_sass/source/bl/_footer.sass",
+		"/D/rudcha_sass/source/bl/_content.sass",
+		"/D/web-starter-kit-0.5.4/app/styles/main.scss",
+		"/D/Works/Verstka/wp-framework/assets/sass/import/_reset.scss",
+		"/D/Works/Verstka/wp-framework/assets/sass/_font_roboto.scss",
+		"/D/web-starter-kit-0.5.4/app/styles/_h5bp.scss",
+		"/D/web-starter-kit-0.5.4/app/styles/components/_components/_icons.scss",
+		"/D/web-starter-kit-0.5.4/app/styles/components/_components/_table.scss",
+		"/D/web-starter-kit-0.5.4/app/styles/components/_components/_typography.scss",
+		"/D/web-starter-kit-0.5.4/app/styles/components/_components/_button.scss",
+		"/D/web-starter-kit-0.5.4/app/styles/components/_modules/_article-nav.scss"
+	],
+	"find":
+	{
+		"height": 36.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"-100",
+			"$$",
+			"search",
+			"#topmenu",
+			"#topmenu ul",
+			"medium",
+			"layout_images",
+			"post_image",
+			"PAGINATION",
+			"scrollTop",
+			"customize-support",
+			"\"ready!",
+			"ready",
+			"// Custom scripts",
+			"// Google CDN jQuery   RU: Регистрирую JQuery с хостинга Google",
+			"jQuery",
+			" // Enqueue it!",
+			"wpeHeaderScripts",
+			"migrate",
+			"buttons.js",
+			"zn_slider",
+			"ie.css",
+			"control_panel",
+			"control",
+			"mobile",
+			"msie",
+			"emoj",
+			"emo",
+			"jqe",
+			"widge",
+			"widgets-cart",
+			"widget",
+			"$",
+			"widget",
+			"simpleCart_shelfItem",
+			"	",
+			"<a href=\"javascript:;\" class=\"simpleCart_checkout\"></a>",
+			"	",
+			"Primary Navigation",
+			"logo",
+			"post_content",
+			"date_meta",
+			"block_comm",
+			"date_meta ",
+			".lay1",
+			"	",
+			"    ",
+			"url",
+			"medium-only",
+			"$mediumColCount",
+			".css",
+			"<styl",
+			"	",
+			"moder",
+			"wei",
+			"styl",
+			"html5_blank_view_article",
+			"add_action",
+			"path}R",
+			"eot)",
+			"woff)",
+			"url(#",
+			"/fonts/",
+			"$os-font-path",
+			"hr ",
+			"html",
+			"* ",
+			"*",
+			"bower",
+			"textarea",
+			"audio",
+			"table",
+			"td",
+			"optgroup",
+			"textarea",
+			"legend",
+			"fieldset",
+			"number",
+			"checkbox",
+			"type=\"",
+			"type=\"checkbox",
+			"audio",
+			"p ",
+			"transition:",
+			"6em",
+			"4px",
+			"1.2em",
+			".4em",
+			"0.4em",
+			"5px",
+			"20px",
+			"trans",
+			"color",
+			"$color_a",
+			"actio",
+			"$all-text-inputs",
+			"all",
+			"Allow",
+			"cache",
+			"img",
+			"ifra",
+			"img",
+			".js",
+			".css",
+			"norma",
+			"html",
+			"ul",
+			"image",
+			"moder",
+			"mode",
+			"../fonts",
+			"em",
+			"basePaths.dest",
+			"selec",
+			"img",
+			"h1",
+			"looper-title",
+			"single-posters",
+			"inner-title",
+			"page-title",
+			"looper",
+			"last-c",
+			"loop-with-first",
+			".widget",
+			"big-date",
+			"mounth-date-big",
+			"img",
+			"ico-mailform"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"",
+			"  ",
+			"path}/R",
+			"eot')",
+			"woff')",
+			"url('#",
+			"#{$rb-font-path}",
+			"$rb-font-path",
+			"$small-spacing",
+			"$base-spacing",
+			"$small-spacing",
+			".4em",
+			"1.2em",
+			"$action-color",
+			"#{$os-font-path}",
+			"от <span class=\"num\">90</span> грн",
+			"fa fa-star",
+			"",
+			"font-size: 90%",
+			"",
+			"tempclass",
+			"p",
+			"",
+			"</button",
+			"<button",
+			"290",
+			"src=\"<?php echo get_template_directory_uri(); ?>/img",
+			"295",
+			"img/model",
+			"//",
+			"href=\"#\"",
+			"68",
+			" .tab-header li",
+			"72",
+			"<?php echo get_template_directory_uri(); ?>/",
+			"src=\"<?php echo get_template_directory_uri(); ?>/img",
+			"font-family: 'PT Sans', sans-serif;",
+			"href=\"#\"",
+			"100",
+			"950",
+			"fonts",
+			"img",
+			"src=\"<?php echo get_template_directory_uri(); ?>/img",
+			"img",
+			"src=\"<?php echo get_template_directory_uri(); ?>/img",
+			"src=\"phpshop/templates/saitobaza/img",
+			"carousell-inner",
+			"carousell-item",
+			"120",
+			"1200",
+			"rgba(253, 238, 186, 0.25)",
+			"#FDEEBA",
+			"</a>",
+			"<a href=\"\">\\1<aasa>",
+			"<a href=\"\">/1<a\\/>",
+			").png",
+			")png",
+			"png\" ",
+			"timthumb",
+			" ",
+			"h3",
+			"../img/",
+			"src=\"<?php echo get_template_directory_uri(); ?>/img",
+			"src=\"img",
+			"img/",
+			"font-family: 'Open Sans', sans-serif;",
+			"src=\"<?php echo get_template_directory_uri(); ?>/img",
+			"src=\"<?php echo get_template_directory_uri(); ?>/photos",
+			"current-menu-item",
+			"",
+			"img",
+			"70",
+			"1000",
+			"<li>",
+			"showposts=12",
+			"page-template-page-jobs-php",
+			"http://mihas86.myjino.ru/wp-content/themes/wp-onetoone/img/",
+			"http://mihas86.myjino.ru/",
+			"140",
+			"1000",
+			"src=\"<?php echo get_template_directory_uri(); ?>/img/",
+			"url('../img",
+			"url('img/",
+			"href=\"#\"",
+			"src=\"img",
+			"img",
+			"relative",
+			"  behavior: url(http://demo.saitobaza.ru/wp-content/themes/wp-clickprime/PIE/PIE.htc);",
+			"section",
+			"/PIE.htc",
+			"http://demo.saitobaza.ru/wp-content/themes/wp-clickprime/PIE.htc",
+			".section-main",
+			"400",
+			"515",
+			"115",
+			"175",
+			"href=\"#\"",
+			"320",
+			"<span class=\"article-info\"><span class=\"date\">10:26  23.02.2014</span>  Интервью  Богдан Тимин</span>",
+			"<h2><a href=\"\">Что случилось с Михаилом Рокфеллером</a></h2>",
+			"180",
+			"1000",
+			"253",
+			"MyriadProBoldCondensed",
+			"1000",
+			"",
+			"wpeasy",
+			"c"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 32.0
+	},
+	"input":
+	{
+		"height": 43.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 150.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.git":
+	{
+		"height": 183.0
+	},
+	"output.sftp":
+	{
+		"height": 149.0
+	},
+	"output.unsaved_changes":
+	{
+		"height": 172.0
+	},
+	"pinned_build_system": "",
+	"project": "fishing-prestashop.sublime-project",
+	"replace":
+	{
+		"height": 66.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"",
+				"wp-hotels\\single-poster.php"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"",
+				"D:\\Works\\Verstka\\osans\\osans.sublime-project"
+			]
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 250.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
