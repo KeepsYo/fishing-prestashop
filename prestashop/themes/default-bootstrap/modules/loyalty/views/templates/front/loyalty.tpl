@@ -1,5 +1,5 @@
 {*
-* 2007-2014 PrestaShop
+* 2007-2015 PrestaShop
 *
 * NOTICE OF LICENSE
 *
@@ -18,7 +18,7 @@
 * needs please refer to http://www.prestashop.com for more information.
 *
 *  @author PrestaShop SA <contact@prestashop.com>
-*  @copyright  2007-2014 PrestaShop SA
+*  @copyright  2007-2015 PrestaShop SA
 *  @license    http://opensource.org/licenses/afl-3.0.php  Academic Free License (AFL 3.0)
 *  International Registered Trademark & Property of PrestaShop SA
 *}
@@ -94,7 +94,7 @@
 		{/if}
 		{if $orders|@count > $page * $nbpagination}
 			{assign var='p_next' value=$page+1}
-			<li id="pagination_next"><a href="{summarypaginationlink p=$p_next n=$nbpagination}" title="Next" rel="nofollow">{l s='Next' mod='loyalty'}&nbsp;&raquo;</a></li>
+			<li id="pagination_next"><a href="{summarypaginationlink p=$p_next n=$nbpagination}" title="{l s='Next' mod='loyalty'}" rel="nofollow">{l s='Next' mod='loyalty'}&nbsp;&raquo;</a></li>
 		{else}
 			<li id="pagination_next" class="disabled"><span>{l s='Next' mod='loyalty'}&nbsp;&raquo;</span></li>
 		{/if}
@@ -178,7 +178,7 @@
 	</table>
 	<div id="block-order-detail" class="unvisible">&nbsp;</div>
 </div>
-	
+
 {if $minimalLoyalty > 0}<p>{l s='The minimum order amount in order to use these vouchers is:' mod='loyalty'} {convertPrice price=$minimalLoyalty}</p>{/if}
 
 {else}
@@ -193,6 +193,6 @@
 		<a class="btn btn-default button button-small" href="{$link->getPageLink('my-account', true)|escape:'html':'UTF-8'}" title="{l s='Back to Your Account' mod='loyalty'}" rel="nofollow"><span><i class="icon-chevron-left"></i>{l s='Back to Your Account' mod='loyalty'}</span></a>
 	</li>
 	<li>
-		<a class="btn btn-default button button-small" href="{$base_dir}" title="{l s='Home' mod='loyalty'}"><span><i class="icon-chevron-left"></i>{l s='Home' mod='loyalty'}</span></a>
+		<a class="btn btn-default button button-small" href="{if isset($force_ssl) && $force_ssl}{$base_dir_ssl}{else}{$base_dir}{/if}" title="{l s='Home' mod='loyalty'}"><span><i class="icon-chevron-left"></i>{l s='Home' mod='loyalty'}</span></a>
 	</li>
 </ul>

@@ -1,5 +1,5 @@
 {*
-* 2007-2014 PrestaShop
+* 2007-2015 PrestaShop
 *
 * NOTICE OF LICENSE
 *
@@ -18,7 +18,7 @@
 * needs please refer to http://www.prestashop.com for more information.
 *
 *  @author PrestaShop SA <contact@prestashop.com>
-*  @copyright  2007-2014 PrestaShop SA
+*  @copyright  2007-2015 PrestaShop SA
 *  @license    http://opensource.org/licenses/afl-3.0.php  Academic Free License (AFL 3.0)
 *  International Registered Trademark & Property of PrestaShop SA
 *}
@@ -81,10 +81,6 @@
 </form>
 {addJsDef taxEnabled=$use_taxes}
 {addJsDef displayPrice=$priceDisplay}
-{addJsDef currencySign=$currencySign|html_entity_decode:2:"UTF-8"}
-{addJsDef currencyRate=$currencyRate|floatval}
-{addJsDef currencyFormat=$currencyFormat|intval}
-{addJsDef currencyBlank=$currencyBlank|intval}
 {addJsDef id_carrier=$id_carrier|intval}
 {addJsDef id_state=$id_state|intval}
 {addJsDef SE_RefreshMethod=$refresh_method|intval}

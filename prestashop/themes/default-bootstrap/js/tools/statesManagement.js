@@ -1,5 +1,5 @@
 /*
-* 2007-2014 PrestaShop
+* 2007-2015 PrestaShop
 *
 * NOTICE OF LICENSE
 *
@@ -18,19 +18,21 @@
 * needs please refer to http://www.prestashop.com for more information.
 *
 *  @author PrestaShop SA <contact@prestashop.com>
-*  @copyright  2007-2014 PrestaShop SA
+*  @copyright  2007-2015 PrestaShop SA
 *  @license    http://opensource.org/licenses/afl-3.0.php  Academic Free License (AFL 3.0)
 *  International Registered Trademark & Property of PrestaShop SA
 */
 //global variables
 var countriesNeedIDNumber = [];
 var countriesNeedZipCode = [];
+var states = [];
 
 $(document).ready(function(){
 	setCountries();
 	bindStateInputAndUpdate();
-	bindUniform();
-	bindPostcode();
+	if (typeof bindUniform !=='undefined')
+		bindUniform();
+	bindZipcode();
 	bindCheckbox();
 	$(document).on('click', '#invoice_address', function(e){
 		bindCheckbox();
@@ -45,19 +47,20 @@ function setCountries()
 	    for (var i in countries)
 		{
 			var id_country = countries[i]['id_country'];
-			if (typeof countries[i]['states'] !== 'undefined' && countries[i]['states'] && countries[i]['contains_states'])
+			if (typeof countries[i]['states'] !== 'undefined' && parseInt(countries[i]['contains_states']))
 			{
 				countriesPS[id_country] = [];
 	    		for (var j in countries[i]['states'])
 					countriesPS[parseInt(id_country)].push({'id' : parseInt(countries[i]['states'][j]['id_state']), 'name' : countries[i]['states'][j]['name']});
 			}
+
 			if (typeof countries[i]['need_identification_number'] !== 'undefined' && parseInt(countries[i]['need_identification_number']) > 0)
 				countriesNeedIDNumber.push(parseInt(countries[i]['id_country']));
 			if (typeof countries[i]['need_zip_code'] !== 'undefined' && parseInt(countries[i]['need_zip_code']) > 0)
 				countriesNeedZipCode[parseInt(countries[i]['id_country'])] = countries[i]['zip_code_format'];
 		}
 	}
-	countries =  countriesPS;
+	states = countriesPS;
 }
 
 function bindCheckbox()
@@ -67,22 +70,20 @@ function bindCheckbox()
 		$('#opc_invoice_address').slideDown('slow');
 		if ($('#company_invoice').val() == '')
 			$('#vat_number_block_invoice').hide();
-		bindUniform();
+		if (typeof bindUniform !=='undefined')
+			bindUniform();
 	}
 	else
 		$('#opc_invoice_address').slideUp('slow');
 }
 
-function bindUniform()
+function bindZipcode()
 {
-	$("select.form-control,input[type='radio'],input[type='checkbox']").uniform(); 
-}
-
-function bindPostcode()
-{
-	$(document).on('keyup', 'input[name=postcode]', function(e)
+	$(document).on('keyup', 'input[name^=postcode]', function(e)
 	{
-		$(this).val($(this).val().toUpperCase());
+		var char = String.fromCharCode(e.keyCode);
+		if (/[a-zA-Z]/.test(char))
+			$.trim($(this).val($(this).val().toUpperCase()));
 	});
 }
 
@@ -98,6 +99,8 @@ function bindStateInputAndUpdate()
 		updateState();
 		updateNeedIDNumber();
 		updateZipCode();
+		if (typeof validate_field !== 'undefined')
+			validate_field('#postcode');
 	});
 
 	if ($('#id_country_invoice').length !== 0)
@@ -107,6 +110,8 @@ function bindStateInputAndUpdate()
 			updateState('invoice');
 			updateNeedIDNumber('invoice');
 			updateZipCode('invoice');
+			if (typeof validate_field !== 'undefined')
+				validate_field('#postcode_invoice');
 		});
 		updateState('invoice');
 		updateNeedIDNumber('invoice');
@@ -123,10 +128,10 @@ function updateState(suffix)
 {
 	$('#id_state' + (typeof suffix !== 'undefined' ? '_' + suffix : '')+' option:not(:first-child)').remove();
 	if (typeof countries !== 'undefined')
-		var states = countries[parseInt($('#id_country' + (typeof suffix !== 'undefined' ? '_' + suffix : '')).val())];
-	if (typeof states !== 'undefined')
+		var state_list = states[parseInt($('#id_country' + (typeof suffix !== 'undefined' ? '_' + suffix : '')).val())];
+	if (typeof state_list !== 'undefined')
 	{
-		$(states).each(function(key, item){
+		$(state_list).each(function(key, item){
 			$('#id_state' + (typeof suffix !== 'undefined' ? '_' + suffix : '')).append('<option value="' + parseInt(item.id) + '">' + item.name + '</option>');
 		});
 
@@ -139,8 +144,8 @@ function updateState(suffix)
 
 function updateNeedIDNumber(suffix)
 {
-	var idCountry = parseInt($('#id_country' + (typeof suffix !== 'undefined' ? '_' + suffix : '')).val());
-	if (typeof countriesNeedIDNumber !== 'undefined' && in_array(idCountry, countriesNeedIDNumber))
+	var id_country = parseInt($('#id_country' + (typeof suffix !== 'undefined' ? '_' + suffix : '')).val());
+	if (in_array(id_country, countriesNeedIDNumber))
 	{
 		$('.dni' + (typeof suffix !== 'undefined' ? '_' + suffix : '') + ':hidden').fadeIn('slow');
 		$('#dni').uniform();
@@ -151,8 +156,8 @@ function updateNeedIDNumber(suffix)
 
 function updateZipCode(suffix)
 {
-	var idCountry = parseInt($('#id_country' + (typeof suffix !== 'undefined' ? '_' + suffix : '')).val());
-	if (typeof countriesNeedZipCode !== 'undefined' && typeof countriesNeedZipCode[idCountry] !== 'undefined')
+	var id_country = parseInt($('#id_country' + (typeof suffix !== 'undefined' ? '_' + suffix : '')).val());
+	if (typeof countriesNeedZipCode[id_country] !== 'undefined')
 	{
 		$('.postcode' + (typeof suffix !== 'undefined' ? '_' + suffix : '') + ':hidden').fadeIn('slow');
 		$('#postcode').uniform();

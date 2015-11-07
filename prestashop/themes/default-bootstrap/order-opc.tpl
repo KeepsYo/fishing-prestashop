@@ -1,5 +1,5 @@
 {*
-* 2007-2014 PrestaShop
+* 2007-2015 PrestaShop
 *
 * NOTICE OF LICENSE
 *
@@ -18,7 +18,7 @@
 * needs please refer to http://www.prestashop.com for more information.
 *
 *  @author PrestaShop SA <contact@prestashop.com>
-*  @copyright  2007-2014 PrestaShop SA
+*  @copyright  2007-2015 PrestaShop SA
 *  @license    http://opensource.org/licenses/afl-3.0.php  Academic Free License (AFL 3.0)
 *  International Registered Trademark & Property of PrestaShop SA
 *}
@@ -36,6 +36,7 @@
 {else}
 	{if $productNumber}
 		<!-- Shopping Cart -->
+
 		{include file="$tpl_dir./shopping-cart.tpl"}
 		<!-- End Shopping Cart -->
 		{if $is_logged AND !$is_guest}
@@ -67,10 +68,6 @@
 {addJsDef addressUrl=$link->getPageLink("address", true, NULL, "back={$back_order_page}")|escape:'quotes':'UTF-8'}
 {addJsDef orderProcess='order-opc'}
 {addJsDef guestCheckoutEnabled=$PS_GUEST_CHECKOUT_ENABLED|intval}
-{addJsDef currencySign=$currencySign|html_entity_decode:2:"UTF-8"}
-{addJsDef currencyRate=$currencyRate|floatval}
-{addJsDef currencyFormat=$currencyFormat|intval}
-{addJsDef currencyBlank=$currencyBlank|intval}
 {addJsDef displayPrice=$priceDisplay}
 {addJsDef taxEnabled=$use_taxes}
 {addJsDef conditionEnabled=$conditions|intval}

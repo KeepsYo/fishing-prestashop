@@ -1,9 +1,0 @@
-*ERROR* 	2015/11/07 - 08:33:30: Shop not found at line 400 in file classes/shop/Shop.php
-*ERROR* 	2015/11/07 - 08:35:38: Table 'alintond_pres1.ps_shop_url' doesn't exist<br /><br /><pre>SELECT s.id_shop, CONCAT(su.physical_uri, su.virtual_uri) AS uri, su.domain, su.main
-					FROM ps_shop_url su
-					LEFT JOIN ps_shop s ON (s.id_shop = su.id_shop)
-					WHERE (su.domain = 'fishing.dev' OR su.domain_ssl = 'fishing.dev')
-						AND s.active = 1
-						AND s.deleted = 0
-					ORDER BY LENGTH(CONCAT(su.physical_uri, su.virtual_uri)) DESC</pre> at line 635 in file classes/db/Db.php
-*ERROR* 	2015/11/07 - 08:38:24: Shop not found at line 400 in file classes/shop/Shop.php
