@@ -1,0 +1,140 @@
+@import '../../_theme_variables';
+#categories_block_top {
+  position: relative;
+  top: 30px;
+
+  clear: both;
+  .sf-menu {
+    position: relative;
+    > li {
+      position: static;
+      > ul {
+        top: 60px;
+
+        width: 100%;
+        margin: 0 20px;
+        > li {
+          display: block;
+          float: left;
+
+          box-sizing: border-box;
+          width: 20%;
+          padding: 0 10px;
+        }
+        > .category_thumb {
+          display: block;
+          clear: both;
+          overflow: hidden;
+
+          width: 100%;
+          img {
+            display: inline-block;
+
+            width: 33%;
+          }
+        }
+      }
+      h4 {
+        a {
+          font-size: 1.1em;
+          &:before {
+            display: none;
+          }
+        }
+      }
+      .main-level-submenus {
+        position: relative;
+        top: 0;
+        left: 0;
+
+        display: block !important;
+        visibility: visible !important;
+
+        padding: 0;
+
+        background: none;
+        box-shadow: none;
+      }
+    }
+    .category_thumb {
+      display: none;
+    }
+  }
+}
+
+#categories_block_left {
+  .block_content > ul {
+    border-top: 1px solid $base-border-color;
+  }
+  li {
+    position: relative;
+    a {
+      font-size: 13px;
+      font-weight: bold;
+      line-height: 30px;
+
+      display: block;
+
+      padding: 0 30px 0 19px;
+
+      color: $base-text-color;
+      border-bottom: 1px solid $base-border-color;
+    }
+    span.grower {
+      font-family: $font-icon;
+      font-size: 14px;
+
+      position: absolute;
+      top: 0;
+      right: 0;
+
+      display: block;
+
+      cursor: pointer;
+
+      background: #f6f6f6;
+      &.OPEN,
+      &.CLOSE {
+        &:before {
+          line-height: 30px;
+
+          display: block;
+
+          width: 30px;
+          height: 30px;
+
+          content: '\f068';
+          text-align: center;
+          vertical-align: middle;
+
+          color: $base-text-color;
+        }
+      }
+      &.CLOSE:before {
+        content: '\f067';
+
+        color: silver;
+      }
+    }
+    & span.grower:hover + a,
+    a:hover,
+    a.selected {
+      background: #f6f6f6;
+    }
+    li {
+      a {
+        font-weight: normal;
+
+        color: #777;
+        &:before {
+          font-family: $font-icon;
+          line-height: 29px;
+
+          padding-right: 8px;
+
+          content: '\f105';
+        }
+      }
+    }
+  }
+}

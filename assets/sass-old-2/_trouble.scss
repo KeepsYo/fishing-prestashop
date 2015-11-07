@@ -1,0 +1,22 @@
+header {
+  .row {
+    #header_logo {
+      @extend .col-sm-4;
+    }
+  }
+}
+.contact-form-box {
+  @include box-shadow(rgba(black, .17) 0px 5px 13px);
+}
+#maintenance {
+  @include box-shadow(0 1px 3px rgba(0, 0, 0, .3));
+}
+#my-account {
+  ul.myaccount-link-list {
+    li {
+      a {
+        @include background-image(linear-gradient(rgb(247,247,247), rgb(237,237,237)));
+      }
+    }
+  }
+}

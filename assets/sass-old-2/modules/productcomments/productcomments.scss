@@ -1,0 +1,373 @@
+@import '../../_theme_variables';
+
+#product_comments_block_extra {
+  font-weight: bold;
+  line-height: 18px;
+
+  margin: 39px 0 22px;
+  padding: 8px 10px 10px;
+
+  border: 1px solid $base-border-color;
+  background: $base-box-bg;
+  .comments_note {
+    margin-bottom: 5px;
+  }
+  .comments_note span,
+  .star_content {
+    float: left;
+
+    color: $base-text-color;
+  }
+  .star_content {
+    margin-top: 1px;
+  }
+  div.star {
+    &:after {
+      font-family: $font-icon;
+
+      display: inline-block;
+
+      content: '\f006';
+
+      color: #777676;
+    }
+  }
+  div.star_on {
+    &:after {
+      font-family: $font-icon;
+
+      display: inline-block;
+
+      content: '\f005';
+
+      color: #ef8743;
+    }
+  }
+  .comments_advices {
+    clear: both;
+  }
+}
+
+.comments_advices {
+  padding-top: 2px;
+  li {
+    line-height: 30px;
+
+    display: inline-block;
+    @media (min-width: $screen-sm) and (max-width: $screen-sm-max) {
+      line-height: 20px;
+      //min 768px max 991px
+
+      display: block;
+    }
+  }
+  a {
+    line-height: 30px;
+
+    position: relative;
+
+    display: inline-block;
+
+    margin-right: 8px;
+    padding: 0;
+
+    text-decoration: none;
+
+    color: $base-body-color;
+    @media (min-width: $screen-sm) and (max-width: $screen-md-max) {
+      line-height: 20px;
+      //min 768px max 991px
+
+      float: none;
+    }
+    &:before {
+      font-family: $font-icon;
+      font-size: 15px;
+      font-weight: normal;
+      line-height: 30px;
+
+      display: inline-block;
+
+      width: 30px;
+      height: 30px;
+      margin-right: 6px;
+
+      text-align: center;
+
+      color: white;
+      border-radius: 50px;
+      background: #929292;
+      /*max 1199px*/
+      @media  (max-width: $screen-md-max) {
+        display: none;
+      }
+    }
+    &.reviews:before {
+      content: '\f0e5';
+    }
+    &.open-comment-form:before {
+      content: '\f040';
+    }
+    &:hover {
+      color: $base-text-color;
+    }
+    &.reviews {
+      margin-right: 9px;
+      padding-right: 30px;
+
+      border-right: 1px solid $base-border-color;
+      @media (min-width: $screen-sm) and (max-width: $screen-sm-max) {
+        // min 768px max 991px
+        margin-right: 0;
+        padding: 0;
+
+        border: none;
+      }
+    }
+  }
+}
+
+
+/* pop-in add grade/advice ********************************************************************* */
+#fancybox-wrap {
+  width: 585px;
+}
+#fancybox-content {
+  width: 585px;
+
+  border-width: 0;
+}
+#new_comment_form {
+  overflow: hidden;
+
+  text-align: left;
+
+  color: $base-text-color;
+  h2 {
+    margin-bottom: 10px;
+  }
+  .title {
+    font-size: 13px;
+
+    padding: 10px;
+
+    text-transform: uppercase;
+
+    color: $light-text-color;
+    background: $dark-background;
+  }
+  ul.grade_content {
+    margin: 0 0 20px 0;
+
+    list-style-type: none;
+    li {
+      width: 50%;
+    }
+    span {
+      font-weight: bold;
+
+      display: inline-block;
+
+      width: 150px;
+      padding: 0 10px;
+    }
+    .cancel {
+      margin-right: 5px;
+    }
+  }
+  .product {
+    padding: 15px;
+    img {
+      border: $main_border;
+    }
+    .product_desc {
+      line-height: 18px;
+
+      color: $description-color;
+      .product_name {
+        font-size: 13px;
+
+        padding: 10px 0 5px;
+
+        color: #000;
+      }
+    }
+  }
+  .new_comment_form_content {
+    padding: 15px 25px 15px 15px;
+
+    background: #f8f8f8;
+    @media (max-width: $screen-xs-max) {
+      //max 767px
+      padding-left: 25px;
+    }
+    .intro_form {
+      font-size: 12px;
+      font-weight: bold;
+
+      padding-bottom: 10px;
+    }
+  }
+  label {
+    font-size: 12px;
+    font-weight: bold;
+
+    display: block;
+
+    margin: 12px 0 4px 0;
+  }
+  input,
+  textarea {
+    width: 100%;
+    height: 28px;
+    padding: 0 5px;
+
+    border: 1px solid #ccc;
+    background: $light-background;
+  }
+  textarea {
+    height: 80px;
+  }
+  .submit {
+    font-size: 13px;
+
+    margin-top: 20px;
+    padding: 0;
+
+    text-align: right;
+  }
+  #criterions_list {
+    padding-bottom: 15px;
+
+    list-style-type: none;
+
+    border-bottom: 1px solid #ccc;
+    li {
+      margin-bottom: 10px;
+    }
+    label {
+      display: inline;
+      float: left;
+
+      margin: 0 10px 0 0;
+    }
+    .star_content {
+      float: left;
+    }
+  }
+  #new_comment_form_footer {
+    font-size: 12px;
+
+    margin-top: 20px;
+  }
+}
+/* TAB COMMENTS ******************************************************************************** */
+#product_comments_block_tab {
+  margin: 0 0 20px 0;
+  div.comment {
+    margin: 0 0 14px;
+    padding-top: 14px;
+
+    border-top: 1px solid $base-border-color;
+    &:first-child {
+      padding: 0;
+
+      border: none;
+    }
+    .comment_author {
+      line-height: 18px;
+
+      padding: 0 20px;
+      span {
+        font-weight: bold;
+
+        float: left;
+      }
+      .star_content {
+        display: inline-block;
+
+        margin: 0 0 0 5px;
+
+        vertical-align: middle;
+      }
+    }
+    .comment_details {
+      overflow: hidden;
+
+      border-left: $main_border;
+      @media (max-width: $screen-sm-max) {
+        //max 767px
+        border-left: none;
+        ul {
+          margin: 0;
+
+          list-style-type: none;
+          li {
+            padding: 2px 0 2px;
+            &:before {
+              font-family: $font-icon;
+
+              margin-right: 8px;
+
+              content: '\f0da';
+
+              color: $base-text-color;
+            }
+          }
+        }
+      }
+    }
+  }
+  div.star {
+    &:after {
+      font-family: $font-icon;
+
+      display: inline-block;
+
+      content: '\f006';
+
+      color: #777676;
+    }
+  }
+  div.star_on {
+    &:after {
+      font-family: $font-icon;
+
+      display: inline-block;
+
+      content: '\f005';
+
+      color: #ef8743;
+    }
+  }
+  .comment_author_infos {
+    clear: both;
+
+    padding-top: 9px;
+    strong {
+      display: block;
+
+      color: $base-text-color;
+    }
+    em {
+      color: #adadad;
+    }
+  }
+  a {
+    font-weight: bold;
+
+    text-decoration: none;
+  }
+  span.report_btn {
+    cursor: pointer;
+  }
+  span.report_btn:hover {
+    text-decoration: underline;
+  }
+}
+.fl {
+  float: left;
+}
+.fr {
+  float: right;
+}
