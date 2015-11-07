@@ -1,0 +1,96 @@
+.shop-phone {
+  line-height: 18px;
+
+  float: left;
+
+  padding: 5px 0 10px;
+  i {
+    font-size: 21px;
+    line-height: 21px;
+
+    padding-right: 7px;
+
+    color: white;
+  }
+  strong {
+    color: white;
+  }
+}
+
+@media (max-width: 767px) {
+  .shop-phone {
+    display: none;
+  }
+}
+
+#contact-link {
+  float: right;
+
+  border-left: 1px solid #515151;
+  a {
+    font-weight: bold;
+    line-height: 18px;
+
+    display: block;
+
+    padding: 8px 10px 11px 10px;
+
+    cursor: pointer;
+
+    color: white;
+    text-shadow: 1px 1px rgba(0, 0, 0, .2);
+    &:hover,
+    &.active {
+      background: #2b2b2b;
+    }
+  }
+}
+
+@media (max-width: 479px) {
+  #contact-link {
+    width: 25%;
+
+    text-align: center;
+  }
+}
+
+@media (max-width: 479px) {
+  #contact-link a {
+    font-size: 11px;
+
+    padding-right: 5px;
+    padding-left: 5px;
+  }
+}
+
+@media (max-width: 767px) {
+  #contact_block {
+    margin-bottom: 20px;
+  }
+}
+
+#contact_block {
+  .label {
+    display: none;
+  }
+  .block_content {
+    color: #888;
+  }
+  p {
+    margin-bottom: 4px;
+    &.tel {
+      font: 400 17px/21px Arial, Helvetica, sans-serif;
+
+      margin-bottom: 6px;
+
+      color: #333;
+      i {
+        font-size: 25px;
+
+        padding-right: 10px;
+
+        vertical-align: -2px;
+      }
+    }
+  }
+}

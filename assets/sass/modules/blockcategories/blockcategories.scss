@@ -1,0 +1,149 @@
+#categories_block_top {
+  position: relative;
+  top: 30px;
+
+  clear: both;
+  .sf-menu {
+    position: relative;
+    > li {
+      position: static;
+      > ul {
+        top: 60px;
+
+        width: 100%;
+        margin: 0 20px;
+        > {
+          li {
+            display: block;
+            float: left;
+
+            box-sizing: border-box;
+            width: 20%;
+            padding: 0 10px;
+          }
+          .category_thumb {
+            display: block;
+            clear: both;
+            overflow: hidden;
+
+            width: 100%;
+            img {
+              display: inline-block;
+
+              width: 33%;
+            }
+          }
+        }
+      }
+      h4 a {
+        font-size: 1.1em;
+        &:before {
+          display: none;
+        }
+      }
+      .main-level-submenus {
+        position: relative;
+        top: 0;
+        left: 0;
+
+        display: block !important;
+        visibility: visible !important;
+
+        padding: 0;
+
+        background: none;
+        box-shadow: none;
+      }
+    }
+    .category_thumb {
+      display: none;
+    }
+  }
+}
+
+#categories_block_left {
+  .block_content > ul {
+    border-top: 1px solid #d6d4d4;
+  }
+  li {
+    position: relative;
+    a {
+      font-size: 13px;
+      font-weight: bold;
+      line-height: 30px;
+
+      display: block;
+
+      padding: 0 30px 0 19px;
+
+      color: #333;
+      border-bottom: 1px solid #d6d4d4;
+    }
+    span.grower {
+      font-family: 'FontAwesome';
+      font-size: 14px;
+
+      position: absolute;
+      top: 0;
+      right: 0;
+
+      display: block;
+
+      cursor: pointer;
+
+      background: #f6f6f6;
+      &.OPEN:before {
+        line-height: 30px;
+
+        display: block;
+
+        width: 30px;
+        height: 30px;
+
+        content: '\f068';
+        text-align: center;
+        vertical-align: middle;
+
+        color: #333;
+      }
+      &.CLOSE:before {
+        line-height: 30px;
+
+        display: block;
+
+        width: 30px;
+        height: 30px;
+
+        content: '\f068';
+        content: '\f067';
+        text-align: center;
+        vertical-align: middle;
+
+        color: #333;
+        color: silver;
+      }
+      &:hover + a {
+        background: #f6f6f6;
+      }
+    }
+    a {
+      &:hover,
+      &.selected {
+        background: #f6f6f6;
+      }
+    }
+    li a {
+      font-weight: normal;
+
+      color: #777;
+      &:before {
+        font-family: 'FontAwesome';
+        line-height: 29px;
+
+        padding-right: 8px;
+
+        content: '\f105';
+      }
+    }
+  }
+}

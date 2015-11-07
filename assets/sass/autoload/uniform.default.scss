@@ -1,0 +1,713 @@
+/*
+Uniform Theme: Uniform Default
+Version: 1.8
+By: Josh Pyles
+License: MIT License
+---
+For use with the Uniform plugin:
+http://uniformjs.com/
+
+*/
+/* General settings */
+
+div {
+  &.selector {
+    background-image: url('../../img/jquery/uniform/sprite.png');
+    background-repeat: no-repeat;
+
+    -webkit-font-smoothing: antialiased;
+    span {
+      background-image: url('../../img/jquery/uniform/sprite.png');
+      background-repeat: no-repeat;
+
+      -webkit-font-smoothing: antialiased;
+    }
+  }
+  &.checker span,
+  &.radio span {
+    background-image: url('../../img/jquery/uniform/sprite.png');
+    background-repeat: no-repeat;
+
+    -webkit-font-smoothing: antialiased;
+  }
+  &.uploader {
+    background-image: url('../../img/jquery/uniform/sprite.png');
+    background-repeat: no-repeat;
+
+    -webkit-font-smoothing: antialiased;
+    span.action {
+      background-image: url('../../img/jquery/uniform/sprite.png');
+      background-repeat: no-repeat;
+
+      -webkit-font-smoothing: antialiased;
+    }
+  }
+  &.button {
+    background-image: url('../../img/jquery/uniform/sprite.png');
+    background-repeat: no-repeat;
+
+    -webkit-font-smoothing: antialiased;
+    span {
+      background-image: url('../../img/jquery/uniform/sprite.png');
+      background-repeat: no-repeat;
+
+      -webkit-font-smoothing: antialiased;
+    }
+  }
+  &.selector,
+  &.checker,
+  &.button,
+  &.radio,
+  &.uploader {
+    vertical-align: middle;
+    /* Keeping this as :focus to remove browser styles */
+  }
+  &.selector:focus,
+  &.checker:focus,
+  &.button:focus,
+  &.radio:focus,
+  &.uploader:focus {
+    outline: 0;
+  }
+  &.selector,
+  &.radio,
+  &.checker,
+  &.uploader,
+  &.button {
+    margin: 0;
+    padding: 0;
+    * {
+      margin: 0;
+      padding: 0;
+    }
+  }
+}
+
+.highContrastDetect {
+  width: 0;
+  height: 0;
+
+  background: url('../../../img/jquery/uniform/bg-input.png') repeat-x 0 0;
+}
+
+/* Input & Textarea */
+
+input.uniform-input,
+select.uniform-multiselect,
+textarea.uniform {
+  padding: 3px;
+
+  outline: 0;
+  background: white;
+}
+
+/* Remove default webkit and possible mozilla .search styles.
+ * Keeping this as :active to remove browser styles */
+
+div.checker input {
+     -moz-appearance: none;
+  -webkit-appearance: none;
+}
+
+input[type='search'] {
+     -moz-appearance: none;
+  -webkit-appearance: none;
+  &:active {
+       -moz-appearance: none;
+    -webkit-appearance: none;
+  }
+}
+
+/* Select */
+
+div {
+  &.selector {
+    line-height: 27px;
+
+    position: relative;
+
+    overflow: hidden;
+
+    height: 27px;
+    padding: 0 0 0 10px;
+
+    background-position: 0 -54px;
+    span {
+      line-height: 27px;
+
+      display: block;
+      display: block;
+      overflow: hidden;
+
+      width: 100%;
+      height: 27px;
+      padding-right: 30px;
+
+      cursor: pointer;
+      white-space: nowrap;
+      text-overflow: ellipsis;
+
+      background-position: right 0;
+    }
+    &.fixedWidth {
+      width: 190px;
+      span {
+        width: 150px;
+      }
+    }
+    select {
+      position: absolute;
+      top: 0;
+      left: 0;
+
+      width: 100%;
+      height: 27px;
+
+           opacity: 0;
+      border: none;
+      background: none;
+
+      filter: alpha(opacity = 0);
+      -moz-opacity: 0;
+    }
+    &.active span,
+    &.hover span,
+    &.focus span,
+    &.hover.active span,
+    &.focus.active span {
+      background-position: right -27px;
+    }
+    &.disabled {
+      span,
+      &.active span {
+        background-position: right 0;
+      }
+    }
+  }
+  &.selector1 > div {
+    background-position: 0 -135px;
+    span {
+      background-position: right -81px;
+    }
+    &.active span,
+    &.hover span,
+    &.focus span,
+    &.hover.active span,
+    &.focus.active span {
+      background-position: right -108px;
+    }
+    &.disabled {
+      background-position: 0 -135px;
+      &.active {
+        background-position: 0 -135px;
+      }
+      span,
+      &.active span {
+        background-position: right -81px;
+      }
+    }
+  }
+  &.selector2 > div {
+    background-position: 0 -216px;
+    span {
+      background-position: right -162px;
+    }
+    &.active span,
+    &.hover span,
+    &.focus span,
+    &.hover.active span,
+    &.focus.active span {
+      background-position: right -189px;
+    }
+    &.disabled {
+      background-position: 0 -216px;
+      &.active {
+        background-position: 0 -216px;
+      }
+      span,
+      &.active span {
+        background-position: right -162px;
+      }
+    }
+  }
+  &.selector3 > div {
+    background-position: 0 -351px;
+    span {
+      background-position: right -297px;
+    }
+    &.active span,
+    &.hover span,
+    &.focus span,
+    &.hover.active span,
+    &.focus.active span {
+      background-position: right -324px;
+    }
+    &.disabled {
+      background-position: 0 -351px;
+      &.active {
+        background-position: 0 -351px;
+      }
+      span,
+      &.active span {
+        background-position: right -297px;
+      }
+    }
+  }
+  &.checker {
+    position: relative;
+
+    width: 15px;
+    height: 15px;
+    span,
+    input {
+      width: 15px;
+      height: 15px;
+    }
+    span {
+      display: -moz-inline-box;
+      display: inline-block;
+      zoom: 1;
+
+      text-align: center;
+
+      background-position: 0 -257px;
+
+      *display: inline;
+      &.checked {
+        background-position: -15px -257px;
+      }
+    }
+    input {
+      display: -moz-inline-box;
+      display: inline-block;
+      zoom: 1;
+
+           opacity: 0;
+      border: none;
+      background: none;
+
+      filter: alpha(opacity = 0);
+      -moz-opacity: 0;
+      *display: inline;
+    }
+    &.active span {
+      background-position: -15px -257px;
+      &.checked {
+        background-position: -15px -257px;
+      }
+    }
+    &.hover span,
+    &.focus span {
+      background-position: -30px -257px;
+    }
+    &.hover span.checked,
+    &.focus span.checked,
+    &.hover.active span,
+    &.focus.active span,
+    &.hover.active span.checked,
+    &.focus.active span.checked {
+      background-position: -15px -257px;
+    }
+    &.disabled {
+      background-position: 0 -257px;
+      &.active,
+      span.checked,
+      &.active span.checked {
+        background-position: 0 -257px;
+      }
+    }
+  }
+  &.radio {
+    position: relative;
+
+    display: inline;
+
+    width: 13px;
+    height: 13px;
+    span,
+    input {
+      width: 13px;
+      height: 13px;
+    }
+    span {
+      display: -moz-inline-box;
+      display: inline-block;
+      zoom: 1;
+
+      text-align: center;
+
+      background-position: 0 -243px;
+
+      *display: inline;
+      &.checked {
+        background-position: -13px -243px;
+      }
+    }
+    input {
+      display: -moz-inline-box;
+      display: inline-block;
+      zoom: 1;
+
+      text-align: center;
+
+           opacity: 0;
+      border: none;
+      background: none;
+
+      filter: alpha(opacity = 0);
+      -moz-opacity: 0;
+      *display: inline;
+    }
+    &.active span {
+      background-position: -13px -243px;
+      &.checked {
+        background-position: -13px -243px;
+      }
+    }
+    &.hover span,
+    &.focus span {
+      background-position: -13px -36px -243px;
+    }
+    &.hover span.checked,
+    &.focus span.checked,
+    &.hover.active span,
+    &.focus.active span,
+    &.hover.active span.checked,
+    &.focus.active span.checked {
+      background-position: -13px -243px;
+    }
+    &.disabled {
+      span,
+      &.active span,
+      span.checked,
+      &.active span.checked {
+        background-position: 0 -243px;
+      }
+    }
+  }
+  &.uploader {
+    position: relative;
+
+    overflow: hidden;
+
+    width: 100%;
+    height: 27px;
+
+    cursor: pointer;
+
+    background: none;
+    span {
+      &.action {
+        line-height: 27px;
+
+        display: inline;
+        float: left;
+        overflow: hidden;
+
+        width: 94px;
+        height: 27px;
+
+        cursor: pointer;
+        text-align: center;
+
+        background-position: 0 -378px;
+      }
+      &.filename {
+        line-height: 27px;
+
+        display: block;
+        float: left;
+        overflow: hidden;
+
+        width: 172px;
+        height: 27px;
+        margin: 0 0 0 0;
+        padding: 0 10px;
+
+        cursor: default;
+        white-space: nowrap;
+        text-overflow: ellipsis;
+      }
+    }
+    input {
+      position: absolute;
+      top: 0;
+      right: 0;
+
+      float: right;
+
+      width: 100%;
+      height: 100%;
+
+      cursor: default;
+
+           opacity: 0;
+      border: none;
+      background: none;
+
+      filter: alpha(opacity = 0);
+      -moz-opacity: 0;
+    }
+  }
+  &.button {
+    position: relative;
+
+    height: 30px;
+
+    cursor: pointer;
+
+    background-position: 0 -634px;
+    /* Keep buttons barely visible so they can get focus */
+    a,
+    button,
+    input {
+      position: absolute;
+      top: 0;
+      right: 0;
+      bottom: 0;
+      left: 0;
+
+      display: block;
+
+           opacity: .01;
+
+      filter: alpha(opacity = 1);
+      -moz-opacity: .01;
+    }
+    span {
+      line-height: 30px;
+
+      display: -moz-inline-box;
+      display: inline-block;
+      zoom: 1;
+
+      height: 30px;
+      margin-left: 13px;
+      padding: 0;
+
+      text-align: center;
+
+      background-position: right -514px;
+
+      *display: inline;
+    }
+    &.active {
+      background-position: 0 -664px;
+      span {
+        cursor: default;
+
+        background-position: right -544px;
+      }
+    }
+    &.hover,
+    &.focus {
+      background-position: 0 -694px;
+    }
+    &.hover span,
+    &.focus span {
+      background-position: right -574px;
+    }
+    &.disabled {
+      background-position: 0 -724px;
+      &.active {
+        background-position: 0 -724px;
+      }
+      span,
+      &.active span {
+        cursor: default;
+
+        background-position: right -604px;
+      }
+    }
+  }
+}
+
+/* Select1 */
+
+/* Select2 */
+
+/* Select3 */
+
+/* Checkbox */
+
+/* Radio */
+
+/* Uploader */
+
+/* Buttons */
+
+/* INPUT & TEXTAREA */
+/* ************************************************************************************************
+    uniform
+************************************************************************************************ */
+
+input.uniform-input,
+select.uniform-multiselect,
+textarea.uniform {
+  font-family: 'Helvetica Neue', Arial, Helvetica, sans-serif;
+  font-size: 13px;
+  font-weight: normal;
+  line-height: 18px;
+
+  color: #777;
+  border: solid 1px #d6d4d4;
+}
+
+input.uniform-input {
+  &.hover,
+  &.focus {
+    border-color: #cbcaca;
+    -webkit-box-shadow: 0 0 4px rgba(0, 0, 0, .2);
+       -moz-box-shadow: 0 0 4px rgba(0, 0, 0, .2);
+            box-shadow: 0 0 4px rgba(0, 0, 0, .2);
+  }
+}
+
+select.uniform-multiselect {
+  &.hover,
+  &.focus {
+    border-color: #cbcaca;
+    -webkit-box-shadow: 0 0 4px rgba(0, 0, 0, .2);
+       -moz-box-shadow: 0 0 4px rgba(0, 0, 0, .2);
+            box-shadow: 0 0 4px rgba(0, 0, 0, .2);
+  }
+}
+
+textarea.uniform {
+  &.hover,
+  &.focus {
+    border-color: #cbcaca;
+    -webkit-box-shadow: 0 0 4px rgba(0, 0, 0, .2);
+       -moz-box-shadow: 0 0 4px rgba(0, 0, 0, .2);
+            box-shadow: 0 0 4px rgba(0, 0, 0, .2);
+  }
+}
+
+/* PRESENTATION */
+/* Buttons */
+
+div.button {
+  span {
+    font-family: 'Helvetica Neue', Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    font-weight: bold;
+
+    letter-spacing: 1px;
+    text-transform: uppercase;
+  }
+  &.hover span,
+  &.focus span {
+    color: #555;
+  }
+  &.disabled {
+    span,
+    &.active span {
+      color: #bbb;
+    }
+  }
+}
+
+/* Select */
+
+#compare_shipping .form-group label {
+  display: block;
+}
+
+div.selector {
+  font-size: 12px;
+  span {
+    color: #666;
+    text-shadow: 0 1px 0 #fff;
+  }
+  select {
+    font-family: 'Helvetica Neue', Arial, Helvetica, sans-serif;
+    font-size: 12px;
+  }
+  &.disabled {
+    span,
+    &.active span {
+      color: #bbb;
+    }
+  }
+}
+
+.checker span input,
+.radio input[type='radio'],
+.radio-inline input[type='radio'],
+.checkbox input[type='checkbox'],
+.checkbox-inline input[type='checkbox'] {
+  margin: 0 !important;
+}
+
+.radio-inline,
+.checkbox-inline {
+  cursor: default;
+}
+
+/* Checker */
+
+div.checker {
+  margin-right: 5px;
+
+  cursor: pointer;
+  span {
+    position: relative;
+    top: -2px;
+  }
+}
+
+#layered_form div.checker {
+  display: inline;
+}
+
+/* Radio */
+
+div {
+  &.radio {
+    margin-right: 3px;
+    span {
+      position: relative;
+      top: -2px;
+    }
+  }
+  &.uploader {
+    span {
+      &.action {
+        font-size: 13px;
+        font-weight: bold;
+
+        color: #fff;
+        text-shadow: rgba(0, 0, 0, .1) 0 1px 0;
+      }
+      &.filename {
+        font-size: 13px;
+
+        margin-right: 2px;
+
+        color: #777;
+        border: solid 1px #d6d4d4;
+        background: #fbfbfb;
+      }
+    }
+    &.disabled {
+      span.action,
+      &.active span.action {
+        color: #aaa;
+      }
+      span.filename,
+      &.active span.filename {
+        color: #aaa;
+        border-color: #ddd;
+      }
+    }
+  }
+}
+
+/* Uploader */
+
+input.uniform-input {
+  background-color: #fff;
+  &:focus {
+    background-color: #fff;
+  }
+}

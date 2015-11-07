@@ -1,0 +1,120 @@
+/* ************************************************************************************************
+                Categories Page Styles
+************************************************************************************************ */
+
+.content_scene_cat {
+  line-height: 19px;
+
+  margin: 0 0 26px 0;
+
+  color: #d7d7d7;
+  border-top: 5px solid #333;
+  .content_scene_cat_bg {
+    padding: 18px 10px 10px 42px;
+
+    background-color: #464646 !important;
+  }
+  span.category-name {
+    font: 600 42px/51px 'Open Sans', sans-serif;
+
+    margin-bottom: 12px;
+
+    color: white;
+  }
+  p {
+    margin-bottom: 0;
+  }
+  a {
+    color: white;
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+  .content_scene {
+    color: #777;
+    .cat_desc {
+      padding-top: 20px;
+      a {
+        color: #777;
+        &:hover {
+          color: #515151;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 1199px) {
+  .content_scene_cat .content_scene_cat_bg {
+    padding: 10px 10px 10px 15px;
+  }
+}
+
+@media (max-width: 1199px) {
+  .content_scene_cat span.category-name {
+    font-size: 25px;
+    line-height: 30px;
+  }
+}
+
+/* ************************************************************************************************
+                  Sub Categories Styles
+************************************************************************************************ */
+
+#subcategories {
+  padding: 15px 0 0 0;
+
+  border-top: 1px solid #d6d4d4;
+  p.subcategory-heading {
+    font-weight: bold;
+
+    margin: 0 0 15px 0;
+
+    color: #333;
+  }
+  ul {
+    margin: 0 0 0 -20px;
+    li {
+      float: left;
+
+      width: 145px;
+      height: 202px;
+      margin: 0 0 13px 33px;
+
+      text-align: center;
+      .subcategory-image {
+        padding: 0 0 8px 0;
+        a {
+          display: block;
+
+          padding: 9px;
+
+          border: 1px solid #d6d4d4;
+          img {
+            max-width: 100%;
+
+            vertical-align: top;
+          }
+        }
+      }
+      .subcategory-name {
+        font: 600 18px/22px 'Open Sans', sans-serif;
+
+        text-transform: uppercase;
+
+        color: #555454;
+        &:hover {
+          color: #515151;
+        }
+      }
+      .cat_desc {
+        display: none;
+      }
+      &:hover .subcategory-image a {
+        padding: 5px;
+
+        border: 5px solid #333;
+      }
+    }
+  }
+}

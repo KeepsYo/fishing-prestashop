@@ -1,0 +1,18 @@
+#mailalerts_block_account li {
+  &.last_item {
+    margin-bottom: 0;
+
+    border-bottom: none;
+  }
+  .products-block-image {
+    float: left;
+
+    margin-right: 19px;
+  }
+  .remove {
+    float: right;
+    i {
+      cursor: pointer;
+    }
+  }
+}
