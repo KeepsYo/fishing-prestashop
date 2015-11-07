@@ -3,11 +3,11 @@
 
 Здравствуйте, {firstname} {lastname}, 
 
-Вы получили новое сообщение от
-магазина {shop_name} о заказе под номером
-{order_name}.
+Вы получили новое сообщение от {shop_name}
+о заказе со ссылкой{order_name}.
 
 СООБЩЕНИЕ: {message} 		 
 
-{shop_name} [{shop_url}] 
+{shop_name} [{shop_url}] работает на
+PrestaShop(tm) [http://www.prestashop.com/] 
 

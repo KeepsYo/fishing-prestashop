@@ -10,10 +10,10 @@ define('_PS_CACHE_ENABLED_', '0');
 define('_MEDIA_SERVER_1_', '');
 define('_MEDIA_SERVER_2_', '');
 define('_MEDIA_SERVER_3_', '');
-define('_COOKIE_KEY_', 'v1j4e92MIQUCJqWjGXXmTY1chVWMXwhIgCMFxOdieB3D6p3DWdSrPguS');
-define('_COOKIE_IV_', '1vGWBJfB');
-define('_PS_CREATION_DATE_', '2015-11-07');
+define('_COOKIE_KEY_', 'cgP7zkD0yHSGXp2abMw9QUHyeEbZ9F7iocNiDY7VE1nTbpHSb9yqA4pW');
+define('_COOKIE_IV_', 'odYLn2ow');
+define('_PS_CREATION_DATE_', '2014-09-12');
 if (!defined('_PS_VERSION_'))
 	define('_PS_VERSION_', '1.6.0.9');
-define('_RIJNDAEL_KEY_', 'ybtY1JoTUBAgEYmdy9UqAJYEfqEjqGX8');
-define('_RIJNDAEL_IV_', 'L0YPxHLp/s+Qpn730uSVZg==');
+define('_RIJNDAEL_KEY_', 'u8h5U4MP6C1bi5fHHMeRbvaxEAtrrMuW');
+define('_RIJNDAEL_IV_', 'NUFrkn28cO3flzDuVGsPCQ==');

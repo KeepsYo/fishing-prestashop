@@ -15,7 +15,7 @@ $_FIELDS['Warehouse_b068931cc450442b63f5b3d276ea4297'] = 'имя';
 $_FIELDS['Warehouse_23c3b4d168a45ef94635494ce42eb658'] = 'тип_управления';
 $_FIELDS['Country_213ecf1210f43736b6d4997fcfa27954'] = 'код_iso';
 $_FIELDS['Country_b068931cc450442b63f5b3d276ea4297'] = 'имя';
-$_FIELDS['Country_37f577d6d447ff0743d74245446223b3'] = 'формат_почтового_индекса';
+$_FIELDS['Country_37f577d6d447ff0743d74245446223b3'] = 'почтовый_код_формат';
 $_FIELDS['State_213ecf1210f43736b6d4997fcfa27954'] = 'код_iso';
 $_FIELDS['State_b068931cc450442b63f5b3d276ea4297'] = 'имя';
 $_FIELDS['Address_93c731f1c3a84ef05cd54d044c379eaa'] = 'Организация';
@@ -28,7 +28,7 @@ $_FIELDS['Address_4ed5d2eaed1a1fadcc41ad1d58ed603e'] = 'город';
 $_FIELDS['Address_795f3202b17cb6bc3d4b771d8c6c9eaf'] = 'другой';
 $_FIELDS['Address_f7a42fe7211f98ac7a60a285ac3a9e87'] = 'телефон';
 $_FIELDS['Address_2df2ca5cf808744c2977e4073f6b59c8'] = 'мобильный телефон';
-$_FIELDS['Address_eec0a9661213354fa7a52519eea3f827'] = 'инн';
+$_FIELDS['Address_eec0a9661213354fa7a52519eea3f827'] = 'номер_vat';
 $_FIELDS['Address_d56f5e97524d5d1ad77ec197ae11dad0'] = 'dni';
 
 

@@ -3,10 +3,11 @@
 
 Здравствуйте, 
 
-{firstname} {lastname} разрешил вам видеть
-его/ее список покупок: {wishlist}
+{firstname} {lastname}разрешил вам видеть
+его/ее список желаний: {wishlist}
 
 {wishlist} [{message}] 		 
 
-{shop_name} [{shop_url}] 
+{shop_name} [{shop_url}] работает на
+PrestaShop(tm) [http://www.prestashop.com/] 
 

@@ -1,8 +1,7 @@
 
 [{shop_url}] 
 
-Сообщение от покупателя магазина
-{shop_name} 
+Сообщение от покупателя {shop_name} 
 
 E-MAIL КЛИЕНТА: {email}
 
@@ -12,5 +11,6 @@ E-MAIL КЛИЕНТА: {email}
 
 ПРИКРЕПЛЕННЫЙ ФАЙЛ: {attached_file} 		 
 
-{shop_name} [{shop_url}] 
+{shop_name} [{shop_url}] работает на
+PrestaShop(tm) [http://www.prestashop.com/] 
 

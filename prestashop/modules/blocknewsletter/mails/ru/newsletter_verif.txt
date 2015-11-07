@@ -9,5 +9,6 @@
 
 {verif_url} [{verif_url}] 		 
 
-{shop_name} [{shop_url}] 
+{shop_name} [{shop_url}] работает на
+PrestaShop(tm) [http://www.prestashop.com/] 
 

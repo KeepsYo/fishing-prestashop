@@ -36,6 +36,12 @@ $(document).ready(function(){
 		window.scrollTo(0, 1);
 	}
 	blockHover();
+	$("header .callback-js").click(function() {
+        $("header .callback-popup").slideToggle();
+    });
+    $("footer .callback-js").click(function() {
+        $("footer .callback-popup").slideToggle();
+    });
 	if (typeof quickView !== 'undefined' && quickView)
 		quick_view();
 	dropDown();

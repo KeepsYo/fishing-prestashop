@@ -12,8 +12,8 @@ $_MODULE['<{blocksupplier}prestashop>blocksupplier_f4f70727dc34561dfde1a3c529b62
 $_MODULE['<{blocksupplier}prestashop>blocksupplier_bfdff752293014f11f17122c92909ad5'] = 'Использовать текстовый список';
 $_MODULE['<{blocksupplier}prestashop>blocksupplier_78b2098aa1d513b5e1852b3140c7ee26'] = 'Отображать поставщиков в текстовом списке.';
 $_MODULE['<{blocksupplier}prestashop>blocksupplier_00d23a76e43b46dae9ec7aa9dcbebb32'] = 'Включено';
-$_MODULE['<{blocksupplier}prestashop>blocksupplier_b9f5c797ebbf55adccdd8539a65a0241'] = 'Отключено';
-$_MODULE['<{blocksupplier}prestashop>blocksupplier_2eef734f174a02ae3d7aaafefeeedb42'] = 'Число отображаемых элементов';
+$_MODULE['<{blocksupplier}prestashop>blocksupplier_b9f5c797ebbf55adccdd8539a65a0241'] = 'Выключено';
+$_MODULE['<{blocksupplier}prestashop>blocksupplier_2eef734f174a02ae3d7aaafefeeedb42'] = 'Количество элементов для отображения';
 $_MODULE['<{blocksupplier}prestashop>blocksupplier_b0fa976774d2acf72f9c62e9ab73de38'] = 'Использовать выпадающий список';
 $_MODULE['<{blocksupplier}prestashop>blocksupplier_e490c3b296d2f54d65d3d20803f71b55'] = 'Для отображения поставщиков в выпадающем списке';
 $_MODULE['<{blocksupplier}prestashop>blocksupplier_c9cc8cce247e49bae79f15173ce97354'] = 'Сохранить';

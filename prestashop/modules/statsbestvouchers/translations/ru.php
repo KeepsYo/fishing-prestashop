@@ -9,9 +9,9 @@ $_MODULE['<{statsbestvouchers}prestashop>statsbestvouchers_ca0dbad92a874b2f69b54
 $_MODULE['<{statsbestvouchers}prestashop>statsbestvouchers_49ee3087348e8d44e1feda1917443987'] = 'Имя';
 $_MODULE['<{statsbestvouchers}prestashop>statsbestvouchers_11ff9f68afb6b8b5b8eda218d7c83a65'] = 'Продажи';
 $_MODULE['<{statsbestvouchers}prestashop>statsbestvouchers_df25596dc94d556af2f1823725118572'] = 'Всего использовано';
-$_MODULE['<{statsbestvouchers}prestashop>statsbestvouchers_b769cee333527b8dc6f3f67882e35a0b'] = 'Лучшие купоны';
-$_MODULE['<{statsbestvouchers}prestashop>statsbestvouchers_d32edaf4608c91c5795eceaa1948aea7'] = 'Добавляет список лучших купонов на панель статистики.';
-$_MODULE['<{statsbestvouchers}prestashop>statsbestvouchers_998e4c5c80f27dec552e99dfed34889a'] = 'Экспорт в CSV';
+$_MODULE['<{statsbestvouchers}prestashop>statsbestvouchers_b769cee333527b8dc6f3f67882e35a0b'] = 'Лучшие ваучеры';
+$_MODULE['<{statsbestvouchers}prestashop>statsbestvouchers_d32edaf4608c91c5795eceaa1948aea7'] = 'Добавляет список лучших купонов в статистику панели Обзор.';
+$_MODULE['<{statsbestvouchers}prestashop>statsbestvouchers_998e4c5c80f27dec552e99dfed34889a'] = 'Export CSV';
 
 
 return $_MODULE;

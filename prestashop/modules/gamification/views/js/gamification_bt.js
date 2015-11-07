@@ -79,9 +79,8 @@ function gamificationTasks()
 			
 			$('.gamification_fancybox').fancybox();
 			
-			$(".preactivationLink").on('click', function(e) {
-				e.preventDefault();
-				preactivationLinkClick($(this).attr('rel'), $(this).attr('href'));
+			$(".preactivationLink").on('click', function() {
+				preactivationLinkClick($(this).attr("rel"));
 			});
 			
 			$('.gamification_badges_img').tooltip();
@@ -164,7 +163,7 @@ function filterBadge(type)
 }
 
 
-function preactivationLinkClick(module, href) {
+function preactivationLinkClick(module) {
 	$.ajax({
 		url : admin_gamification_ajax_url,
 		data : {
@@ -175,10 +174,7 @@ function preactivationLinkClick(module, href) {
 		},
 		type: 'POST',
 		success : function(jsonData){
-			window.location.href = href;
-		},
-		error : function(jsonData){
-			window.location.href = href;
+
 		}
 	});
 }
@@ -192,9 +188,11 @@ function adviceCloseClick(id_advice) {
 			action : "closeAdvice",
 			id_advice : id_advice,
 		},
-		type: 'POST'
+		type: 'POST',
+		success : function(jsonData){
+			
+		}	
 	});
-
 	$('#wrap_id_advice_'+id_advice).fadeOut();
 	$('#wrap_id_advice_'+id_advice).html('<img src="'+advice_hide_url+id_advice+'.png"/>');
 }

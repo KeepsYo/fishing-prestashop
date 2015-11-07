@@ -1,6 +1,6 @@
 <?php
 /*
-* 2007-2015 PrestaShop
+* 2007-2014 PrestaShop
 *
 * NOTICE OF LICENSE
 *
@@ -19,7 +19,7 @@
 * needs please refer to http://www.prestashop.com for more information.
 *
 *  @author PrestaShop SA <contact@prestashop.com>
-*  @copyright  2007-2015 PrestaShop SA
+*  @copyright  2007-2014 PrestaShop SA
 *  @license    http://opensource.org/licenses/afl-3.0.php  Academic Free License (AFL 3.0)
 *  International Registered Trademark & Property of PrestaShop SA
 */
@@ -42,7 +42,7 @@ class ProductComments extends Module
 	{
 		$this->name = 'productcomments';
 		$this->tab = 'front_office_features';
-		$this->version = '3.5.1';
+		$this->version = '3.3.8';
 		$this->author = 'PrestaShop';
 		$this->need_instance = 0;
 		$this->bootstrap = true;
@@ -127,7 +127,7 @@ class ProductComments extends Module
 			`'._DB_PREFIX_.'product_comment_usefulness`,
 			`'._DB_PREFIX_.'product_comment_report`');
 	}
-
+	
 	public function getCacheId($id_product = null)
 	{
 		return parent::getCacheId().'|'.(int)$id_product;
@@ -445,7 +445,7 @@ class ProductComments extends Module
 		);
 		$helper->module = $this;
 		$helper->identifier = 'id_product_comment_criterion';
-		$helper->title = $this->l('Review Criteria');
+		$helper->title = $this->l('Review Criterions');
 		$helper->table = $this->name.'criterion';
 		$helper->token = Tools::getAdminTokenLite('AdminModules');
 		$helper->currentIndex = AdminController::$currentIndex.'&configure='.$this->name;
@@ -885,7 +885,6 @@ class ProductComments extends Module
 
 		foreach ($params['list_ids_product'] as $id_product)
 		{
-			$id_product = (int)$id_product;
 			$grades = ProductComment::getAveragesByProduct($id_product, $this->context->language->id);
 			$criterions = ProductCommentCriterion::getByProduct($id_product, $this->context->language->id);
 			$grade_total = 0;

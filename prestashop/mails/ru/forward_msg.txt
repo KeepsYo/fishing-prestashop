@@ -3,11 +3,12 @@
 
 Здравствуйте, {firstname} {lastname}, 
 
-{employee} хочет начать диалог с вами. 
+{employee} хочет начать с вами разговор. 
 
-ИСТОРИЯ ПЕРЕПИСКИ: {messages}
+ИСТОРИЯ СООБЩЕНИЙ: {messages}
 
 {employee} добавил "{comment}" 		 
 
-{shop_name} [{shop_url}] 
+{shop_name} [{shop_url}] работает на
+PrestaShop(tm) [http://www.prestashop.com/] 
 

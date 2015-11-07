@@ -1,5 +1,5 @@
 /*
-* 2007-2015 PrestaShop
+* 2007-2014 PrestaShop
 *
 * NOTICE OF LICENSE
 *
@@ -18,7 +18,7 @@
 * needs please refer to http://www.prestashop.com for more information.
 *
 * @author PrestaShop SA <contact@prestashop.com>
-* @copyright 2007-2015 PrestaShop SA
+* @copyright 2007-2014 PrestaShop SA
 * @license http://opensource.org/licenses/afl-3.0.php Academic Free License (AFL 3.0)
 * International Registered Trademark & Property of PrestaShop SA
 */
@@ -35,17 +35,6 @@ $(document).ready(function(){
 
 	$(document).on('change', 'select[name=wishlists]', function(){
 		WishlistChangeDefault('wishlist_block_list', $(this).val());
-	});
-
-
-	$('.wishlist').each(function() {
-		current = $(this);
-		$(this).children('.wishlist_button_list').popover({
-			html: true,
-			content: function () {
-				return current.children('.popover-content').html();
-			}
-		});
 	});
 });
 
@@ -212,12 +201,6 @@ function WishlistManage(id, id_wishlist)
 			$('#' + id).hide();
 			document.getElementById(id).innerHTML = data;
 			$('#' + id).fadeIn('slow');
-
-			$('.wishlist_change_button').each(function(index) {
-				$(this).change(function () {
-					wishlistProductChange($('option:selected', this).attr('data-id-product'), $('option:selected', this).attr('data-id-product-attribute'), $('option:selected', this).attr('data-id-old-wishlist'), $('option:selected', this).attr('data-id-new-wishlist'));
-	 		 	});
-			});
 		}
 	});
 }
@@ -271,17 +254,10 @@ function WishlistDelete(id, id_wishlist, msg)
 	$.ajax({
 		type: 'GET',
 		async: true,
-		dataType: "json",
 		url: mywishlist_url,
 		headers: { "cache-control": "no-cache" },
 		cache: false,
-		data: {
-			rand: new Date().getTime(),
-			deleted: 1,
-			myajax: 1,
-			id_wishlist: id_wishlist,
-			action: 'deletelist'
-		},
+		data: {rand:new Date().getTime(),deleted:1, id_wishlist:id_wishlist},
 		success: function(data)
 		{
 			var mywishlist_siblings_count = $('#' + id).siblings().length;
@@ -289,13 +265,6 @@ function WishlistDelete(id, id_wishlist, msg)
 			$("#block-order-detail").html('');
 			if (mywishlist_siblings_count == 0)
 				$("#block-history").remove();
-
-			if (data.id_default)
-			{
-				var td_default = $("#wishlist_"+data.id_default+" > .wishlist_default");
-				$("#wishlist_"+data.id_default+" > .wishlist_default > a").remove();
-				td_default.append('<p class="is_wish_list_default"><i class="icon icon-check-square"></i></p>');
-			}
 		}
 	});
 }
@@ -311,22 +280,10 @@ function WishlistDefault(id, id_wishlist)
 		url: mywishlist_url,
 		headers: { "cache-control": "no-cache" },
 		cache: false,
-		data: {
-			rand:new Date().getTime(),
-			'default': 1,
-			id_wishlist:id_wishlist,
-			myajax: 1,
-			action: 'setdefault'
-		},
+		data: {rand:new Date().getTime(), default: 1, id_wishlist:id_wishlist},
 		success: function (data)
 		{
-			var old_default_id = $(".is_wish_list_default").parents("tr").attr("id");
-			var td_check = $(".is_wish_list_default").parent();
-			$(".is_wish_list_default").remove();
-			td_check.append('<a href="#" onclick="javascript:event.preventDefault();(WishlistDefault(\''+old_default_id+'\', \''+old_default_id.replace("wishlist_", "")+'\'));"><i class="icon icon-square"></i></a>');
-			var td_default = $("#"+id+" > .wishlist_default");
-			$("#"+id+" > .wishlist_default > a").remove();
-			td_default.append('<p class="is_wish_list_default"><i class="icon icon-check-square"></i></p>');
+			window.location.href=window.location.href;
 		}
 	});
 }
@@ -417,56 +374,5 @@ function wishlistRefreshStatus()
 			$(this).addClass('checked');
 		else
 			$(this).removeClass('checked');
-	});
-}
-
-function wishlistProductChange(id_product, id_product_attribute, id_old_wishlist, id_new_wishlist)
-{
-	if (typeof mywishlist_url == 'undefined')
-		return (false);
-
-	var quantity = $('#quantity_' + id_product + '_' + id_product_attribute).val();
-
-	$.ajax({
-		type: 'GET',
-		url: mywishlist_url,
-		headers: { "cache-control": "no-cache" },
-		async: true,
-		cache: false,
-		dataType: "json",
-		data: {
-			id_product:id_product,
-			id_product_attribute:id_product_attribute,
-			quantity: quantity,
-			priority: $('#priority_' + id_product + '_' + id_product_attribute).val(),
-			id_old_wishlist:id_old_wishlist,
-			id_new_wishlist:id_new_wishlist,
-			myajax: 1,
-			action: 'productchangewishlist'
-		},
-		success: function (data)
-		{
-			console.log(data);
-			console.log(data.msg);
-			if (data.success == true) {
-				$('#wlp_' + id_product + '_' + id_product_attribute).fadeOut('slow');
-				$('#wishlist_' + id_old_wishlist + ' td:nth-child(2)').text($('#wishlist_' + id_old_wishlist + ' td:nth-child(2)').text() - quantity);
-				$('#wishlist_' + id_new_wishlist + ' td:nth-child(2)').text(+$('#wishlist_' + id_new_wishlist + ' td:nth-child(2)').text() + +quantity);
-			}
-			else
-			{
-				if (!!$.prototype.fancybox)
-					$.fancybox.open([
-						{
-							type: 'inline',
-							autoScale: true,
-							minHeight: 30,
-							content: '<p class="fancybox-error">' + data.error + '</p>'
-						}
-					], {
-						padding: 0
-					});
-			}
-		}
 	});
 }

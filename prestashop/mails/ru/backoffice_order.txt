@@ -9,5 +9,6 @@
 [{order_link}] для завершения
 оплаты. 		 
 
-{shop_name} [{shop_url}] 
+{shop_name} [{shop_url}] работает на
+PrestaShop(tm) [http://www.prestashop.com/] 
 

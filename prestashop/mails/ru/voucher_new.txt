@@ -3,10 +3,12 @@
 
 Здравствуйте, {firstname} {lastname}, 
 
-Вот код Вашего купона: {voucher_num}
+Вот код Вашего ваучера: {voucher_num}
 
 Просто скопируйте / вставьте этот код
-при оплате вашего следующего заказа. 		
+в процессе оплаты вашего следующего
+заказа. 		 
 
-{shop_name} [{shop_url}] 
+{shop_name} [{shop_url}] работает на
+PrestaShop(tm) [http://www.prestashop.com/] 
 
