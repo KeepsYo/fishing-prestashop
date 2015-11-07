@@ -1,0 +1,1059 @@
+2015-11-07 22:23:23: -- Analysis Started by User
+2015-11-07 22:23:23: L: State file does not exist: ftp://fishing-equipment.alintond.bget.ru/themes/_gsdata_/_file_state_v4._gs
+2015-11-07 22:23:51: R: State file does not exist: D:/Works/Verstka/fishing-prestashop/prestashop/themes/_gsdata_/_file_state_v4._gs
+2015-11-07 22:23:51: /.htaccess: Conflict: New files that differ
+2015-11-07 22:23:51: /debug.tpl: Conflict: New files that differ
+2015-11-07 22:23:51: /default-bootstrap/404.tpl: Conflict: New files that differ
+2015-11-07 22:23:51: /default-bootstrap/address.tpl: Conflict: New files that differ
+2015-11-07 22:23:51: /default-bootstrap/addresses.tpl: Conflict: New files that differ
+2015-11-07 22:23:51: /default-bootstrap/authentication.tpl: Conflict: New files that differ
+2015-11-07 22:23:51: /default-bootstrap/best-sales.tpl: Conflict: New files that differ
+2015-11-07 22:23:51: /default-bootstrap/breadcrumb.tpl: Conflict: New files that differ
+2015-11-07 22:23:51: /default-bootstrap/cache/index.php: Conflict: New files that differ
+2015-11-07 22:23:51: /default-bootstrap/category-cms-tree-branch.tpl: Conflict: New files that differ
+2015-11-07 22:23:51: /default-bootstrap/category-count.tpl: Conflict: New files that differ
+2015-11-07 22:23:51: /default-bootstrap/category-tree-branch.tpl: Conflict: New files that differ
+2015-11-07 22:23:51: /default-bootstrap/category.tpl: Conflict: New files that differ
+2015-11-07 22:23:51: /default-bootstrap/cms.tpl: Conflict: New files that differ
+2015-11-07 22:23:51: /default-bootstrap/config.rb: Conflict: New files that differ
+2015-11-07 22:23:51: /default-bootstrap/config.xml: Conflict: New files that differ
+2015-11-07 22:23:51: /default-bootstrap/contact-form.tpl: Conflict: New files that differ
+2015-11-07 22:23:51: /default-bootstrap/css/addresses.css: Conflict: New files that differ
+2015-11-07 22:23:51: /default-bootstrap/css/authentication.css: Conflict: New files that differ
+2015-11-07 22:23:51: /default-bootstrap/css/autoload/highdpi.css: Conflict: New files that differ
+2015-11-07 22:23:51: /default-bootstrap/css/autoload/responsive-tables.css: Conflict: New files that differ
+2015-11-07 22:23:51: /default-bootstrap/css/autoload/uniform.default.css: Conflict: New files that differ
+2015-11-07 22:23:51: /default-bootstrap/css/category.css: Conflict: New files that differ
+2015-11-07 22:23:51: /default-bootstrap/css/cms.css: Conflict: New files that differ
+2015-11-07 22:23:51: /default-bootstrap/css/comparator.css: Conflict: New files that differ
+2015-11-07 22:23:51: /default-bootstrap/css/contact-form.css: Conflict: New files that differ
+2015-11-07 22:23:51: /default-bootstrap/css/custom.css: Conflict: New files that differ
+2015-11-07 22:23:51: /default-bootstrap/css/custom.css.map: Conflict: New files that differ
+2015-11-07 22:23:51: /default-bootstrap/css/font-awesome/font-awesome-ie7.css: Conflict: New files that differ
+2015-11-07 22:23:51: /default-bootstrap/css/global.css: Conflict: New files that differ
+2015-11-07 22:23:51: /default-bootstrap/css/history.css: Conflict: New files that differ
+2015-11-07 22:23:51: /default-bootstrap/css/identity.css: Conflict: New files that differ
+2015-11-07 22:23:51: /default-bootstrap/css/index.php: Conflict: New files that differ
+2015-11-07 22:23:51: /default-bootstrap/css/maintenance.css: Conflict: New files that differ
+2015-11-07 22:23:51: /default-bootstrap/css/modules/blockbanner/blockbanner.css: Conflict: New files that differ
+2015-11-07 22:23:51: /default-bootstrap/css/modules/blockbestsellers/blockbestsellers.css: Conflict: New files that differ
+2015-11-07 22:23:51: /default-bootstrap/css/modules/blockcart/blockcart.css: Conflict: New files that differ
+2015-11-07 22:23:51: /default-bootstrap/css/modules/blockcategories/blockcategories.css: Conflict: New files that differ
+2015-11-07 22:23:51: /default-bootstrap/css/modules/blockcontact/blockcontact.css: Conflict: New files that differ
+2015-11-07 22:23:51: /default-bootstrap/css/modules/blockcurrencies/blockcurrencies.css: Conflict: New files that differ
+2015-11-07 22:23:51: /default-bootstrap/css/modules/blocklanguages/blocklanguages.css: Conflict: New files that differ
+2015-11-07 22:23:51: /default-bootstrap/css/modules/blocklayered/blocklayered.css: Conflict: New files that differ
+2015-11-07 22:23:51: /default-bootstrap/css/modules/blockmyaccountfooter/blockmyaccount.css: Conflict: New files that differ
+2015-11-07 22:23:51: /default-bootstrap/css/modules/blocknewproducts/blocknewproducts.css: Conflict: New files that differ
+2015-11-07 22:23:51: /default-bootstrap/css/modules/blocknewsletter/blocknewsletter.css: Conflict: New files that differ
+2015-11-07 22:23:51: /default-bootstrap/css/modules/blocksearch/blocksearch.css: Conflict: New files that differ
+2015-11-07 22:23:51: /default-bootstrap/css/modules/blockspecials/blockspecials.css: Conflict: New files that differ
+2015-11-07 22:23:51: /default-bootstrap/css/modules/blocktags/blocktags.css: Conflict: New files that differ
+2015-11-07 22:23:51: /default-bootstrap/css/modules/blocktopmenu/css/blocktopmenu.css: Conflict: New files that differ
+2015-11-07 22:23:51: /default-bootstrap/css/modules/blocktopmenu/css/superfish-modified.css: Conflict: New files that differ
+2015-11-07 22:23:51: /default-bootstrap/css/modules/blockuserinfo/blockuserinfo.css: Conflict: New files that differ
+2015-11-07 22:23:51: /default-bootstrap/css/modules/blockviewed/blockviewed.css: Conflict: New files that differ
+2015-11-07 22:23:51: /default-bootstrap/css/modules/blockwishlist/blockwishlist.css: Conflict: New files that differ
+2015-11-07 22:23:51: /default-bootstrap/css/modules/carriercompare/style.css: Conflict: New files that differ
+2015-11-07 22:23:51: /default-bootstrap/css/modules/crossselling/crossselling.css: Conflict: New files that differ
+2015-11-07 22:23:51: /default-bootstrap/css/modules/favoriteproducts/favoriteproducts.css: Conflict: New files that differ
+2015-11-07 22:23:51: /default-bootstrap/css/modules/homefeatured/homefeatured.css: Conflict: New files that differ
+2015-11-07 22:23:51: /default-bootstrap/css/modules/homeslider/homeslider.css: Conflict: New files that differ
+2015-11-07 22:23:51: /default-bootstrap/css/modules/homeslider/images/bx_loader.gif: Conflict: New files that differ
+2015-11-07 22:23:51: /default-bootstrap/css/modules/homeslider/images/controls.png: Conflict: New files that differ
+2015-11-07 22:23:51: /default-bootstrap/css/modules/mailalerts/mailalerts.css: Conflict: New files that differ
+2015-11-07 22:23:51: /default-bootstrap/css/modules/productcomments/img/accept.png: Conflict: New files that differ
+2015-11-07 22:23:51: /default-bootstrap/css/modules/productcomments/img/bg_bt.gif: Conflict: New files that differ
+2015-11-07 22:23:51: /default-bootstrap/css/modules/productcomments/img/bg_li.png: Conflict: New files that differ
+2015-11-07 22:23:51: /default-bootstrap/css/modules/productcomments/img/comment.png: Conflict: New files that differ
+2015-11-07 22:23:51: /default-bootstrap/css/modules/productcomments/img/comments_delete.png: Conflict: New files that differ
+2015-11-07 22:23:51: /default-bootstrap/css/modules/productcomments/img/delete.gif: Conflict: New files that differ
+2015-11-07 22:23:51: /default-bootstrap/css/modules/productcomments/img/delete.png: Conflict: New files that differ
+2015-11-07 22:23:51: /default-bootstrap/css/modules/productcomments/img/index.php: Conflict: New files that differ
+2015-11-07 22:23:51: /default-bootstrap/css/modules/productcomments/img/note.png: Conflict: New files that differ
+2015-11-07 22:23:51: /default-bootstrap/css/modules/productcomments/img/note_go.png: Conflict: New files that differ
+2015-11-07 22:23:51: /default-bootstrap/css/modules/productcomments/img/star.gif: Conflict: New files that differ
+2015-11-07 22:23:51: /default-bootstrap/css/modules/productcomments/img/star.png: Conflict: New files that differ
+2015-11-07 22:23:51: /default-bootstrap/css/modules/productcomments/img/star1.gif: Conflict: New files that differ
+2015-11-07 22:23:51: /default-bootstrap/css/modules/productcomments/productcomments.css: Conflict: New files that differ
+2015-11-07 22:23:51: /default-bootstrap/css/modules/productscategory/css/images/bx_loader.gif: Conflict: New files that differ
+2015-11-07 22:23:51: /default-bootstrap/css/modules/productscategory/css/images/controls.png: Conflict: New files that differ
+2015-11-07 22:23:51: /default-bootstrap/css/modules/productscategory/css/productscategory.css: Conflict: New files that differ
+2015-11-07 22:23:51: /default-bootstrap/css/my-account.css: Conflict: New files that differ
+2015-11-07 22:23:51: /default-bootstrap/css/order-opc.css: Conflict: New files that differ
+2015-11-07 22:23:51: /default-bootstrap/css/print.css: Conflict: New files that differ
+2015-11-07 22:23:51: /default-bootstrap/css/product.css: Conflict: New files that differ
+2015-11-07 22:23:51: /default-bootstrap/css/product_list.css: Conflict: New files that differ
+2015-11-07 22:23:51: /default-bootstrap/css/rtl.css: Conflict: New files that differ
+2015-11-07 22:23:51: /default-bootstrap/css/scenes.css: Conflict: New files that differ
+2015-11-07 22:23:51: /default-bootstrap/css/scss/custom.scss: Conflict: New files that differ
+2015-11-07 22:23:51: /default-bootstrap/css/sitemap.css: Conflict: New files that differ
+2015-11-07 22:23:51: /default-bootstrap/css/stores.css: Conflict: New files that differ
+2015-11-07 22:23:51: /default-bootstrap/discount.tpl: Conflict: New files that differ
+2015-11-07 22:23:51: /default-bootstrap/errors.tpl: Conflict: New files that differ
+2015-11-07 22:23:51: /default-bootstrap/font/.htaccess: Conflict: New files that differ
+2015-11-07 22:23:51: /default-bootstrap/font/fontawesome-webfont.eot: Conflict: New files that differ
+2015-11-07 22:23:51: /default-bootstrap/font/fontawesome-webfont.svg: Conflict: New files that differ
+2015-11-07 22:23:51: /default-bootstrap/font/fontawesome-webfont.ttf: Conflict: New files that differ
+2015-11-07 22:23:51: /default-bootstrap/font/fontawesome-webfont.woff: Conflict: New files that differ
+2015-11-07 22:23:51: /default-bootstrap/font/FontAwesome.otf: Conflict: New files that differ
+2015-11-07 22:23:51: /default-bootstrap/footer.tpl: Conflict: New files that differ
+2015-11-07 22:23:51: /default-bootstrap/global.tpl: Conflict: New files that differ
+2015-11-07 22:23:51: /default-bootstrap/guest-tracking.tpl: Conflict: New files that differ
+2015-11-07 22:23:51: /default-bootstrap/header.tpl: Conflict: New files that differ
+2015-11-07 22:23:51: /default-bootstrap/history.tpl: Conflict: New files that differ
+2015-11-07 22:23:51: /default-bootstrap/identity.tpl: Conflict: New files that differ
+2015-11-07 22:23:51: /default-bootstrap/img/addcartloader.gif: Conflict: New files that differ
+2015-11-07 22:23:51: /default-bootstrap/img/ajax-loader.gif: Conflict: New files that differ
+2015-11-07 22:23:51: /default-bootstrap/img/bankwire.png: Conflict: New files that differ
+2015-11-07 22:23:51: /default-bootstrap/img/bg_bt.gif: Conflict: New files that differ
+2015-11-07 22:23:51: /default-bootstrap/img/bg_bt_2.gif: Conflict: New files that differ
+2015-11-07 22:23:51: /default-bootstrap/img/bg_bt_compare.gif: Conflict: New files that differ
+2015-11-07 22:23:51: /default-bootstrap/img/bg_input.png: Conflict: New files that differ
+2015-11-07 22:23:51: /default-bootstrap/img/bg_maintenance.png: Conflict: New files that differ
+2015-11-07 22:23:51: /default-bootstrap/img/bg_table_th.png: Conflict: New files that differ
+2015-11-07 22:23:51: /default-bootstrap/img/bl-after-bg.png: Conflict: New files that differ
+2015-11-07 22:23:51: /default-bootstrap/img/bl-before-bg.png: Conflict: New files that differ
+2015-11-07 22:23:51: /default-bootstrap/img/border-1.gif: Conflict: New files that differ
+2015-11-07 22:23:51: /default-bootstrap/img/cart-shadow.png: Conflict: New files that differ
+2015-11-07 22:23:51: /default-bootstrap/img/cash.png: Conflict: New files that differ
+2015-11-07 22:23:51: /default-bootstrap/img/cheque.png: Conflict: New files that differ
+2015-11-07 22:23:51: /default-bootstrap/img/contact-form.png: Conflict: New files that differ
+2015-11-07 22:23:51: /default-bootstrap/img/footer-bg.png: Conflict: New files that differ
+2015-11-07 22:23:51: /default-bootstrap/img/form-contact-shadow.png: Conflict: New files that differ
+2015-11-07 22:23:51: /default-bootstrap/img/functional-bt-shadow.png: Conflict: New files that differ
+2015-11-07 22:23:51: /default-bootstrap/img/icon/cible.gif: Conflict: New files that differ
+2015-11-07 22:23:51: /default-bootstrap/img/icon/delete.gif: Conflict: New files that differ
+2015-11-07 22:23:51: /default-bootstrap/img/icon/download_product.gif: Conflict: New files that differ
+2015-11-07 22:23:51: /default-bootstrap/img/icon/form-error.png: Conflict: New files that differ
+2015-11-07 22:23:51: /default-bootstrap/img/icon/form-ok.png: Conflict: New files that differ
+2015-11-07 22:23:51: /default-bootstrap/img/icon/index.php: Conflict: New files that differ
+2015-11-07 22:23:51: /default-bootstrap/img/icon/infos.gif: Conflict: New files that differ
+2015-11-07 22:23:51: /default-bootstrap/img/icon/quantity_down.gif: Conflict: New files that differ
+2015-11-07 22:23:51: /default-bootstrap/img/icon/quantity_down_off.gif: Conflict: New files that differ
+2015-11-07 22:23:51: /default-bootstrap/img/icon/quantity_up.gif: Conflict: New files that differ
+2015-11-07 22:23:51: /default-bootstrap/img/icon/serial_scroll_left.gif: Conflict: New files that differ
+2015-11-07 22:23:51: /default-bootstrap/img/icon/serial_scroll_right.gif: Conflict: New files that differ
+2015-11-07 22:23:51: /default-bootstrap/img/icon/up.gif: Conflict: New files that differ
+2015-11-07 22:23:51: /default-bootstrap/img/icon/userinfo.gif: Conflict: New files that differ
+2015-11-07 22:23:51: /default-bootstrap/img/img-404.jpg: Conflict: New files that differ
+2015-11-07 22:23:51: /default-bootstrap/img/index.php: Conflict: New files that differ
+2015-11-07 22:23:51: /default-bootstrap/img/jquery/index.php: Conflict: New files that differ
+2015-11-07 22:23:51: /default-bootstrap/img/jquery/macFFBgHack.png: Conflict: New files that differ
+2015-11-07 22:23:51: /default-bootstrap/img/jquery/uniform/sprite.png: Conflict: New files that differ
+2015-11-07 22:23:51: /default-bootstrap/img/logo_paiement_mastercard.jpg: Conflict: New files that differ
+2015-11-07 22:23:51: /default-bootstrap/img/logo_paiement_paypal.jpg: Conflict: New files that differ
+2015-11-07 22:23:51: /default-bootstrap/img/logo_paiement_visa.jpg: Conflict: New files that differ
+2015-11-07 22:23:51: /default-bootstrap/img/order-step-a.png: Conflict: New files that differ
+2015-11-07 22:23:51: /default-bootstrap/img/order-step-current.png: Conflict: New files that differ
+2015-11-07 22:23:51: /default-bootstrap/img/order-step-done-last.png: Conflict: New files that differ
+2015-11-07 22:23:51: /default-bootstrap/img/order-step-done.png: Conflict: New files that differ
+2015-11-07 22:23:51: /default-bootstrap/img/pagination-li.gif: Conflict: New files that differ
+2015-11-07 22:23:51: /default-bootstrap/img/price-container-bg.png: Conflict: New files that differ
+2015-11-07 22:23:51: /default-bootstrap/img/rss.gif: Conflict: New files that differ
+2015-11-07 22:23:51: /default-bootstrap/img/sitemap-horizontal.png: Conflict: New files that differ
+2015-11-07 22:23:51: /default-bootstrap/img/sitemap-last.png: Conflict: New files that differ
+2015-11-07 22:23:51: /default-bootstrap/img/testimon-after.gif: Conflict: New files that differ
+2015-11-07 22:23:51: /default-bootstrap/index.php: Conflict: New files that differ
+2015-11-07 22:23:51: /default-bootstrap/index.tpl: Conflict: New files that differ
+2015-11-07 22:23:51: /default-bootstrap/js/authentication.js: Conflict: New files that differ
+2015-11-07 22:23:51: /default-bootstrap/js/autoload/10-bootstrap.min.js: Conflict: New files that differ
+2015-11-07 22:23:51: /default-bootstrap/js/autoload/15-jquery.total-storage.min.js: Conflict: New files that differ
+2015-11-07 22:23:51: /default-bootstrap/js/autoload/15-jquery.uniform-modified.js: Conflict: New files that differ
+2015-11-07 22:23:51: /default-bootstrap/js/cart-summary.js: Conflict: New files that differ
+2015-11-07 22:23:51: /default-bootstrap/js/category.js: Conflict: New files that differ
+2015-11-07 22:23:51: /default-bootstrap/js/cms.js: Conflict: New files that differ
+2015-11-07 22:23:51: /default-bootstrap/js/contact-form.js: Conflict: New files that differ
+2015-11-07 22:23:51: /default-bootstrap/js/debug/jquery.lint.js: Conflict: New files that differ
+2015-11-07 22:23:51: /default-bootstrap/js/global.js: Conflict: New files that differ
+2015-11-07 22:23:51: /default-bootstrap/js/history.js: Conflict: New files that differ
+2015-11-07 22:23:51: /default-bootstrap/js/index.js: Conflict: New files that differ
+2015-11-07 22:23:51: /default-bootstrap/js/index.php: Conflict: New files that differ
+2015-11-07 22:23:51: /default-bootstrap/js/modules/blockcart/ajax-cart.js: Conflict: New files that differ
+2015-11-07 22:23:51: /default-bootstrap/js/modules/blocklayered/blocklayered-footer.js: Conflict: New files that differ
+2015-11-07 22:23:51: /default-bootstrap/js/modules/blocklayered/blocklayered.js: Conflict: New files that differ
+2015-11-07 22:23:51: /default-bootstrap/js/modules/blocknewsletter/blocknewsletter.js: Conflict: New files that differ
+2015-11-07 22:23:51: /default-bootstrap/js/modules/blocksearch/blocksearch.js: Conflict: New files that differ
+2015-11-07 22:23:51: /default-bootstrap/js/modules/blocktopmenu/js/blocktopmenu.js: Conflict: New files that differ
+2015-11-07 22:23:51: /default-bootstrap/js/modules/blocktopmenu/js/hoverIntent.js: Conflict: New files that differ
+2015-11-07 22:23:51: /default-bootstrap/js/modules/blocktopmenu/js/superfish-modified.js: Conflict: New files that differ
+2015-11-07 22:23:51: /default-bootstrap/js/modules/blockwishlist/js/ajax-wishlist.js: Conflict: New files that differ
+2015-11-07 22:23:51: /default-bootstrap/js/modules/crossselling/js/crossselling.js: Conflict: New files that differ
+2015-11-07 22:23:51: /default-bootstrap/js/modules/homeslider/js/homeslider.js: Conflict: New files that differ
+2015-11-07 22:23:51: /default-bootstrap/js/modules/loyalty/js/loyalty.js: Conflict: New files that differ
+2015-11-07 22:23:51: /default-bootstrap/js/modules/mailalerts/mailalerts.js: Conflict: New files that differ
+2015-11-07 22:23:51: /default-bootstrap/js/modules/productcomments/js/productcomments.js: Conflict: New files that differ
+2015-11-07 22:23:51: /default-bootstrap/js/modules/productcomments/js/products-comparison.js: Conflict: New files that differ
+2015-11-07 22:23:51: /default-bootstrap/js/modules/productscategory/js/productscategory.js: Conflict: New files that differ
+2015-11-07 22:23:51: /default-bootstrap/js/modules/referralprogram/js/referralprogram.js: Conflict: New files that differ
+2015-11-07 22:23:51: /default-bootstrap/js/modules/sendtoafriend/sendtoafriend.js: Conflict: New files that differ
+2015-11-07 22:23:51: /default-bootstrap/js/order-address.js: Conflict: New files that differ
+2015-11-07 22:23:51: /default-bootstrap/js/order-carrier.js: Conflict: New files that differ
+2015-11-07 22:23:51: /default-bootstrap/js/order-opc.js: Conflict: New files that differ
+2015-11-07 22:23:51: /default-bootstrap/js/product.js: Conflict: New files that differ
+2015-11-07 22:23:51: /default-bootstrap/js/products-comparison.js: Conflict: New files that differ
+2015-11-07 22:23:51: /default-bootstrap/js/scenes.js: Conflict: New files that differ
+2015-11-07 22:23:51: /default-bootstrap/js/stores.js: Conflict: New files that differ
+2015-11-07 22:23:51: /default-bootstrap/js/tools/index.php: Conflict: New files that differ
+2015-11-07 22:23:51: /default-bootstrap/js/tools/statesManagement.js: Conflict: New files that differ
+2015-11-07 22:23:51: /default-bootstrap/js/tools/treeManagement.js: Conflict: New files that differ
+2015-11-07 22:23:51: /default-bootstrap/js/tools/vatManagement.js: Conflict: New files that differ
+2015-11-07 22:23:51: /default-bootstrap/lang/en.php: Conflict: New files that differ
+2015-11-07 22:23:51: /default-bootstrap/lang/index.php: Conflict: New files that differ
+2015-11-07 22:23:51: /default-bootstrap/lang/ru.php: Conflict: New files that differ
+2015-11-07 22:23:51: /default-bootstrap/layout.tpl: Conflict: New files that differ
+2015-11-07 22:23:51: /default-bootstrap/maintenance.tpl: Conflict: New files that differ
+2015-11-07 22:23:51: /default-bootstrap/manufacturer-list.tpl: Conflict: New files that differ
+2015-11-07 22:23:51: /default-bootstrap/manufacturer.tpl: Conflict: New files that differ
+2015-11-07 22:23:51: /default-bootstrap/mobile/css/autoload/index.php: Conflict: New files that differ
+2015-11-07 22:23:51: /default-bootstrap/mobile/index.php: Conflict: New files that differ
+2015-11-07 22:23:51: /default-bootstrap/mobile/js/autoload/index.php: Conflict: New files that differ
+2015-11-07 22:23:51: /default-bootstrap/modules/bankwire/translations/en.php: Conflict: New files that differ
+2015-11-07 22:23:51: /default-bootstrap/modules/bankwire/translations/it.php: Conflict: New files that differ
+2015-11-07 22:23:51: /default-bootstrap/modules/bankwire/views/templates/front/payment_execution.tpl: Conflict: New files that differ
+2015-11-07 22:23:51: /default-bootstrap/modules/bankwire/views/templates/hook/payment.tpl: Conflict: New files that differ
+2015-11-07 22:23:51: /default-bootstrap/modules/bankwire/views/templates/hook/payment_return.tpl: Conflict: New files that differ
+2015-11-07 22:23:51: /default-bootstrap/modules/blockbestsellers/blockbestsellers-home.tpl: Conflict: New files that differ
+2015-11-07 22:23:51: /default-bootstrap/modules/blockbestsellers/blockbestsellers.tpl: Conflict: New files that differ
+2015-11-07 22:23:51: /default-bootstrap/modules/blockbestsellers/tab.tpl: Conflict: New files that differ
+2015-11-07 22:23:51: /default-bootstrap/modules/blockcallback/blockcallback.tpl: Conflict: New files that differ
+2015-11-07 22:23:51: /default-bootstrap/modules/blockcallback/blockcallback.tpl1: Conflict: New files that differ
+2015-11-07 22:23:51: /default-bootstrap/modules/blockcallback/translations/ru.php: Conflict: New files that differ
+2015-11-07 22:23:51: /default-bootstrap/modules/blockcart/blockcart-json.tpl: Conflict: New files that differ
+2015-11-07 22:23:51: /default-bootstrap/modules/blockcart/blockcart.tpl: Conflict: New files that differ
+2015-11-07 22:23:51: /default-bootstrap/modules/blockcart/crossselling.tpl: Conflict: New files that differ
+2015-11-07 22:23:51: /default-bootstrap/modules/blockcategories/blockcategories.tpl: Conflict: New files that differ
+2015-11-07 22:23:51: /default-bootstrap/modules/blockcategories/blockcategories_footer.tpl: Conflict: New files that differ
+2015-11-07 22:23:51: /default-bootstrap/modules/blockcategories/blockcategories_top.tpl: Conflict: New files that differ
+2015-11-07 22:23:51: /default-bootstrap/modules/blockcategories/category-tree-branch-top.tpl: Conflict: New files that differ
+2015-11-07 22:23:51: /default-bootstrap/modules/blockcategories/category-tree-branch.tpl: Conflict: New files that differ
+2015-11-07 22:23:51: /default-bootstrap/modules/blockcms/blockcms.tpl: Conflict: New files that differ
+2015-11-07 22:23:51: /default-bootstrap/modules/blockcms/translations/en.php: Conflict: New files that differ
+2015-11-07 22:23:51: /default-bootstrap/modules/blockcontact/blockcontact.tpl: Conflict: New files that differ
+2015-11-07 22:23:51: /default-bootstrap/modules/blockcontact/nav.tpl: Conflict: New files that differ
+2015-11-07 22:23:51: /default-bootstrap/modules/blockcontactinfos/blockcontactinfos.tpl: Conflict: New files that differ
+2015-11-07 22:23:51: /default-bootstrap/modules/blockcurrencies/blockcurrencies.tpl: Conflict: New files that differ
+2015-11-07 22:23:51: /default-bootstrap/modules/blockcustomerprivacy/blockcustomerprivacy.tpl: Conflict: New files that differ
+2015-11-07 22:23:51: /default-bootstrap/modules/blocklanguages/blocklanguages.tpl: Conflict: New files that differ
+2015-11-07 22:23:51: /default-bootstrap/modules/blocklayered/blocklayered-no-products.tpl: Conflict: New files that differ
+2015-11-07 22:23:51: /default-bootstrap/modules/blocklayered/blocklayered.tpl: Conflict: New files that differ
+2015-11-07 22:23:51: /default-bootstrap/modules/blocklink/blocklink.tpl: Conflict: New files that differ
+2015-11-07 22:23:51: /default-bootstrap/modules/blockmanufacturer/blockmanufacturer.tpl: Conflict: New files that differ
+2015-11-07 22:23:51: /default-bootstrap/modules/blockmyaccount/blockmyaccount.tpl: Conflict: New files that differ
+2015-11-07 22:23:51: /default-bootstrap/modules/blockmyaccountfooter/blockmyaccountfooter.tpl: Conflict: New files that differ
+2015-11-07 22:23:51: /default-bootstrap/modules/blocknewproducts/blocknewproducts.tpl: Conflict: New files that differ
+2015-11-07 22:23:51: /default-bootstrap/modules/blocknewproducts/blocknewproducts_home.tpl: Conflict: New files that differ
+2015-11-07 22:23:51: /default-bootstrap/modules/blocknewproducts/tab.tpl: Conflict: New files that differ
+2015-11-07 22:23:51: /default-bootstrap/modules/blocknewsletter/blocknewsletter.tpl: Conflict: New files that differ
+2015-11-07 22:23:51: /default-bootstrap/modules/blockrss/blockrss.tpl: Conflict: New files that differ
+2015-11-07 22:23:51: /default-bootstrap/modules/blocksearch/blocksearch-top.tpl: Conflict: New files that differ
+2015-11-07 22:23:51: /default-bootstrap/modules/blocksearch/blocksearch.tpl: Conflict: New files that differ
+2015-11-07 22:23:51: /default-bootstrap/modules/blocksocial/blocksocial.tpl: Conflict: New files that differ
+2015-11-07 22:23:51: /default-bootstrap/modules/blockspecials/blockspecials.tpl: Conflict: New files that differ
+2015-11-07 22:23:51: /default-bootstrap/modules/blockstore/blockstore.tpl: Conflict: New files that differ
+2015-11-07 22:23:51: /default-bootstrap/modules/blocksupplier/blocksupplier.tpl: Conflict: New files that differ
+2015-11-07 22:23:51: /default-bootstrap/modules/blocktags/blocktags.tpl: Conflict: New files that differ
+2015-11-07 22:23:51: /default-bootstrap/modules/blocktopmenu/blocktopmenu.tpl: Conflict: New files that differ
+2015-11-07 22:23:51: /default-bootstrap/modules/blockuserinfo/blockuserinfo.tpl: Conflict: New files that differ
+2015-11-07 22:23:51: /default-bootstrap/modules/blockuserinfo/nav.tpl: Conflict: New files that differ
+2015-11-07 22:23:51: /default-bootstrap/modules/blockviewed/blockviewed.tpl: Conflict: New files that differ
+2015-11-07 22:23:51: /default-bootstrap/modules/blockwishlist/blockwishlist-ajax.tpl: Conflict: New files that differ
+2015-11-07 22:23:51: /default-bootstrap/modules/blockwishlist/blockwishlist-extra.tpl: Conflict: New files that differ
+2015-11-07 22:23:51: /default-bootstrap/modules/blockwishlist/blockwishlist.tpl: Conflict: New files that differ
+2015-11-07 22:23:51: /default-bootstrap/modules/blockwishlist/blockwishlist_button.tpl: Conflict: New files that differ
+2015-11-07 22:23:51: /default-bootstrap/modules/blockwishlist/blockwishlist_top.tpl: Conflict: New files that differ
+2015-11-07 22:23:51: /default-bootstrap/modules/blockwishlist/my-account.tpl: Conflict: New files that differ
+2015-11-07 22:23:51: /default-bootstrap/modules/blockwishlist/views/templates/front/managewishlist.tpl: Conflict: New files that differ
+2015-11-07 22:23:51: /default-bootstrap/modules/blockwishlist/views/templates/front/mywishlist.tpl: Conflict: New files that differ
+2015-11-07 22:23:51: /default-bootstrap/modules/blockwishlist/views/templates/front/view.tpl: Conflict: New files that differ
+2015-11-07 22:23:51: /default-bootstrap/modules/carriercompare/template/carriercompare.tpl: Conflict: New files that differ
+2015-11-07 22:23:51: /default-bootstrap/modules/carriercompare/template/configuration.tpl: Conflict: New files that differ
+2015-11-07 22:23:51: /default-bootstrap/modules/cashondelivery/views/templates/front/validation.tpl: Conflict: New files that differ
+2015-11-07 22:23:51: /default-bootstrap/modules/cashondelivery/views/templates/hook/confirmation.tpl: Conflict: New files that differ
+2015-11-07 22:23:51: /default-bootstrap/modules/cashondelivery/views/templates/hook/payment.tpl: Conflict: New files that differ
+2015-11-07 22:23:51: /default-bootstrap/modules/cheque/translations/en.php: Conflict: New files that differ
+2015-11-07 22:23:51: /default-bootstrap/modules/cheque/translations/it.php: Conflict: New files that differ
+2015-11-07 22:23:51: /default-bootstrap/modules/cheque/views/templates/front/payment_execution.tpl: Conflict: New files that differ
+2015-11-07 22:23:51: /default-bootstrap/modules/cheque/views/templates/hook/infos.tpl: Conflict: New files that differ
+2015-11-07 22:23:51: /default-bootstrap/modules/cheque/views/templates/hook/payment.tpl: Conflict: New files that differ
+2015-11-07 22:23:51: /default-bootstrap/modules/cheque/views/templates/hook/payment_return.tpl: Conflict: New files that differ
+2015-11-07 22:23:51: /default-bootstrap/modules/crossselling/crossselling.tpl: Conflict: New files that differ
+2015-11-07 22:23:51: /default-bootstrap/modules/favoriteproducts/views/templates/front/favoriteproducts-account.tpl: Conflict: New files that differ
+2015-11-07 22:23:51: /default-bootstrap/modules/favoriteproducts/views/templates/hook/favoriteproducts-extra.tpl: Conflict: New files that differ
+2015-11-07 22:23:51: /default-bootstrap/modules/favoriteproducts/views/templates/hook/favoriteproducts-header.tpl: Conflict: New files that differ
+2015-11-07 22:23:51: /default-bootstrap/modules/favoriteproducts/views/templates/hook/my-account.tpl: Conflict: New files that differ
+2015-11-07 22:23:51: /default-bootstrap/modules/homefeatured/homefeatured.tpl: Conflict: New files that differ
+2015-11-07 22:23:51: /default-bootstrap/modules/homefeatured/tab.tpl: Conflict: New files that differ
+2015-11-07 22:23:51: /default-bootstrap/modules/homeslider/header.tpl: Conflict: New files that differ
+2015-11-07 22:23:51: /default-bootstrap/modules/homeslider/homeslider.tpl: Conflict: New files that differ
+2015-11-07 22:23:51: /default-bootstrap/modules/loyalty/views/templates/front/loyalty.tpl: Conflict: New files that differ
+2015-11-07 22:23:51: /default-bootstrap/modules/loyalty/views/templates/hook/my-account.tpl: Conflict: New files that differ
+2015-11-07 22:23:51: /default-bootstrap/modules/loyalty/views/templates/hook/product.tpl: Conflict: New files that differ
+2015-11-07 22:23:51: /default-bootstrap/modules/loyalty/views/templates/hook/shopping-cart.tpl: Conflict: New files that differ
+2015-11-07 22:23:51: /default-bootstrap/modules/mailalerts/views/templates/front/mailalerts-account.tpl: Conflict: New files that differ
+2015-11-07 22:23:51: /default-bootstrap/modules/mailalerts/views/templates/hook/my-account.tpl: Conflict: New files that differ
+2015-11-07 22:23:51: /default-bootstrap/modules/mailalerts/views/templates/hook/product.tpl: Conflict: New files that differ
+2015-11-07 22:23:51: /default-bootstrap/modules/productcomments/productcomments-extra.tpl: Conflict: New files that differ
+2015-11-07 22:23:51: /default-bootstrap/modules/productcomments/productcomments.tpl: Conflict: New files that differ
+2015-11-07 22:23:51: /default-bootstrap/modules/productcomments/productcomments_reviews.tpl: Conflict: New files that differ
+2015-11-07 22:23:51: /default-bootstrap/modules/productcomments/productcomments_top.tpl: Conflict: New files that differ
+2015-11-07 22:23:51: /default-bootstrap/modules/productcomments/products-comparison.tpl: Conflict: New files that differ
+2015-11-07 22:23:51: /default-bootstrap/modules/productcomments/tab.tpl: Conflict: New files that differ
+2015-11-07 22:23:51: /default-bootstrap/modules/productscategory/productscategory.tpl: Conflict: New files that differ
+2015-11-07 22:23:51: /default-bootstrap/modules/referralprogram/views/templates/front/email.tpl: Conflict: New files that differ
+2015-11-07 22:23:51: /default-bootstrap/modules/referralprogram/views/templates/front/program.tpl: Conflict: New files that differ
+2015-11-07 22:23:51: /default-bootstrap/modules/referralprogram/views/templates/front/rules.tpl: Conflict: New files that differ
+2015-11-07 22:23:51: /default-bootstrap/modules/referralprogram/views/templates/hook/authentication.tpl: Conflict: New files that differ
+2015-11-07 22:23:51: /default-bootstrap/modules/referralprogram/views/templates/hook/my-account.tpl: Conflict: New files that differ
+2015-11-07 22:23:51: /default-bootstrap/modules/referralprogram/views/templates/hook/order-confirmation.tpl: Conflict: New files that differ
+2015-11-07 22:23:51: /default-bootstrap/modules/referralprogram/views/templates/hook/shopping-cart.tpl: Conflict: New files that differ
+2015-11-07 22:23:51: /default-bootstrap/modules/sendtoafriend/sendtoafriend-extra.tpl: Conflict: New files that differ
+2015-11-07 22:23:51: /default-bootstrap/my-account.tpl: Conflict: New files that differ
+2015-11-07 22:23:51: /default-bootstrap/nbr-product-page.tpl: Conflict: New files that differ
+2015-11-07 22:23:51: /default-bootstrap/new-products.tpl: Conflict: New files that differ
+2015-11-07 22:23:51: /default-bootstrap/order-address-multishipping-products.tpl: Conflict: New files that differ
+2015-11-07 22:23:51: /default-bootstrap/order-address-multishipping.tpl: Conflict: New files that differ
+2015-11-07 22:23:51: /default-bootstrap/order-address-product-line.tpl: Conflict: New files that differ
+2015-11-07 22:23:51: /default-bootstrap/order-address.tpl: Conflict: New files that differ
+2015-11-07 22:23:51: /default-bootstrap/order-carrier.tpl: Conflict: New files that differ
+2015-11-07 22:23:51: /default-bootstrap/order-confirmation.tpl: Conflict: New files that differ
+2015-11-07 22:23:51: /default-bootstrap/order-detail.tpl: Conflict: New files that differ
+2015-11-07 22:23:51: /default-bootstrap/order-follow.tpl: Conflict: New files that differ
+2015-11-07 22:23:51: /default-bootstrap/order-opc-new-account.tpl: Conflict: New files that differ
+2015-11-07 22:23:51: /default-bootstrap/order-opc.tpl: Conflict: New files that differ
+2015-11-07 22:23:51: /default-bootstrap/order-payment.tpl: Conflict: New files that differ
+2015-11-07 22:23:51: /default-bootstrap/order-return.tpl: Conflict: New files that differ
+2015-11-07 22:23:51: /default-bootstrap/order-slip.tpl: Conflict: New files that differ
+2015-11-07 22:23:51: /default-bootstrap/order-steps.tpl: Conflict: New files that differ
+2015-11-07 22:23:51: /default-bootstrap/pagination.tpl: Conflict: New files that differ
+2015-11-07 22:23:51: /default-bootstrap/password.tpl: Conflict: New files that differ
+2015-11-07 22:23:51: /default-bootstrap/pdf/index.php: Conflict: New files that differ
+2015-11-07 22:23:51: /default-bootstrap/pdf/lang/index.php: Conflict: New files that differ
+2015-11-07 22:23:51: /default-bootstrap/preview.jpg: Conflict: New files that differ
+2015-11-07 22:23:51: /default-bootstrap/prices-drop.tpl: Conflict: New files that differ
+2015-11-07 22:23:51: /default-bootstrap/product-compare.tpl: Conflict: New files that differ
+2015-11-07 22:23:51: /default-bootstrap/product-list-colors.tpl: Conflict: New files that differ
+2015-11-07 22:23:51: /default-bootstrap/product-list.tpl: Conflict: New files that differ
+2015-11-07 22:23:51: /default-bootstrap/product-sort.tpl: Conflict: New files that differ
+2015-11-07 22:23:51: /default-bootstrap/product.tpl: Conflict: New files that differ
+2015-11-07 22:23:51: /default-bootstrap/products-comparison.tpl: Conflict: New files that differ
+2015-11-07 22:23:51: /default-bootstrap/restricted-country.tpl: Conflict: New files that differ
+2015-11-07 22:23:51: /default-bootstrap/scenes.tpl: Conflict: New files that differ
+2015-11-07 22:23:51: /default-bootstrap/search.tpl: Conflict: New files that differ
+2015-11-07 22:23:51: /default-bootstrap/shopping-cart-product-line.tpl: Conflict: New files that differ
+2015-11-07 22:23:51: /default-bootstrap/shopping-cart.tpl: Conflict: New files that differ
+2015-11-07 22:23:51: /default-bootstrap/sitemap.tpl: Conflict: New files that differ
+2015-11-07 22:23:51: /default-bootstrap/store_infos.tpl: Conflict: New files that differ
+2015-11-07 22:23:51: /default-bootstrap/stores.tpl: Conflict: New files that differ
+2015-11-07 22:23:51: /default-bootstrap/supplier-list.tpl: Conflict: New files that differ
+2015-11-07 22:23:51: /default-bootstrap/supplier.tpl: Conflict: New files that differ
+2015-11-07 22:23:51: /index.php: Conflict: New files that differ
+2015-11-07 22:23:51: /javascript.tpl: Conflict: New files that differ
+2015-11-07 22:23:51: /live_edit.tpl: Conflict: New files that differ
+2015-11-07 22:23:51: Analyze has finished with Conflicts. Resolve Conflicts by selecting the correct sync direction, then click Sync
+2015-11-07 22:23:51: Changes: 349, Conflicts: 349, CopyTime: 0, CopyState: 0/157, Errors: 0, All: 506
+2015-11-07 22:23:51: -- Analysis Complete. Time 00:00:28, Speed: 18 files/s
+2015-11-07 22:23:51: 
+2015-11-07 22:46:47: === User Changed Action from 'CONFLICT' to 'COPY_RIGHT_TO_LEFT' on item /.htaccess
+2015-11-07 22:46:47: === User Changed Action from 'CONFLICT' to 'COPY_RIGHT_TO_LEFT' on item /debug.tpl
+2015-11-07 22:46:47: === User Changed Action from 'CONFLICT' to 'COPY_RIGHT_TO_LEFT' on item /default-bootstrap/404.tpl
+2015-11-07 22:46:47: === User Changed Action from 'CONFLICT' to 'COPY_RIGHT_TO_LEFT' on item /default-bootstrap/address.tpl
+2015-11-07 22:46:47: === User Changed Action from 'CONFLICT' to 'COPY_RIGHT_TO_LEFT' on item /default-bootstrap/addresses.tpl
+2015-11-07 22:46:47: === User Changed Action from 'CONFLICT' to 'COPY_RIGHT_TO_LEFT' on item /default-bootstrap/authentication.tpl
+2015-11-07 22:46:47: === User Changed Action from 'CONFLICT' to 'COPY_RIGHT_TO_LEFT' on item /default-bootstrap/best-sales.tpl
+2015-11-07 22:46:47: === User Changed Action from 'CONFLICT' to 'COPY_RIGHT_TO_LEFT' on item /default-bootstrap/breadcrumb.tpl
+2015-11-07 22:46:47: === User Changed Action from 'CONFLICT' to 'COPY_RIGHT_TO_LEFT' on item /default-bootstrap/cache/index.php
+2015-11-07 22:46:47: === User Changed Action from 'CONFLICT' to 'COPY_RIGHT_TO_LEFT' on item /default-bootstrap/category-cms-tree-branch.tpl
+2015-11-07 22:46:47: === User Changed Action from 'CONFLICT' to 'COPY_RIGHT_TO_LEFT' on item /default-bootstrap/category-count.tpl
+2015-11-07 22:46:47: === User Changed Action from 'CONFLICT' to 'COPY_RIGHT_TO_LEFT' on item /default-bootstrap/category-tree-branch.tpl
+2015-11-07 22:46:47: === User Changed Action from 'CONFLICT' to 'COPY_RIGHT_TO_LEFT' on item /default-bootstrap/category.tpl
+2015-11-07 22:46:47: === User Changed Action from 'CONFLICT' to 'COPY_RIGHT_TO_LEFT' on item /default-bootstrap/cms.tpl
+2015-11-07 22:46:47: === User Changed Action from 'CONFLICT' to 'COPY_RIGHT_TO_LEFT' on item /default-bootstrap/config.rb
+2015-11-07 22:46:47: === User Changed Action from 'CONFLICT' to 'COPY_RIGHT_TO_LEFT' on item /default-bootstrap/config.xml
+2015-11-07 22:46:47: === User Changed Action from 'CONFLICT' to 'COPY_RIGHT_TO_LEFT' on item /default-bootstrap/contact-form.tpl
+2015-11-07 22:46:47: === User Changed Action from 'CONFLICT' to 'COPY_RIGHT_TO_LEFT' on item /default-bootstrap/css/addresses.css
+2015-11-07 22:46:47: === User Changed Action from 'CONFLICT' to 'COPY_RIGHT_TO_LEFT' on item /default-bootstrap/css/authentication.css
+2015-11-07 22:46:47: === User Changed Action from 'CONFLICT' to 'COPY_RIGHT_TO_LEFT' on item /default-bootstrap/css/autoload/highdpi.css
+2015-11-07 22:46:47: === User Changed Action from 'CONFLICT' to 'COPY_RIGHT_TO_LEFT' on item /default-bootstrap/css/autoload/responsive-tables.css
+2015-11-07 22:46:47: === User Changed Action from 'CONFLICT' to 'COPY_RIGHT_TO_LEFT' on item /default-bootstrap/css/autoload/uniform.default.css
+2015-11-07 22:46:47: === User Changed Action from 'CONFLICT' to 'COPY_RIGHT_TO_LEFT' on item /default-bootstrap/css/category.css
+2015-11-07 22:46:47: === User Changed Action from 'CONFLICT' to 'COPY_RIGHT_TO_LEFT' on item /default-bootstrap/css/cms.css
+2015-11-07 22:46:47: === User Changed Action from 'CONFLICT' to 'COPY_RIGHT_TO_LEFT' on item /default-bootstrap/css/comparator.css
+2015-11-07 22:46:47: === User Changed Action from 'CONFLICT' to 'COPY_RIGHT_TO_LEFT' on item /default-bootstrap/css/contact-form.css
+2015-11-07 22:46:47: === User Changed Action from 'CONFLICT' to 'COPY_RIGHT_TO_LEFT' on item /default-bootstrap/css/custom.css
+2015-11-07 22:46:47: === User Changed Action from 'CONFLICT' to 'COPY_RIGHT_TO_LEFT' on item /default-bootstrap/css/custom.css.map
+2015-11-07 22:46:47: === User Changed Action from 'CONFLICT' to 'COPY_RIGHT_TO_LEFT' on item /default-bootstrap/css/font-awesome/font-awesome-ie7.css
+2015-11-07 22:46:47: === User Changed Action from 'CONFLICT' to 'COPY_RIGHT_TO_LEFT' on item /default-bootstrap/css/global.css
+2015-11-07 22:46:47: === User Changed Action from 'CONFLICT' to 'COPY_RIGHT_TO_LEFT' on item /default-bootstrap/css/history.css
+2015-11-07 22:46:47: === User Changed Action from 'CONFLICT' to 'COPY_RIGHT_TO_LEFT' on item /default-bootstrap/css/identity.css
+2015-11-07 22:46:47: === User Changed Action from 'CONFLICT' to 'COPY_RIGHT_TO_LEFT' on item /default-bootstrap/css/index.php
+2015-11-07 22:46:47: === User Changed Action from 'CONFLICT' to 'COPY_RIGHT_TO_LEFT' on item /default-bootstrap/css/maintenance.css
+2015-11-07 22:46:47: === User Changed Action from 'CONFLICT' to 'COPY_RIGHT_TO_LEFT' on item /default-bootstrap/css/modules/blockbanner/blockbanner.css
+2015-11-07 22:46:47: === User Changed Action from 'CONFLICT' to 'COPY_RIGHT_TO_LEFT' on item /default-bootstrap/css/modules/blockbestsellers/blockbestsellers.css
+2015-11-07 22:46:47: === User Changed Action from 'CONFLICT' to 'COPY_RIGHT_TO_LEFT' on item /default-bootstrap/css/modules/blockcart/blockcart.css
+2015-11-07 22:46:47: === User Changed Action from 'CONFLICT' to 'COPY_RIGHT_TO_LEFT' on item /default-bootstrap/css/modules/blockcategories/blockcategories.css
+2015-11-07 22:46:47: === User Changed Action from 'CONFLICT' to 'COPY_RIGHT_TO_LEFT' on item /default-bootstrap/css/modules/blockcontact/blockcontact.css
+2015-11-07 22:46:47: === User Changed Action from 'CONFLICT' to 'COPY_RIGHT_TO_LEFT' on item /default-bootstrap/css/modules/blockcurrencies/blockcurrencies.css
+2015-11-07 22:46:47: === User Changed Action from 'CONFLICT' to 'COPY_RIGHT_TO_LEFT' on item /default-bootstrap/css/modules/blocklanguages/blocklanguages.css
+2015-11-07 22:46:47: === User Changed Action from 'CONFLICT' to 'COPY_RIGHT_TO_LEFT' on item /default-bootstrap/css/modules/blocklayered/blocklayered.css
+2015-11-07 22:46:47: === User Changed Action from 'CONFLICT' to 'COPY_RIGHT_TO_LEFT' on item /default-bootstrap/css/modules/blockmyaccountfooter/blockmyaccount.css
+2015-11-07 22:46:47: === User Changed Action from 'CONFLICT' to 'COPY_RIGHT_TO_LEFT' on item /default-bootstrap/css/modules/blocknewproducts/blocknewproducts.css
+2015-11-07 22:46:47: === User Changed Action from 'CONFLICT' to 'COPY_RIGHT_TO_LEFT' on item /default-bootstrap/css/modules/blocknewsletter/blocknewsletter.css
+2015-11-07 22:46:47: === User Changed Action from 'CONFLICT' to 'COPY_RIGHT_TO_LEFT' on item /default-bootstrap/css/modules/blocksearch/blocksearch.css
+2015-11-07 22:46:47: === User Changed Action from 'CONFLICT' to 'COPY_RIGHT_TO_LEFT' on item /default-bootstrap/css/modules/blockspecials/blockspecials.css
+2015-11-07 22:46:47: === User Changed Action from 'CONFLICT' to 'COPY_RIGHT_TO_LEFT' on item /default-bootstrap/css/modules/blocktags/blocktags.css
+2015-11-07 22:46:47: === User Changed Action from 'CONFLICT' to 'COPY_RIGHT_TO_LEFT' on item /default-bootstrap/css/modules/blocktopmenu/css/blocktopmenu.css
+2015-11-07 22:46:47: === User Changed Action from 'CONFLICT' to 'COPY_RIGHT_TO_LEFT' on item /default-bootstrap/css/modules/blocktopmenu/css/superfish-modified.css
+2015-11-07 22:46:47: === User Changed Action from 'CONFLICT' to 'COPY_RIGHT_TO_LEFT' on item /default-bootstrap/css/modules/blockuserinfo/blockuserinfo.css
+2015-11-07 22:46:47: === User Changed Action from 'CONFLICT' to 'COPY_RIGHT_TO_LEFT' on item /default-bootstrap/css/modules/blockviewed/blockviewed.css
+2015-11-07 22:46:47: === User Changed Action from 'CONFLICT' to 'COPY_RIGHT_TO_LEFT' on item /default-bootstrap/css/modules/blockwishlist/blockwishlist.css
+2015-11-07 22:46:47: === User Changed Action from 'CONFLICT' to 'COPY_RIGHT_TO_LEFT' on item /default-bootstrap/css/modules/carriercompare/style.css
+2015-11-07 22:46:47: === User Changed Action from 'CONFLICT' to 'COPY_RIGHT_TO_LEFT' on item /default-bootstrap/css/modules/crossselling/crossselling.css
+2015-11-07 22:46:47: === User Changed Action from 'CONFLICT' to 'COPY_RIGHT_TO_LEFT' on item /default-bootstrap/css/modules/favoriteproducts/favoriteproducts.css
+2015-11-07 22:46:47: === User Changed Action from 'CONFLICT' to 'COPY_RIGHT_TO_LEFT' on item /default-bootstrap/css/modules/homefeatured/homefeatured.css
+2015-11-07 22:46:47: === User Changed Action from 'CONFLICT' to 'COPY_RIGHT_TO_LEFT' on item /default-bootstrap/css/modules/homeslider/homeslider.css
+2015-11-07 22:46:47: === User Changed Action from 'CONFLICT' to 'COPY_RIGHT_TO_LEFT' on item /default-bootstrap/css/modules/homeslider/images/bx_loader.gif
+2015-11-07 22:46:47: === User Changed Action from 'CONFLICT' to 'COPY_RIGHT_TO_LEFT' on item /default-bootstrap/css/modules/homeslider/images/controls.png
+2015-11-07 22:46:47: === User Changed Action from 'CONFLICT' to 'COPY_RIGHT_TO_LEFT' on item /default-bootstrap/css/modules/mailalerts/mailalerts.css
+2015-11-07 22:46:47: === User Changed Action from 'CONFLICT' to 'COPY_RIGHT_TO_LEFT' on item /default-bootstrap/css/modules/productcomments/img/accept.png
+2015-11-07 22:46:47: === User Changed Action from 'CONFLICT' to 'COPY_RIGHT_TO_LEFT' on item /default-bootstrap/css/modules/productcomments/img/bg_bt.gif
+2015-11-07 22:46:47: === User Changed Action from 'CONFLICT' to 'COPY_RIGHT_TO_LEFT' on item /default-bootstrap/css/modules/productcomments/img/bg_li.png
+2015-11-07 22:46:47: === User Changed Action from 'CONFLICT' to 'COPY_RIGHT_TO_LEFT' on item /default-bootstrap/css/modules/productcomments/img/comment.png
+2015-11-07 22:46:47: === User Changed Action from 'CONFLICT' to 'COPY_RIGHT_TO_LEFT' on item /default-bootstrap/css/modules/productcomments/img/comments_delete.png
+2015-11-07 22:46:47: === User Changed Action from 'CONFLICT' to 'COPY_RIGHT_TO_LEFT' on item /default-bootstrap/css/modules/productcomments/img/delete.gif
+2015-11-07 22:46:47: === User Changed Action from 'CONFLICT' to 'COPY_RIGHT_TO_LEFT' on item /default-bootstrap/css/modules/productcomments/img/delete.png
+2015-11-07 22:46:47: === User Changed Action from 'CONFLICT' to 'COPY_RIGHT_TO_LEFT' on item /default-bootstrap/css/modules/productcomments/img/index.php
+2015-11-07 22:46:47: === User Changed Action from 'CONFLICT' to 'COPY_RIGHT_TO_LEFT' on item /default-bootstrap/css/modules/productcomments/img/note.png
+2015-11-07 22:46:47: === User Changed Action from 'CONFLICT' to 'COPY_RIGHT_TO_LEFT' on item /default-bootstrap/css/modules/productcomments/img/note_go.png
+2015-11-07 22:46:47: === User Changed Action from 'CONFLICT' to 'COPY_RIGHT_TO_LEFT' on item /default-bootstrap/css/modules/productcomments/img/star.gif
+2015-11-07 22:46:47: === User Changed Action from 'CONFLICT' to 'COPY_RIGHT_TO_LEFT' on item /default-bootstrap/css/modules/productcomments/img/star.png
+2015-11-07 22:46:47: === User Changed Action from 'CONFLICT' to 'COPY_RIGHT_TO_LEFT' on item /default-bootstrap/css/modules/productcomments/img/star1.gif
+2015-11-07 22:46:47: === User Changed Action from 'CONFLICT' to 'COPY_RIGHT_TO_LEFT' on item /default-bootstrap/css/modules/productcomments/productcomments.css
+2015-11-07 22:46:47: === User Changed Action from 'CONFLICT' to 'COPY_RIGHT_TO_LEFT' on item /default-bootstrap/css/modules/productscategory/css/images/bx_loader.gif
+2015-11-07 22:46:47: === User Changed Action from 'CONFLICT' to 'COPY_RIGHT_TO_LEFT' on item /default-bootstrap/css/modules/productscategory/css/images/controls.png
+2015-11-07 22:46:47: === User Changed Action from 'CONFLICT' to 'COPY_RIGHT_TO_LEFT' on item /default-bootstrap/css/modules/productscategory/css/productscategory.css
+2015-11-07 22:46:47: === User Changed Action from 'CONFLICT' to 'COPY_RIGHT_TO_LEFT' on item /default-bootstrap/css/my-account.css
+2015-11-07 22:46:47: === User Changed Action from 'CONFLICT' to 'COPY_RIGHT_TO_LEFT' on item /default-bootstrap/css/order-opc.css
+2015-11-07 22:46:47: === User Changed Action from 'CONFLICT' to 'COPY_RIGHT_TO_LEFT' on item /default-bootstrap/css/print.css
+2015-11-07 22:46:47: === User Changed Action from 'CONFLICT' to 'COPY_RIGHT_TO_LEFT' on item /default-bootstrap/css/product.css
+2015-11-07 22:46:47: === User Changed Action from 'CONFLICT' to 'COPY_RIGHT_TO_LEFT' on item /default-bootstrap/css/product_list.css
+2015-11-07 22:46:47: === User Changed Action from 'CONFLICT' to 'COPY_RIGHT_TO_LEFT' on item /default-bootstrap/css/rtl.css
+2015-11-07 22:46:47: === User Changed Action from 'CONFLICT' to 'COPY_RIGHT_TO_LEFT' on item /default-bootstrap/css/scenes.css
+2015-11-07 22:46:47: === User Changed Action from 'CONFLICT' to 'COPY_RIGHT_TO_LEFT' on item /default-bootstrap/css/scss/custom.scss
+2015-11-07 22:46:47: === User Changed Action from 'CONFLICT' to 'COPY_RIGHT_TO_LEFT' on item /default-bootstrap/css/sitemap.css
+2015-11-07 22:46:47: === User Changed Action from 'CONFLICT' to 'COPY_RIGHT_TO_LEFT' on item /default-bootstrap/css/stores.css
+2015-11-07 22:46:47: === User Changed Action from 'CONFLICT' to 'COPY_RIGHT_TO_LEFT' on item /default-bootstrap/discount.tpl
+2015-11-07 22:46:47: === User Changed Action from 'CONFLICT' to 'COPY_RIGHT_TO_LEFT' on item /default-bootstrap/errors.tpl
+2015-11-07 22:46:47: === User Changed Action from 'CONFLICT' to 'COPY_RIGHT_TO_LEFT' on item /default-bootstrap/font/.htaccess
+2015-11-07 22:46:47: === User Changed Action from 'CONFLICT' to 'COPY_RIGHT_TO_LEFT' on item /default-bootstrap/font/fontawesome-webfont.eot
+2015-11-07 22:46:47: === User Changed Action from 'CONFLICT' to 'COPY_RIGHT_TO_LEFT' on item /default-bootstrap/font/fontawesome-webfont.svg
+2015-11-07 22:46:47: === User Changed Action from 'CONFLICT' to 'COPY_RIGHT_TO_LEFT' on item /default-bootstrap/font/fontawesome-webfont.ttf
+2015-11-07 22:46:47: === User Changed Action from 'CONFLICT' to 'COPY_RIGHT_TO_LEFT' on item /default-bootstrap/font/fontawesome-webfont.woff
+2015-11-07 22:46:47: === User Changed Action from 'CONFLICT' to 'COPY_RIGHT_TO_LEFT' on item /default-bootstrap/font/FontAwesome.otf
+2015-11-07 22:46:47: === User Changed Action from 'CONFLICT' to 'COPY_RIGHT_TO_LEFT' on item /default-bootstrap/footer.tpl
+2015-11-07 22:46:47: === User Changed Action from 'CONFLICT' to 'COPY_RIGHT_TO_LEFT' on item /default-bootstrap/global.tpl
+2015-11-07 22:46:47: === User Changed Action from 'CONFLICT' to 'COPY_RIGHT_TO_LEFT' on item /default-bootstrap/guest-tracking.tpl
+2015-11-07 22:46:47: === User Changed Action from 'CONFLICT' to 'COPY_RIGHT_TO_LEFT' on item /default-bootstrap/header.tpl
+2015-11-07 22:46:47: === User Changed Action from 'CONFLICT' to 'COPY_RIGHT_TO_LEFT' on item /default-bootstrap/history.tpl
+2015-11-07 22:46:47: === User Changed Action from 'CONFLICT' to 'COPY_RIGHT_TO_LEFT' on item /default-bootstrap/identity.tpl
+2015-11-07 22:46:47: === User Changed Action from 'CONFLICT' to 'COPY_RIGHT_TO_LEFT' on item /default-bootstrap/img/addcartloader.gif
+2015-11-07 22:46:47: === User Changed Action from 'CONFLICT' to 'COPY_RIGHT_TO_LEFT' on item /default-bootstrap/img/ajax-loader.gif
+2015-11-07 22:46:47: === User Changed Action from 'CONFLICT' to 'COPY_RIGHT_TO_LEFT' on item /default-bootstrap/img/bankwire.png
+2015-11-07 22:46:47: === User Changed Action from 'CONFLICT' to 'COPY_RIGHT_TO_LEFT' on item /default-bootstrap/img/bg_bt.gif
+2015-11-07 22:46:47: === User Changed Action from 'CONFLICT' to 'COPY_RIGHT_TO_LEFT' on item /default-bootstrap/img/bg_bt_2.gif
+2015-11-07 22:46:47: === User Changed Action from 'CONFLICT' to 'COPY_RIGHT_TO_LEFT' on item /default-bootstrap/img/bg_bt_compare.gif
+2015-11-07 22:46:47: === User Changed Action from 'CONFLICT' to 'COPY_RIGHT_TO_LEFT' on item /default-bootstrap/img/bg_input.png
+2015-11-07 22:46:47: === User Changed Action from 'CONFLICT' to 'COPY_RIGHT_TO_LEFT' on item /default-bootstrap/img/bg_maintenance.png
+2015-11-07 22:46:47: === User Changed Action from 'CONFLICT' to 'COPY_RIGHT_TO_LEFT' on item /default-bootstrap/img/bg_table_th.png
+2015-11-07 22:46:47: === User Changed Action from 'CONFLICT' to 'COPY_RIGHT_TO_LEFT' on item /default-bootstrap/img/bl-after-bg.png
+2015-11-07 22:46:47: === User Changed Action from 'CONFLICT' to 'COPY_RIGHT_TO_LEFT' on item /default-bootstrap/img/bl-before-bg.png
+2015-11-07 22:46:47: === User Changed Action from 'CONFLICT' to 'COPY_RIGHT_TO_LEFT' on item /default-bootstrap/img/border-1.gif
+2015-11-07 22:46:47: === User Changed Action from 'CONFLICT' to 'COPY_RIGHT_TO_LEFT' on item /default-bootstrap/img/cart-shadow.png
+2015-11-07 22:46:47: === User Changed Action from 'CONFLICT' to 'COPY_RIGHT_TO_LEFT' on item /default-bootstrap/img/cash.png
+2015-11-07 22:46:47: === User Changed Action from 'CONFLICT' to 'COPY_RIGHT_TO_LEFT' on item /default-bootstrap/img/cheque.png
+2015-11-07 22:46:47: === User Changed Action from 'CONFLICT' to 'COPY_RIGHT_TO_LEFT' on item /default-bootstrap/img/contact-form.png
+2015-11-07 22:46:47: === User Changed Action from 'CONFLICT' to 'COPY_RIGHT_TO_LEFT' on item /default-bootstrap/img/footer-bg.png
+2015-11-07 22:46:47: === User Changed Action from 'CONFLICT' to 'COPY_RIGHT_TO_LEFT' on item /default-bootstrap/img/form-contact-shadow.png
+2015-11-07 22:46:47: === User Changed Action from 'CONFLICT' to 'COPY_RIGHT_TO_LEFT' on item /default-bootstrap/img/functional-bt-shadow.png
+2015-11-07 22:46:47: === User Changed Action from 'CONFLICT' to 'COPY_RIGHT_TO_LEFT' on item /default-bootstrap/img/icon/cible.gif
+2015-11-07 22:46:47: === User Changed Action from 'CONFLICT' to 'COPY_RIGHT_TO_LEFT' on item /default-bootstrap/img/icon/delete.gif
+2015-11-07 22:46:47: === User Changed Action from 'CONFLICT' to 'COPY_RIGHT_TO_LEFT' on item /default-bootstrap/img/icon/download_product.gif
+2015-11-07 22:46:47: === User Changed Action from 'CONFLICT' to 'COPY_RIGHT_TO_LEFT' on item /default-bootstrap/img/icon/form-error.png
+2015-11-07 22:46:47: === User Changed Action from 'CONFLICT' to 'COPY_RIGHT_TO_LEFT' on item /default-bootstrap/img/icon/form-ok.png
+2015-11-07 22:46:47: === User Changed Action from 'CONFLICT' to 'COPY_RIGHT_TO_LEFT' on item /default-bootstrap/img/icon/index.php
+2015-11-07 22:46:47: === User Changed Action from 'CONFLICT' to 'COPY_RIGHT_TO_LEFT' on item /default-bootstrap/img/icon/infos.gif
+2015-11-07 22:46:47: === User Changed Action from 'CONFLICT' to 'COPY_RIGHT_TO_LEFT' on item /default-bootstrap/img/icon/quantity_down.gif
+2015-11-07 22:46:47: === User Changed Action from 'CONFLICT' to 'COPY_RIGHT_TO_LEFT' on item /default-bootstrap/img/icon/quantity_down_off.gif
+2015-11-07 22:46:47: === User Changed Action from 'CONFLICT' to 'COPY_RIGHT_TO_LEFT' on item /default-bootstrap/img/icon/quantity_up.gif
+2015-11-07 22:46:47: === User Changed Action from 'CONFLICT' to 'COPY_RIGHT_TO_LEFT' on item /default-bootstrap/img/icon/serial_scroll_left.gif
+2015-11-07 22:46:47: === User Changed Action from 'CONFLICT' to 'COPY_RIGHT_TO_LEFT' on item /default-bootstrap/img/icon/serial_scroll_right.gif
+2015-11-07 22:46:47: === User Changed Action from 'CONFLICT' to 'COPY_RIGHT_TO_LEFT' on item /default-bootstrap/img/icon/up.gif
+2015-11-07 22:46:47: === User Changed Action from 'CONFLICT' to 'COPY_RIGHT_TO_LEFT' on item /default-bootstrap/img/icon/userinfo.gif
+2015-11-07 22:46:47: === User Changed Action from 'CONFLICT' to 'COPY_RIGHT_TO_LEFT' on item /default-bootstrap/img/img-404.jpg
+2015-11-07 22:46:47: === User Changed Action from 'CONFLICT' to 'COPY_RIGHT_TO_LEFT' on item /default-bootstrap/img/index.php
+2015-11-07 22:46:47: === User Changed Action from 'CONFLICT' to 'COPY_RIGHT_TO_LEFT' on item /default-bootstrap/img/jquery/index.php
+2015-11-07 22:46:47: === User Changed Action from 'CONFLICT' to 'COPY_RIGHT_TO_LEFT' on item /default-bootstrap/img/jquery/macFFBgHack.png
+2015-11-07 22:46:47: === User Changed Action from 'CONFLICT' to 'COPY_RIGHT_TO_LEFT' on item /default-bootstrap/img/jquery/uniform/sprite.png
+2015-11-07 22:46:47: === User Changed Action from 'CONFLICT' to 'COPY_RIGHT_TO_LEFT' on item /default-bootstrap/img/logo_paiement_mastercard.jpg
+2015-11-07 22:46:47: === User Changed Action from 'CONFLICT' to 'COPY_RIGHT_TO_LEFT' on item /default-bootstrap/img/logo_paiement_paypal.jpg
+2015-11-07 22:46:47: === User Changed Action from 'CONFLICT' to 'COPY_RIGHT_TO_LEFT' on item /default-bootstrap/img/logo_paiement_visa.jpg
+2015-11-07 22:46:47: === User Changed Action from 'CONFLICT' to 'COPY_RIGHT_TO_LEFT' on item /default-bootstrap/img/order-step-a.png
+2015-11-07 22:46:47: === User Changed Action from 'CONFLICT' to 'COPY_RIGHT_TO_LEFT' on item /default-bootstrap/img/order-step-current.png
+2015-11-07 22:46:47: === User Changed Action from 'CONFLICT' to 'COPY_RIGHT_TO_LEFT' on item /default-bootstrap/img/order-step-done-last.png
+2015-11-07 22:46:47: === User Changed Action from 'CONFLICT' to 'COPY_RIGHT_TO_LEFT' on item /default-bootstrap/img/order-step-done.png
+2015-11-07 22:46:47: === User Changed Action from 'CONFLICT' to 'COPY_RIGHT_TO_LEFT' on item /default-bootstrap/img/pagination-li.gif
+2015-11-07 22:46:47: === User Changed Action from 'CONFLICT' to 'COPY_RIGHT_TO_LEFT' on item /default-bootstrap/img/price-container-bg.png
+2015-11-07 22:46:47: === User Changed Action from 'CONFLICT' to 'COPY_RIGHT_TO_LEFT' on item /default-bootstrap/img/rss.gif
+2015-11-07 22:46:47: === User Changed Action from 'CONFLICT' to 'COPY_RIGHT_TO_LEFT' on item /default-bootstrap/img/sitemap-horizontal.png
+2015-11-07 22:46:47: === User Changed Action from 'CONFLICT' to 'COPY_RIGHT_TO_LEFT' on item /default-bootstrap/img/sitemap-last.png
+2015-11-07 22:46:47: === User Changed Action from 'CONFLICT' to 'COPY_RIGHT_TO_LEFT' on item /default-bootstrap/img/testimon-after.gif
+2015-11-07 22:46:47: === User Changed Action from 'CONFLICT' to 'COPY_RIGHT_TO_LEFT' on item /default-bootstrap/index.php
+2015-11-07 22:46:47: === User Changed Action from 'CONFLICT' to 'COPY_RIGHT_TO_LEFT' on item /default-bootstrap/index.tpl
+2015-11-07 22:46:47: === User Changed Action from 'CONFLICT' to 'COPY_RIGHT_TO_LEFT' on item /default-bootstrap/js/authentication.js
+2015-11-07 22:46:47: === User Changed Action from 'CONFLICT' to 'COPY_RIGHT_TO_LEFT' on item /default-bootstrap/js/autoload/10-bootstrap.min.js
+2015-11-07 22:46:47: === User Changed Action from 'CONFLICT' to 'COPY_RIGHT_TO_LEFT' on item /default-bootstrap/js/autoload/15-jquery.total-storage.min.js
+2015-11-07 22:46:47: === User Changed Action from 'CONFLICT' to 'COPY_RIGHT_TO_LEFT' on item /default-bootstrap/js/autoload/15-jquery.uniform-modified.js
+2015-11-07 22:46:47: === User Changed Action from 'CONFLICT' to 'COPY_RIGHT_TO_LEFT' on item /default-bootstrap/js/cart-summary.js
+2015-11-07 22:46:47: === User Changed Action from 'CONFLICT' to 'COPY_RIGHT_TO_LEFT' on item /default-bootstrap/js/category.js
+2015-11-07 22:46:47: === User Changed Action from 'CONFLICT' to 'COPY_RIGHT_TO_LEFT' on item /default-bootstrap/js/cms.js
+2015-11-07 22:46:47: === User Changed Action from 'CONFLICT' to 'COPY_RIGHT_TO_LEFT' on item /default-bootstrap/js/contact-form.js
+2015-11-07 22:46:47: === User Changed Action from 'CONFLICT' to 'COPY_RIGHT_TO_LEFT' on item /default-bootstrap/js/debug/jquery.lint.js
+2015-11-07 22:46:47: === User Changed Action from 'CONFLICT' to 'COPY_RIGHT_TO_LEFT' on item /default-bootstrap/js/global.js
+2015-11-07 22:46:47: === User Changed Action from 'CONFLICT' to 'COPY_RIGHT_TO_LEFT' on item /default-bootstrap/js/history.js
+2015-11-07 22:46:47: === User Changed Action from 'CONFLICT' to 'COPY_RIGHT_TO_LEFT' on item /default-bootstrap/js/index.js
+2015-11-07 22:46:47: === User Changed Action from 'CONFLICT' to 'COPY_RIGHT_TO_LEFT' on item /default-bootstrap/js/index.php
+2015-11-07 22:46:47: === User Changed Action from 'CONFLICT' to 'COPY_RIGHT_TO_LEFT' on item /default-bootstrap/js/modules/blockcart/ajax-cart.js
+2015-11-07 22:46:47: === User Changed Action from 'CONFLICT' to 'COPY_RIGHT_TO_LEFT' on item /default-bootstrap/js/modules/blocklayered/blocklayered-footer.js
+2015-11-07 22:46:47: === User Changed Action from 'CONFLICT' to 'COPY_RIGHT_TO_LEFT' on item /default-bootstrap/js/modules/blocklayered/blocklayered.js
+2015-11-07 22:46:47: === User Changed Action from 'CONFLICT' to 'COPY_RIGHT_TO_LEFT' on item /default-bootstrap/js/modules/blocknewsletter/blocknewsletter.js
+2015-11-07 22:46:47: === User Changed Action from 'CONFLICT' to 'COPY_RIGHT_TO_LEFT' on item /default-bootstrap/js/modules/blocksearch/blocksearch.js
+2015-11-07 22:46:47: === User Changed Action from 'CONFLICT' to 'COPY_RIGHT_TO_LEFT' on item /default-bootstrap/js/modules/blocktopmenu/js/blocktopmenu.js
+2015-11-07 22:46:47: === User Changed Action from 'CONFLICT' to 'COPY_RIGHT_TO_LEFT' on item /default-bootstrap/js/modules/blocktopmenu/js/hoverIntent.js
+2015-11-07 22:46:47: === User Changed Action from 'CONFLICT' to 'COPY_RIGHT_TO_LEFT' on item /default-bootstrap/js/modules/blocktopmenu/js/superfish-modified.js
+2015-11-07 22:46:47: === User Changed Action from 'CONFLICT' to 'COPY_RIGHT_TO_LEFT' on item /default-bootstrap/js/modules/blockwishlist/js/ajax-wishlist.js
+2015-11-07 22:46:47: === User Changed Action from 'CONFLICT' to 'COPY_RIGHT_TO_LEFT' on item /default-bootstrap/js/modules/crossselling/js/crossselling.js
+2015-11-07 22:46:47: === User Changed Action from 'CONFLICT' to 'COPY_RIGHT_TO_LEFT' on item /default-bootstrap/js/modules/homeslider/js/homeslider.js
+2015-11-07 22:46:47: === User Changed Action from 'CONFLICT' to 'COPY_RIGHT_TO_LEFT' on item /default-bootstrap/js/modules/loyalty/js/loyalty.js
+2015-11-07 22:46:47: === User Changed Action from 'CONFLICT' to 'COPY_RIGHT_TO_LEFT' on item /default-bootstrap/js/modules/mailalerts/mailalerts.js
+2015-11-07 22:46:47: === User Changed Action from 'CONFLICT' to 'COPY_RIGHT_TO_LEFT' on item /default-bootstrap/js/modules/productcomments/js/productcomments.js
+2015-11-07 22:46:47: === User Changed Action from 'CONFLICT' to 'COPY_RIGHT_TO_LEFT' on item /default-bootstrap/js/modules/productcomments/js/products-comparison.js
+2015-11-07 22:46:47: === User Changed Action from 'CONFLICT' to 'COPY_RIGHT_TO_LEFT' on item /default-bootstrap/js/modules/productscategory/js/productscategory.js
+2015-11-07 22:46:47: === User Changed Action from 'CONFLICT' to 'COPY_RIGHT_TO_LEFT' on item /default-bootstrap/js/modules/referralprogram/js/referralprogram.js
+2015-11-07 22:46:47: === User Changed Action from 'CONFLICT' to 'COPY_RIGHT_TO_LEFT' on item /default-bootstrap/js/modules/sendtoafriend/sendtoafriend.js
+2015-11-07 22:46:47: === User Changed Action from 'CONFLICT' to 'COPY_RIGHT_TO_LEFT' on item /default-bootstrap/js/order-address.js
+2015-11-07 22:46:47: === User Changed Action from 'CONFLICT' to 'COPY_RIGHT_TO_LEFT' on item /default-bootstrap/js/order-carrier.js
+2015-11-07 22:46:47: === User Changed Action from 'CONFLICT' to 'COPY_RIGHT_TO_LEFT' on item /default-bootstrap/js/order-opc.js
+2015-11-07 22:46:47: === User Changed Action from 'CONFLICT' to 'COPY_RIGHT_TO_LEFT' on item /default-bootstrap/js/product.js
+2015-11-07 22:46:47: === User Changed Action from 'CONFLICT' to 'COPY_RIGHT_TO_LEFT' on item /default-bootstrap/js/products-comparison.js
+2015-11-07 22:46:47: === User Changed Action from 'CONFLICT' to 'COPY_RIGHT_TO_LEFT' on item /default-bootstrap/js/scenes.js
+2015-11-07 22:46:47: === User Changed Action from 'CONFLICT' to 'COPY_RIGHT_TO_LEFT' on item /default-bootstrap/js/stores.js
+2015-11-07 22:46:47: === User Changed Action from 'CONFLICT' to 'COPY_RIGHT_TO_LEFT' on item /default-bootstrap/js/tools/index.php
+2015-11-07 22:46:47: === User Changed Action from 'CONFLICT' to 'COPY_RIGHT_TO_LEFT' on item /default-bootstrap/js/tools/statesManagement.js
+2015-11-07 22:46:47: === User Changed Action from 'CONFLICT' to 'COPY_RIGHT_TO_LEFT' on item /default-bootstrap/js/tools/treeManagement.js
+2015-11-07 22:46:47: === User Changed Action from 'CONFLICT' to 'COPY_RIGHT_TO_LEFT' on item /default-bootstrap/js/tools/vatManagement.js
+2015-11-07 22:46:47: === User Changed Action from 'CONFLICT' to 'COPY_RIGHT_TO_LEFT' on item /default-bootstrap/lang/en.php
+2015-11-07 22:46:47: === User Changed Action from 'CONFLICT' to 'COPY_RIGHT_TO_LEFT' on item /default-bootstrap/lang/index.php
+2015-11-07 22:46:47: === User Changed Action from 'CONFLICT' to 'COPY_RIGHT_TO_LEFT' on item /default-bootstrap/lang/ru.php
+2015-11-07 22:46:47: === User Changed Action from 'CONFLICT' to 'COPY_RIGHT_TO_LEFT' on item /default-bootstrap/layout.tpl
+2015-11-07 22:46:47: === User Changed Action from 'CONFLICT' to 'COPY_RIGHT_TO_LEFT' on item /default-bootstrap/maintenance.tpl
+2015-11-07 22:46:47: === User Changed Action from 'CONFLICT' to 'COPY_RIGHT_TO_LEFT' on item /default-bootstrap/manufacturer-list.tpl
+2015-11-07 22:46:47: === User Changed Action from 'CONFLICT' to 'COPY_RIGHT_TO_LEFT' on item /default-bootstrap/manufacturer.tpl
+2015-11-07 22:46:47: === User Changed Action from 'CONFLICT' to 'COPY_RIGHT_TO_LEFT' on item /default-bootstrap/mobile/css/autoload/index.php
+2015-11-07 22:46:47: === User Changed Action from 'CONFLICT' to 'COPY_RIGHT_TO_LEFT' on item /default-bootstrap/mobile/index.php
+2015-11-07 22:46:47: === User Changed Action from 'CONFLICT' to 'COPY_RIGHT_TO_LEFT' on item /default-bootstrap/mobile/js/autoload/index.php
+2015-11-07 22:46:47: === User Changed Action from 'CONFLICT' to 'COPY_RIGHT_TO_LEFT' on item /default-bootstrap/modules/bankwire/translations/en.php
+2015-11-07 22:46:47: === User Changed Action from 'CONFLICT' to 'COPY_RIGHT_TO_LEFT' on item /default-bootstrap/modules/bankwire/translations/it.php
+2015-11-07 22:46:47: === User Changed Action from 'CONFLICT' to 'COPY_RIGHT_TO_LEFT' on item /default-bootstrap/modules/bankwire/views/templates/front/payment_execution.tpl
+2015-11-07 22:46:47: === User Changed Action from 'CONFLICT' to 'COPY_RIGHT_TO_LEFT' on item /default-bootstrap/modules/bankwire/views/templates/hook/payment.tpl
+2015-11-07 22:46:47: === User Changed Action from 'CONFLICT' to 'COPY_RIGHT_TO_LEFT' on item /default-bootstrap/modules/bankwire/views/templates/hook/payment_return.tpl
+2015-11-07 22:46:47: === User Changed Action from 'CONFLICT' to 'COPY_RIGHT_TO_LEFT' on item /default-bootstrap/modules/blockbestsellers/blockbestsellers-home.tpl
+2015-11-07 22:46:47: === User Changed Action from 'CONFLICT' to 'COPY_RIGHT_TO_LEFT' on item /default-bootstrap/modules/blockbestsellers/blockbestsellers.tpl
+2015-11-07 22:46:47: === User Changed Action from 'CONFLICT' to 'COPY_RIGHT_TO_LEFT' on item /default-bootstrap/modules/blockbestsellers/tab.tpl
+2015-11-07 22:46:47: === User Changed Action from 'CONFLICT' to 'COPY_RIGHT_TO_LEFT' on item /default-bootstrap/modules/blockcallback/blockcallback.tpl
+2015-11-07 22:46:47: === User Changed Action from 'CONFLICT' to 'COPY_RIGHT_TO_LEFT' on item /default-bootstrap/modules/blockcallback/blockcallback.tpl1
+2015-11-07 22:46:47: === User Changed Action from 'CONFLICT' to 'COPY_RIGHT_TO_LEFT' on item /default-bootstrap/modules/blockcallback/translations/ru.php
+2015-11-07 22:46:47: === User Changed Action from 'CONFLICT' to 'COPY_RIGHT_TO_LEFT' on item /default-bootstrap/modules/blockcart/blockcart-json.tpl
+2015-11-07 22:46:47: === User Changed Action from 'CONFLICT' to 'COPY_RIGHT_TO_LEFT' on item /default-bootstrap/modules/blockcart/blockcart.tpl
+2015-11-07 22:46:47: === User Changed Action from 'CONFLICT' to 'COPY_RIGHT_TO_LEFT' on item /default-bootstrap/modules/blockcart/crossselling.tpl
+2015-11-07 22:46:47: === User Changed Action from 'CONFLICT' to 'COPY_RIGHT_TO_LEFT' on item /default-bootstrap/modules/blockcategories/blockcategories.tpl
+2015-11-07 22:46:47: === User Changed Action from 'CONFLICT' to 'COPY_RIGHT_TO_LEFT' on item /default-bootstrap/modules/blockcategories/blockcategories_footer.tpl
+2015-11-07 22:46:47: === User Changed Action from 'CONFLICT' to 'COPY_RIGHT_TO_LEFT' on item /default-bootstrap/modules/blockcategories/blockcategories_top.tpl
+2015-11-07 22:46:47: === User Changed Action from 'CONFLICT' to 'COPY_RIGHT_TO_LEFT' on item /default-bootstrap/modules/blockcategories/category-tree-branch-top.tpl
+2015-11-07 22:46:47: === User Changed Action from 'CONFLICT' to 'COPY_RIGHT_TO_LEFT' on item /default-bootstrap/modules/blockcategories/category-tree-branch.tpl
+2015-11-07 22:46:47: === User Changed Action from 'CONFLICT' to 'COPY_RIGHT_TO_LEFT' on item /default-bootstrap/modules/blockcms/blockcms.tpl
+2015-11-07 22:46:47: === User Changed Action from 'CONFLICT' to 'COPY_RIGHT_TO_LEFT' on item /default-bootstrap/modules/blockcms/translations/en.php
+2015-11-07 22:46:47: === User Changed Action from 'CONFLICT' to 'COPY_RIGHT_TO_LEFT' on item /default-bootstrap/modules/blockcontact/blockcontact.tpl
+2015-11-07 22:46:47: === User Changed Action from 'CONFLICT' to 'COPY_RIGHT_TO_LEFT' on item /default-bootstrap/modules/blockcontact/nav.tpl
+2015-11-07 22:46:47: === User Changed Action from 'CONFLICT' to 'COPY_RIGHT_TO_LEFT' on item /default-bootstrap/modules/blockcontactinfos/blockcontactinfos.tpl
+2015-11-07 22:46:47: === User Changed Action from 'CONFLICT' to 'COPY_RIGHT_TO_LEFT' on item /default-bootstrap/modules/blockcurrencies/blockcurrencies.tpl
+2015-11-07 22:46:47: === User Changed Action from 'CONFLICT' to 'COPY_RIGHT_TO_LEFT' on item /default-bootstrap/modules/blockcustomerprivacy/blockcustomerprivacy.tpl
+2015-11-07 22:46:47: === User Changed Action from 'CONFLICT' to 'COPY_RIGHT_TO_LEFT' on item /default-bootstrap/modules/blocklanguages/blocklanguages.tpl
+2015-11-07 22:46:47: === User Changed Action from 'CONFLICT' to 'COPY_RIGHT_TO_LEFT' on item /default-bootstrap/modules/blocklayered/blocklayered-no-products.tpl
+2015-11-07 22:46:47: === User Changed Action from 'CONFLICT' to 'COPY_RIGHT_TO_LEFT' on item /default-bootstrap/modules/blocklayered/blocklayered.tpl
+2015-11-07 22:46:47: === User Changed Action from 'CONFLICT' to 'COPY_RIGHT_TO_LEFT' on item /default-bootstrap/modules/blocklink/blocklink.tpl
+2015-11-07 22:46:47: === User Changed Action from 'CONFLICT' to 'COPY_RIGHT_TO_LEFT' on item /default-bootstrap/modules/blockmanufacturer/blockmanufacturer.tpl
+2015-11-07 22:46:47: === User Changed Action from 'CONFLICT' to 'COPY_RIGHT_TO_LEFT' on item /default-bootstrap/modules/blockmyaccount/blockmyaccount.tpl
+2015-11-07 22:46:47: === User Changed Action from 'CONFLICT' to 'COPY_RIGHT_TO_LEFT' on item /default-bootstrap/modules/blockmyaccountfooter/blockmyaccountfooter.tpl
+2015-11-07 22:46:47: === User Changed Action from 'CONFLICT' to 'COPY_RIGHT_TO_LEFT' on item /default-bootstrap/modules/blocknewproducts/blocknewproducts.tpl
+2015-11-07 22:46:47: === User Changed Action from 'CONFLICT' to 'COPY_RIGHT_TO_LEFT' on item /default-bootstrap/modules/blocknewproducts/blocknewproducts_home.tpl
+2015-11-07 22:46:47: === User Changed Action from 'CONFLICT' to 'COPY_RIGHT_TO_LEFT' on item /default-bootstrap/modules/blocknewproducts/tab.tpl
+2015-11-07 22:46:47: === User Changed Action from 'CONFLICT' to 'COPY_RIGHT_TO_LEFT' on item /default-bootstrap/modules/blocknewsletter/blocknewsletter.tpl
+2015-11-07 22:46:47: === User Changed Action from 'CONFLICT' to 'COPY_RIGHT_TO_LEFT' on item /default-bootstrap/modules/blockrss/blockrss.tpl
+2015-11-07 22:46:47: === User Changed Action from 'CONFLICT' to 'COPY_RIGHT_TO_LEFT' on item /default-bootstrap/modules/blocksearch/blocksearch-top.tpl
+2015-11-07 22:46:47: === User Changed Action from 'CONFLICT' to 'COPY_RIGHT_TO_LEFT' on item /default-bootstrap/modules/blocksearch/blocksearch.tpl
+2015-11-07 22:46:47: === User Changed Action from 'CONFLICT' to 'COPY_RIGHT_TO_LEFT' on item /default-bootstrap/modules/blocksocial/blocksocial.tpl
+2015-11-07 22:46:47: === User Changed Action from 'CONFLICT' to 'COPY_RIGHT_TO_LEFT' on item /default-bootstrap/modules/blockspecials/blockspecials.tpl
+2015-11-07 22:46:47: === User Changed Action from 'CONFLICT' to 'COPY_RIGHT_TO_LEFT' on item /default-bootstrap/modules/blockstore/blockstore.tpl
+2015-11-07 22:46:47: === User Changed Action from 'CONFLICT' to 'COPY_RIGHT_TO_LEFT' on item /default-bootstrap/modules/blocksupplier/blocksupplier.tpl
+2015-11-07 22:46:47: === User Changed Action from 'CONFLICT' to 'COPY_RIGHT_TO_LEFT' on item /default-bootstrap/modules/blocktags/blocktags.tpl
+2015-11-07 22:46:47: === User Changed Action from 'CONFLICT' to 'COPY_RIGHT_TO_LEFT' on item /default-bootstrap/modules/blocktopmenu/blocktopmenu.tpl
+2015-11-07 22:46:47: === User Changed Action from 'CONFLICT' to 'COPY_RIGHT_TO_LEFT' on item /default-bootstrap/modules/blockuserinfo/blockuserinfo.tpl
+2015-11-07 22:46:47: === User Changed Action from 'CONFLICT' to 'COPY_RIGHT_TO_LEFT' on item /default-bootstrap/modules/blockuserinfo/nav.tpl
+2015-11-07 22:46:47: === User Changed Action from 'CONFLICT' to 'COPY_RIGHT_TO_LEFT' on item /default-bootstrap/modules/blockviewed/blockviewed.tpl
+2015-11-07 22:46:47: === User Changed Action from 'CONFLICT' to 'COPY_RIGHT_TO_LEFT' on item /default-bootstrap/modules/blockwishlist/blockwishlist-ajax.tpl
+2015-11-07 22:46:47: === User Changed Action from 'CONFLICT' to 'COPY_RIGHT_TO_LEFT' on item /default-bootstrap/modules/blockwishlist/blockwishlist-extra.tpl
+2015-11-07 22:46:47: === User Changed Action from 'CONFLICT' to 'COPY_RIGHT_TO_LEFT' on item /default-bootstrap/modules/blockwishlist/blockwishlist.tpl
+2015-11-07 22:46:47: === User Changed Action from 'CONFLICT' to 'COPY_RIGHT_TO_LEFT' on item /default-bootstrap/modules/blockwishlist/blockwishlist_button.tpl
+2015-11-07 22:46:47: === User Changed Action from 'CONFLICT' to 'COPY_RIGHT_TO_LEFT' on item /default-bootstrap/modules/blockwishlist/blockwishlist_top.tpl
+2015-11-07 22:46:47: === User Changed Action from 'CONFLICT' to 'COPY_RIGHT_TO_LEFT' on item /default-bootstrap/modules/blockwishlist/my-account.tpl
+2015-11-07 22:46:47: === User Changed Action from 'CONFLICT' to 'COPY_RIGHT_TO_LEFT' on item /default-bootstrap/modules/blockwishlist/views/templates/front/managewishlist.tpl
+2015-11-07 22:46:47: === User Changed Action from 'CONFLICT' to 'COPY_RIGHT_TO_LEFT' on item /default-bootstrap/modules/blockwishlist/views/templates/front/mywishlist.tpl
+2015-11-07 22:46:47: === User Changed Action from 'CONFLICT' to 'COPY_RIGHT_TO_LEFT' on item /default-bootstrap/modules/blockwishlist/views/templates/front/view.tpl
+2015-11-07 22:46:47: === User Changed Action from 'CONFLICT' to 'COPY_RIGHT_TO_LEFT' on item /default-bootstrap/modules/carriercompare/template/carriercompare.tpl
+2015-11-07 22:46:47: === User Changed Action from 'CONFLICT' to 'COPY_RIGHT_TO_LEFT' on item /default-bootstrap/modules/carriercompare/template/configuration.tpl
+2015-11-07 22:46:47: === User Changed Action from 'CONFLICT' to 'COPY_RIGHT_TO_LEFT' on item /default-bootstrap/modules/cashondelivery/views/templates/front/validation.tpl
+2015-11-07 22:46:47: === User Changed Action from 'CONFLICT' to 'COPY_RIGHT_TO_LEFT' on item /default-bootstrap/modules/cashondelivery/views/templates/hook/confirmation.tpl
+2015-11-07 22:46:47: === User Changed Action from 'CONFLICT' to 'COPY_RIGHT_TO_LEFT' on item /default-bootstrap/modules/cashondelivery/views/templates/hook/payment.tpl
+2015-11-07 22:46:47: === User Changed Action from 'CONFLICT' to 'COPY_RIGHT_TO_LEFT' on item /default-bootstrap/modules/cheque/translations/en.php
+2015-11-07 22:46:47: === User Changed Action from 'CONFLICT' to 'COPY_RIGHT_TO_LEFT' on item /default-bootstrap/modules/cheque/translations/it.php
+2015-11-07 22:46:47: === User Changed Action from 'CONFLICT' to 'COPY_RIGHT_TO_LEFT' on item /default-bootstrap/modules/cheque/views/templates/front/payment_execution.tpl
+2015-11-07 22:46:47: === User Changed Action from 'CONFLICT' to 'COPY_RIGHT_TO_LEFT' on item /default-bootstrap/modules/cheque/views/templates/hook/infos.tpl
+2015-11-07 22:46:47: === User Changed Action from 'CONFLICT' to 'COPY_RIGHT_TO_LEFT' on item /default-bootstrap/modules/cheque/views/templates/hook/payment.tpl
+2015-11-07 22:46:47: === User Changed Action from 'CONFLICT' to 'COPY_RIGHT_TO_LEFT' on item /default-bootstrap/modules/cheque/views/templates/hook/payment_return.tpl
+2015-11-07 22:46:47: === User Changed Action from 'CONFLICT' to 'COPY_RIGHT_TO_LEFT' on item /default-bootstrap/modules/crossselling/crossselling.tpl
+2015-11-07 22:46:47: === User Changed Action from 'CONFLICT' to 'COPY_RIGHT_TO_LEFT' on item /default-bootstrap/modules/favoriteproducts/views/templates/front/favoriteproducts-account.tpl
+2015-11-07 22:46:47: === User Changed Action from 'CONFLICT' to 'COPY_RIGHT_TO_LEFT' on item /default-bootstrap/modules/favoriteproducts/views/templates/hook/favoriteproducts-extra.tpl
+2015-11-07 22:46:47: === User Changed Action from 'CONFLICT' to 'COPY_RIGHT_TO_LEFT' on item /default-bootstrap/modules/favoriteproducts/views/templates/hook/favoriteproducts-header.tpl
+2015-11-07 22:46:47: === User Changed Action from 'CONFLICT' to 'COPY_RIGHT_TO_LEFT' on item /default-bootstrap/modules/favoriteproducts/views/templates/hook/my-account.tpl
+2015-11-07 22:46:47: === User Changed Action from 'CONFLICT' to 'COPY_RIGHT_TO_LEFT' on item /default-bootstrap/modules/homefeatured/homefeatured.tpl
+2015-11-07 22:46:47: === User Changed Action from 'CONFLICT' to 'COPY_RIGHT_TO_LEFT' on item /default-bootstrap/modules/homefeatured/tab.tpl
+2015-11-07 22:46:47: === User Changed Action from 'CONFLICT' to 'COPY_RIGHT_TO_LEFT' on item /default-bootstrap/modules/homeslider/header.tpl
+2015-11-07 22:46:47: === User Changed Action from 'CONFLICT' to 'COPY_RIGHT_TO_LEFT' on item /default-bootstrap/modules/homeslider/homeslider.tpl
+2015-11-07 22:46:47: === User Changed Action from 'CONFLICT' to 'COPY_RIGHT_TO_LEFT' on item /default-bootstrap/modules/loyalty/views/templates/front/loyalty.tpl
+2015-11-07 22:46:47: === User Changed Action from 'CONFLICT' to 'COPY_RIGHT_TO_LEFT' on item /default-bootstrap/modules/loyalty/views/templates/hook/my-account.tpl
+2015-11-07 22:46:47: === User Changed Action from 'CONFLICT' to 'COPY_RIGHT_TO_LEFT' on item /default-bootstrap/modules/loyalty/views/templates/hook/product.tpl
+2015-11-07 22:46:47: === User Changed Action from 'CONFLICT' to 'COPY_RIGHT_TO_LEFT' on item /default-bootstrap/modules/loyalty/views/templates/hook/shopping-cart.tpl
+2015-11-07 22:46:47: === User Changed Action from 'CONFLICT' to 'COPY_RIGHT_TO_LEFT' on item /default-bootstrap/modules/mailalerts/views/templates/front/mailalerts-account.tpl
+2015-11-07 22:46:47: === User Changed Action from 'CONFLICT' to 'COPY_RIGHT_TO_LEFT' on item /default-bootstrap/modules/mailalerts/views/templates/hook/my-account.tpl
+2015-11-07 22:46:47: === User Changed Action from 'CONFLICT' to 'COPY_RIGHT_TO_LEFT' on item /default-bootstrap/modules/mailalerts/views/templates/hook/product.tpl
+2015-11-07 22:46:47: === User Changed Action from 'CONFLICT' to 'COPY_RIGHT_TO_LEFT' on item /default-bootstrap/modules/productcomments/productcomments-extra.tpl
+2015-11-07 22:46:47: === User Changed Action from 'CONFLICT' to 'COPY_RIGHT_TO_LEFT' on item /default-bootstrap/modules/productcomments/productcomments.tpl
+2015-11-07 22:46:47: === User Changed Action from 'CONFLICT' to 'COPY_RIGHT_TO_LEFT' on item /default-bootstrap/modules/productcomments/productcomments_reviews.tpl
+2015-11-07 22:46:47: === User Changed Action from 'CONFLICT' to 'COPY_RIGHT_TO_LEFT' on item /default-bootstrap/modules/productcomments/productcomments_top.tpl
+2015-11-07 22:46:47: === User Changed Action from 'CONFLICT' to 'COPY_RIGHT_TO_LEFT' on item /default-bootstrap/modules/productcomments/products-comparison.tpl
+2015-11-07 22:46:47: === User Changed Action from 'CONFLICT' to 'COPY_RIGHT_TO_LEFT' on item /default-bootstrap/modules/productcomments/tab.tpl
+2015-11-07 22:46:47: === User Changed Action from 'CONFLICT' to 'COPY_RIGHT_TO_LEFT' on item /default-bootstrap/modules/productscategory/productscategory.tpl
+2015-11-07 22:46:47: === User Changed Action from 'CONFLICT' to 'COPY_RIGHT_TO_LEFT' on item /default-bootstrap/modules/referralprogram/views/templates/front/email.tpl
+2015-11-07 22:46:47: === User Changed Action from 'CONFLICT' to 'COPY_RIGHT_TO_LEFT' on item /default-bootstrap/modules/referralprogram/views/templates/front/program.tpl
+2015-11-07 22:46:47: === User Changed Action from 'CONFLICT' to 'COPY_RIGHT_TO_LEFT' on item /default-bootstrap/modules/referralprogram/views/templates/front/rules.tpl
+2015-11-07 22:46:47: === User Changed Action from 'CONFLICT' to 'COPY_RIGHT_TO_LEFT' on item /default-bootstrap/modules/referralprogram/views/templates/hook/authentication.tpl
+2015-11-07 22:46:47: === User Changed Action from 'CONFLICT' to 'COPY_RIGHT_TO_LEFT' on item /default-bootstrap/modules/referralprogram/views/templates/hook/my-account.tpl
+2015-11-07 22:46:47: === User Changed Action from 'CONFLICT' to 'COPY_RIGHT_TO_LEFT' on item /default-bootstrap/modules/referralprogram/views/templates/hook/order-confirmation.tpl
+2015-11-07 22:46:47: === User Changed Action from 'CONFLICT' to 'COPY_RIGHT_TO_LEFT' on item /default-bootstrap/modules/referralprogram/views/templates/hook/shopping-cart.tpl
+2015-11-07 22:46:47: === User Changed Action from 'CONFLICT' to 'COPY_RIGHT_TO_LEFT' on item /default-bootstrap/modules/sendtoafriend/sendtoafriend-extra.tpl
+2015-11-07 22:46:47: === User Changed Action from 'CONFLICT' to 'COPY_RIGHT_TO_LEFT' on item /default-bootstrap/my-account.tpl
+2015-11-07 22:46:47: === User Changed Action from 'CONFLICT' to 'COPY_RIGHT_TO_LEFT' on item /default-bootstrap/nbr-product-page.tpl
+2015-11-07 22:46:47: === User Changed Action from 'CONFLICT' to 'COPY_RIGHT_TO_LEFT' on item /default-bootstrap/new-products.tpl
+2015-11-07 22:46:47: === User Changed Action from 'CONFLICT' to 'COPY_RIGHT_TO_LEFT' on item /default-bootstrap/order-address-multishipping-products.tpl
+2015-11-07 22:46:47: === User Changed Action from 'CONFLICT' to 'COPY_RIGHT_TO_LEFT' on item /default-bootstrap/order-address-multishipping.tpl
+2015-11-07 22:46:47: === User Changed Action from 'CONFLICT' to 'COPY_RIGHT_TO_LEFT' on item /default-bootstrap/order-address-product-line.tpl
+2015-11-07 22:46:47: === User Changed Action from 'CONFLICT' to 'COPY_RIGHT_TO_LEFT' on item /default-bootstrap/order-address.tpl
+2015-11-07 22:46:47: === User Changed Action from 'CONFLICT' to 'COPY_RIGHT_TO_LEFT' on item /default-bootstrap/order-carrier.tpl
+2015-11-07 22:46:47: === User Changed Action from 'CONFLICT' to 'COPY_RIGHT_TO_LEFT' on item /default-bootstrap/order-confirmation.tpl
+2015-11-07 22:46:47: === User Changed Action from 'CONFLICT' to 'COPY_RIGHT_TO_LEFT' on item /default-bootstrap/order-detail.tpl
+2015-11-07 22:46:47: === User Changed Action from 'CONFLICT' to 'COPY_RIGHT_TO_LEFT' on item /default-bootstrap/order-follow.tpl
+2015-11-07 22:46:47: === User Changed Action from 'CONFLICT' to 'COPY_RIGHT_TO_LEFT' on item /default-bootstrap/order-opc-new-account.tpl
+2015-11-07 22:46:47: === User Changed Action from 'CONFLICT' to 'COPY_RIGHT_TO_LEFT' on item /default-bootstrap/order-opc.tpl
+2015-11-07 22:46:47: === User Changed Action from 'CONFLICT' to 'COPY_RIGHT_TO_LEFT' on item /default-bootstrap/order-payment.tpl
+2015-11-07 22:46:47: === User Changed Action from 'CONFLICT' to 'COPY_RIGHT_TO_LEFT' on item /default-bootstrap/order-return.tpl
+2015-11-07 22:46:47: === User Changed Action from 'CONFLICT' to 'COPY_RIGHT_TO_LEFT' on item /default-bootstrap/order-slip.tpl
+2015-11-07 22:46:47: === User Changed Action from 'CONFLICT' to 'COPY_RIGHT_TO_LEFT' on item /default-bootstrap/order-steps.tpl
+2015-11-07 22:46:47: === User Changed Action from 'CONFLICT' to 'COPY_RIGHT_TO_LEFT' on item /default-bootstrap/pagination.tpl
+2015-11-07 22:46:47: === User Changed Action from 'CONFLICT' to 'COPY_RIGHT_TO_LEFT' on item /default-bootstrap/password.tpl
+2015-11-07 22:46:47: === User Changed Action from 'CONFLICT' to 'COPY_RIGHT_TO_LEFT' on item /default-bootstrap/pdf/index.php
+2015-11-07 22:46:47: === User Changed Action from 'CONFLICT' to 'COPY_RIGHT_TO_LEFT' on item /default-bootstrap/pdf/lang/index.php
+2015-11-07 22:46:47: === User Changed Action from 'CONFLICT' to 'COPY_RIGHT_TO_LEFT' on item /default-bootstrap/preview.jpg
+2015-11-07 22:46:47: === User Changed Action from 'CONFLICT' to 'COPY_RIGHT_TO_LEFT' on item /default-bootstrap/prices-drop.tpl
+2015-11-07 22:46:47: === User Changed Action from 'CONFLICT' to 'COPY_RIGHT_TO_LEFT' on item /default-bootstrap/product-compare.tpl
+2015-11-07 22:46:47: === User Changed Action from 'CONFLICT' to 'COPY_RIGHT_TO_LEFT' on item /default-bootstrap/product-list-colors.tpl
+2015-11-07 22:46:47: === User Changed Action from 'CONFLICT' to 'COPY_RIGHT_TO_LEFT' on item /default-bootstrap/product-list.tpl
+2015-11-07 22:46:47: === User Changed Action from 'CONFLICT' to 'COPY_RIGHT_TO_LEFT' on item /default-bootstrap/product-sort.tpl
+2015-11-07 22:46:47: === User Changed Action from 'CONFLICT' to 'COPY_RIGHT_TO_LEFT' on item /default-bootstrap/product.tpl
+2015-11-07 22:46:47: === User Changed Action from 'CONFLICT' to 'COPY_RIGHT_TO_LEFT' on item /default-bootstrap/products-comparison.tpl
+2015-11-07 22:46:47: === User Changed Action from 'CONFLICT' to 'COPY_RIGHT_TO_LEFT' on item /default-bootstrap/restricted-country.tpl
+2015-11-07 22:46:47: === User Changed Action from 'CONFLICT' to 'COPY_RIGHT_TO_LEFT' on item /default-bootstrap/scenes.tpl
+2015-11-07 22:46:47: === User Changed Action from 'CONFLICT' to 'COPY_RIGHT_TO_LEFT' on item /default-bootstrap/search.tpl
+2015-11-07 22:46:47: === User Changed Action from 'CONFLICT' to 'COPY_RIGHT_TO_LEFT' on item /default-bootstrap/shopping-cart-product-line.tpl
+2015-11-07 22:46:47: === User Changed Action from 'CONFLICT' to 'COPY_RIGHT_TO_LEFT' on item /default-bootstrap/shopping-cart.tpl
+2015-11-07 22:46:47: === User Changed Action from 'CONFLICT' to 'COPY_RIGHT_TO_LEFT' on item /default-bootstrap/sitemap.tpl
+2015-11-07 22:46:47: === User Changed Action from 'CONFLICT' to 'COPY_RIGHT_TO_LEFT' on item /default-bootstrap/store_infos.tpl
+2015-11-07 22:46:47: === User Changed Action from 'CONFLICT' to 'COPY_RIGHT_TO_LEFT' on item /default-bootstrap/stores.tpl
+2015-11-07 22:46:47: === User Changed Action from 'CONFLICT' to 'COPY_RIGHT_TO_LEFT' on item /default-bootstrap/supplier-list.tpl
+2015-11-07 22:46:47: === User Changed Action from 'CONFLICT' to 'COPY_RIGHT_TO_LEFT' on item /default-bootstrap/supplier.tpl
+2015-11-07 22:46:47: === User Changed Action from 'CONFLICT' to 'COPY_RIGHT_TO_LEFT' on item /index.php
+2015-11-07 22:46:47: === User Changed Action from 'CONFLICT' to 'COPY_RIGHT_TO_LEFT' on item /javascript.tpl
+2015-11-07 22:46:47: === User Changed Action from 'CONFLICT' to 'COPY_RIGHT_TO_LEFT' on item /live_edit.tpl
+2015-11-07 22:46:47: Done.
+2015-11-07 22:46:55: New _gsdata_ folder(s) created, so rescan all job folders for their ghosts
+2015-11-07 22:46:55: == Sync Started by User
+2015-11-07 22:46:56: Copy Over 'D:/Works/Verstka/fishing-prestashop/prestashop/themes/.htaccess' -> 'ftp://fishing-equipment.alintond.bget.ru/themes/.htaccess' (User Action)
+2015-11-07 22:46:57: Copy Over 'D:/Works/Verstka/fishing-prestashop/prestashop/themes/debug.tpl' -> 'ftp://fishing-equipment.alintond.bget.ru/themes/debug.tpl' (User Action)
+2015-11-07 22:46:58: Copy Over 'D:/Works/Verstka/fishing-prestashop/prestashop/themes/default-bootstrap/404.tpl' -> 'ftp://fishing-equipment.alintond.bget.ru/themes/default-bootstrap/404.tpl' (User Action)
+2015-11-07 22:46:58: Copy Over 'D:/Works/Verstka/fishing-prestashop/prestashop/themes/default-bootstrap/address.tpl' -> 'ftp://fishing-equipment.alintond.bget.ru/themes/default-bootstrap/address.tpl' (User Action)
+2015-11-07 22:46:59: Copy Over 'D:/Works/Verstka/fishing-prestashop/prestashop/themes/default-bootstrap/addresses.tpl' -> 'ftp://fishing-equipment.alintond.bget.ru/themes/default-bootstrap/addresses.tpl' (User Action)
+2015-11-07 22:46:59: Copy Over 'D:/Works/Verstka/fishing-prestashop/prestashop/themes/default-bootstrap/authentication.tpl' -> 'ftp://fishing-equipment.alintond.bget.ru/themes/default-bootstrap/authentication.tpl' (User Action)
+2015-11-07 22:47:00: Copy Over 'D:/Works/Verstka/fishing-prestashop/prestashop/themes/default-bootstrap/best-sales.tpl' -> 'ftp://fishing-equipment.alintond.bget.ru/themes/default-bootstrap/best-sales.tpl' (User Action)
+2015-11-07 22:47:01: Copy Over 'D:/Works/Verstka/fishing-prestashop/prestashop/themes/default-bootstrap/breadcrumb.tpl' -> 'ftp://fishing-equipment.alintond.bget.ru/themes/default-bootstrap/breadcrumb.tpl' (User Action)
+2015-11-07 22:47:01: Copy Over 'D:/Works/Verstka/fishing-prestashop/prestashop/themes/default-bootstrap/cache/index.php' -> 'ftp://fishing-equipment.alintond.bget.ru/themes/default-bootstrap/cache/index.php' (User Action)
+2015-11-07 22:47:02: Copy Over 'D:/Works/Verstka/fishing-prestashop/prestashop/themes/default-bootstrap/category-cms-tree-branch.tpl' -> 'ftp://fishing-equipment.alintond.bget.ru/themes/default-bootstrap/category-cms-tree-branch.tpl' (User Action)
+2015-11-07 22:47:02: Copy Over 'D:/Works/Verstka/fishing-prestashop/prestashop/themes/default-bootstrap/category-count.tpl' -> 'ftp://fishing-equipment.alintond.bget.ru/themes/default-bootstrap/category-count.tpl' (User Action)
+2015-11-07 22:47:03: Copy Over 'D:/Works/Verstka/fishing-prestashop/prestashop/themes/default-bootstrap/category-tree-branch.tpl' -> 'ftp://fishing-equipment.alintond.bget.ru/themes/default-bootstrap/category-tree-branch.tpl' (User Action)
+2015-11-07 22:47:04: Copy Over 'D:/Works/Verstka/fishing-prestashop/prestashop/themes/default-bootstrap/category.tpl' -> 'ftp://fishing-equipment.alintond.bget.ru/themes/default-bootstrap/category.tpl' (User Action)
+2015-11-07 22:47:04: Copy Over 'D:/Works/Verstka/fishing-prestashop/prestashop/themes/default-bootstrap/cms.tpl' -> 'ftp://fishing-equipment.alintond.bget.ru/themes/default-bootstrap/cms.tpl' (User Action)
+2015-11-07 22:47:05: Copy Over 'D:/Works/Verstka/fishing-prestashop/prestashop/themes/default-bootstrap/config.rb' -> 'ftp://fishing-equipment.alintond.bget.ru/themes/default-bootstrap/config.rb' (User Action)
+2015-11-07 22:47:05: Copy Over 'D:/Works/Verstka/fishing-prestashop/prestashop/themes/default-bootstrap/config.xml' -> 'ftp://fishing-equipment.alintond.bget.ru/themes/default-bootstrap/config.xml' (User Action)
+2015-11-07 22:47:06: Copy Over 'D:/Works/Verstka/fishing-prestashop/prestashop/themes/default-bootstrap/contact-form.tpl' -> 'ftp://fishing-equipment.alintond.bget.ru/themes/default-bootstrap/contact-form.tpl' (User Action)
+2015-11-07 22:47:06: Copy Over 'D:/Works/Verstka/fishing-prestashop/prestashop/themes/default-bootstrap/css/addresses.css' -> 'ftp://fishing-equipment.alintond.bget.ru/themes/default-bootstrap/css/addresses.css' (User Action)
+2015-11-07 22:47:07: Copy Over 'D:/Works/Verstka/fishing-prestashop/prestashop/themes/default-bootstrap/css/authentication.css' -> 'ftp://fishing-equipment.alintond.bget.ru/themes/default-bootstrap/css/authentication.css' (User Action)
+2015-11-07 22:47:07: Copy Over 'D:/Works/Verstka/fishing-prestashop/prestashop/themes/default-bootstrap/css/autoload/highdpi.css' -> 'ftp://fishing-equipment.alintond.bget.ru/themes/default-bootstrap/css/autoload/highdpi.css' (User Action)
+2015-11-07 22:47:08: Copy Over 'D:/Works/Verstka/fishing-prestashop/prestashop/themes/default-bootstrap/css/autoload/responsive-tables.css' -> 'ftp://fishing-equipment.alintond.bget.ru/themes/default-bootstrap/css/autoload/responsive-tables.css' (User Action)
+2015-11-07 22:47:09: Copy Over 'D:/Works/Verstka/fishing-prestashop/prestashop/themes/default-bootstrap/css/autoload/uniform.default.css' -> 'ftp://fishing-equipment.alintond.bget.ru/themes/default-bootstrap/css/autoload/uniform.default.css' (User Action)
+2015-11-07 22:47:09: Copy Over 'D:/Works/Verstka/fishing-prestashop/prestashop/themes/default-bootstrap/css/category.css' -> 'ftp://fishing-equipment.alintond.bget.ru/themes/default-bootstrap/css/category.css' (User Action)
+2015-11-07 22:47:10: Copy Over 'D:/Works/Verstka/fishing-prestashop/prestashop/themes/default-bootstrap/css/cms.css' -> 'ftp://fishing-equipment.alintond.bget.ru/themes/default-bootstrap/css/cms.css' (User Action)
+2015-11-07 22:47:10: Copy Over 'D:/Works/Verstka/fishing-prestashop/prestashop/themes/default-bootstrap/css/comparator.css' -> 'ftp://fishing-equipment.alintond.bget.ru/themes/default-bootstrap/css/comparator.css' (User Action)
+2015-11-07 22:47:11: Copy Over 'D:/Works/Verstka/fishing-prestashop/prestashop/themes/default-bootstrap/css/contact-form.css' -> 'ftp://fishing-equipment.alintond.bget.ru/themes/default-bootstrap/css/contact-form.css' (User Action)
+2015-11-07 22:47:11: Copy Over 'D:/Works/Verstka/fishing-prestashop/prestashop/themes/default-bootstrap/css/custom.css' -> 'ftp://fishing-equipment.alintond.bget.ru/themes/default-bootstrap/css/custom.css' (User Action)
+2015-11-07 22:47:12: Copy Over 'D:/Works/Verstka/fishing-prestashop/prestashop/themes/default-bootstrap/css/custom.css.map' -> 'ftp://fishing-equipment.alintond.bget.ru/themes/default-bootstrap/css/custom.css.map' (User Action)
+2015-11-07 22:47:12: Copy Over 'D:/Works/Verstka/fishing-prestashop/prestashop/themes/default-bootstrap/css/font-awesome/font-awesome-ie7.css' -> 'ftp://fishing-equipment.alintond.bget.ru/themes/default-bootstrap/css/font-awesome/font-awesome-ie7.css' (User Action)
+2015-11-07 22:47:13: Copy Over 'D:/Works/Verstka/fishing-prestashop/prestashop/themes/default-bootstrap/css/global.css' -> 'ftp://fishing-equipment.alintond.bget.ru/themes/default-bootstrap/css/global.css' (User Action)
+2015-11-07 22:47:14: Copy Over 'D:/Works/Verstka/fishing-prestashop/prestashop/themes/default-bootstrap/css/history.css' -> 'ftp://fishing-equipment.alintond.bget.ru/themes/default-bootstrap/css/history.css' (User Action)
+2015-11-07 22:47:14: Copy Over 'D:/Works/Verstka/fishing-prestashop/prestashop/themes/default-bootstrap/css/identity.css' -> 'ftp://fishing-equipment.alintond.bget.ru/themes/default-bootstrap/css/identity.css' (User Action)
+2015-11-07 22:47:15: Copy Over 'D:/Works/Verstka/fishing-prestashop/prestashop/themes/default-bootstrap/css/index.php' -> 'ftp://fishing-equipment.alintond.bget.ru/themes/default-bootstrap/css/index.php' (User Action)
+2015-11-07 22:47:15: Copy Over 'D:/Works/Verstka/fishing-prestashop/prestashop/themes/default-bootstrap/css/maintenance.css' -> 'ftp://fishing-equipment.alintond.bget.ru/themes/default-bootstrap/css/maintenance.css' (User Action)
+2015-11-07 22:47:16: Copy Over 'D:/Works/Verstka/fishing-prestashop/prestashop/themes/default-bootstrap/css/modules/blockbanner/blockbanner.css' -> 'ftp://fishing-equipment.alintond.bget.ru/themes/default-bootstrap/css/modules/blockbanner/blockbanner.css' (User Action)
+2015-11-07 22:47:17: Copy Over 'D:/Works/Verstka/fishing-prestashop/prestashop/themes/default-bootstrap/css/modules/blockbestsellers/blockbestsellers.css' -> 'ftp://fishing-equipment.alintond.bget.ru/themes/default-bootstrap/css/modules/blockbestsellers/blockbestsellers.css' (User Action)
+2015-11-07 22:47:18: Copy Over 'D:/Works/Verstka/fishing-prestashop/prestashop/themes/default-bootstrap/css/modules/blockcart/blockcart.css' -> 'ftp://fishing-equipment.alintond.bget.ru/themes/default-bootstrap/css/modules/blockcart/blockcart.css' (User Action)
+2015-11-07 22:47:18: Copy Over 'D:/Works/Verstka/fishing-prestashop/prestashop/themes/default-bootstrap/css/modules/blockcategories/blockcategories.css' -> 'ftp://fishing-equipment.alintond.bget.ru/themes/default-bootstrap/css/modules/blockcategories/blockcategories.css' (User Action)
+2015-11-07 22:47:19: Copy Over 'D:/Works/Verstka/fishing-prestashop/prestashop/themes/default-bootstrap/css/modules/blockcontact/blockcontact.css' -> 'ftp://fishing-equipment.alintond.bget.ru/themes/default-bootstrap/css/modules/blockcontact/blockcontact.css' (User Action)
+2015-11-07 22:47:20: Copy Over 'D:/Works/Verstka/fishing-prestashop/prestashop/themes/default-bootstrap/css/modules/blockcurrencies/blockcurrencies.css' -> 'ftp://fishing-equipment.alintond.bget.ru/themes/default-bootstrap/css/modules/blockcurrencies/blockcurrencies.css' (User Action)
+2015-11-07 22:47:20: Copy Over 'D:/Works/Verstka/fishing-prestashop/prestashop/themes/default-bootstrap/css/modules/blocklanguages/blocklanguages.css' -> 'ftp://fishing-equipment.alintond.bget.ru/themes/default-bootstrap/css/modules/blocklanguages/blocklanguages.css' (User Action)
+2015-11-07 22:47:21: Copy Over 'D:/Works/Verstka/fishing-prestashop/prestashop/themes/default-bootstrap/css/modules/blocklayered/blocklayered.css' -> 'ftp://fishing-equipment.alintond.bget.ru/themes/default-bootstrap/css/modules/blocklayered/blocklayered.css' (User Action)
+2015-11-07 22:47:22: Copy Over 'D:/Works/Verstka/fishing-prestashop/prestashop/themes/default-bootstrap/css/modules/blockmyaccountfooter/blockmyaccount.css' -> 'ftp://fishing-equipment.alintond.bget.ru/themes/default-bootstrap/css/modules/blockmyaccountfooter/blockmyaccount.css' (User Action)
+2015-11-07 22:47:22: Copy Over 'D:/Works/Verstka/fishing-prestashop/prestashop/themes/default-bootstrap/css/modules/blocknewproducts/blocknewproducts.css' -> 'ftp://fishing-equipment.alintond.bget.ru/themes/default-bootstrap/css/modules/blocknewproducts/blocknewproducts.css' (User Action)
+2015-11-07 22:47:23: Copy Over 'D:/Works/Verstka/fishing-prestashop/prestashop/themes/default-bootstrap/css/modules/blocknewsletter/blocknewsletter.css' -> 'ftp://fishing-equipment.alintond.bget.ru/themes/default-bootstrap/css/modules/blocknewsletter/blocknewsletter.css' (User Action)
+2015-11-07 22:47:24: Copy Over 'D:/Works/Verstka/fishing-prestashop/prestashop/themes/default-bootstrap/css/modules/blocksearch/blocksearch.css' -> 'ftp://fishing-equipment.alintond.bget.ru/themes/default-bootstrap/css/modules/blocksearch/blocksearch.css' (User Action)
+2015-11-07 22:47:25: Copy Over 'D:/Works/Verstka/fishing-prestashop/prestashop/themes/default-bootstrap/css/modules/blockspecials/blockspecials.css' -> 'ftp://fishing-equipment.alintond.bget.ru/themes/default-bootstrap/css/modules/blockspecials/blockspecials.css' (User Action)
+2015-11-07 22:47:25: Copy Over 'D:/Works/Verstka/fishing-prestashop/prestashop/themes/default-bootstrap/css/modules/blocktags/blocktags.css' -> 'ftp://fishing-equipment.alintond.bget.ru/themes/default-bootstrap/css/modules/blocktags/blocktags.css' (User Action)
+2015-11-07 22:47:26: Copy Over 'D:/Works/Verstka/fishing-prestashop/prestashop/themes/default-bootstrap/css/modules/blocktopmenu/css/blocktopmenu.css' -> 'ftp://fishing-equipment.alintond.bget.ru/themes/default-bootstrap/css/modules/blocktopmenu/css/blocktopmenu.css' (User Action)
+2015-11-07 22:47:27: Copy Over 'D:/Works/Verstka/fishing-prestashop/prestashop/themes/default-bootstrap/css/modules/blocktopmenu/css/superfish-modified.css' -> 'ftp://fishing-equipment.alintond.bget.ru/themes/default-bootstrap/css/modules/blocktopmenu/css/superfish-modified.css' (User Action)
+2015-11-07 22:47:27: Copy Over 'D:/Works/Verstka/fishing-prestashop/prestashop/themes/default-bootstrap/css/modules/blockuserinfo/blockuserinfo.css' -> 'ftp://fishing-equipment.alintond.bget.ru/themes/default-bootstrap/css/modules/blockuserinfo/blockuserinfo.css' (User Action)
+2015-11-07 22:47:28: Copy Over 'D:/Works/Verstka/fishing-prestashop/prestashop/themes/default-bootstrap/css/modules/blockviewed/blockviewed.css' -> 'ftp://fishing-equipment.alintond.bget.ru/themes/default-bootstrap/css/modules/blockviewed/blockviewed.css' (User Action)
+2015-11-07 22:47:29: Copy Over 'D:/Works/Verstka/fishing-prestashop/prestashop/themes/default-bootstrap/css/modules/blockwishlist/blockwishlist.css' -> 'ftp://fishing-equipment.alintond.bget.ru/themes/default-bootstrap/css/modules/blockwishlist/blockwishlist.css' (User Action)
+2015-11-07 22:47:29: Copy Over 'D:/Works/Verstka/fishing-prestashop/prestashop/themes/default-bootstrap/css/modules/carriercompare/style.css' -> 'ftp://fishing-equipment.alintond.bget.ru/themes/default-bootstrap/css/modules/carriercompare/style.css' (User Action)
+2015-11-07 22:47:30: Copy Over 'D:/Works/Verstka/fishing-prestashop/prestashop/themes/default-bootstrap/css/modules/crossselling/crossselling.css' -> 'ftp://fishing-equipment.alintond.bget.ru/themes/default-bootstrap/css/modules/crossselling/crossselling.css' (User Action)
+2015-11-07 22:47:31: Copy Over 'D:/Works/Verstka/fishing-prestashop/prestashop/themes/default-bootstrap/css/modules/favoriteproducts/favoriteproducts.css' -> 'ftp://fishing-equipment.alintond.bget.ru/themes/default-bootstrap/css/modules/favoriteproducts/favoriteproducts.css' (User Action)
+2015-11-07 22:47:31: Copy Over 'D:/Works/Verstka/fishing-prestashop/prestashop/themes/default-bootstrap/css/modules/homefeatured/homefeatured.css' -> 'ftp://fishing-equipment.alintond.bget.ru/themes/default-bootstrap/css/modules/homefeatured/homefeatured.css' (User Action)
+2015-11-07 22:47:32: Copy Over 'D:/Works/Verstka/fishing-prestashop/prestashop/themes/default-bootstrap/css/modules/homeslider/homeslider.css' -> 'ftp://fishing-equipment.alintond.bget.ru/themes/default-bootstrap/css/modules/homeslider/homeslider.css' (User Action)
+2015-11-07 22:47:33: Copy Over 'D:/Works/Verstka/fishing-prestashop/prestashop/themes/default-bootstrap/css/modules/homeslider/images/bx_loader.gif' -> 'ftp://fishing-equipment.alintond.bget.ru/themes/default-bootstrap/css/modules/homeslider/images/bx_loader.gif' (User Action)
+2015-11-07 22:47:33: Copy Over 'D:/Works/Verstka/fishing-prestashop/prestashop/themes/default-bootstrap/css/modules/homeslider/images/controls.png' -> 'ftp://fishing-equipment.alintond.bget.ru/themes/default-bootstrap/css/modules/homeslider/images/controls.png' (User Action)
+2015-11-07 22:47:34: Copy Over 'D:/Works/Verstka/fishing-prestashop/prestashop/themes/default-bootstrap/css/modules/mailalerts/mailalerts.css' -> 'ftp://fishing-equipment.alintond.bget.ru/themes/default-bootstrap/css/modules/mailalerts/mailalerts.css' (User Action)
+2015-11-07 22:47:35: Copy Over 'D:/Works/Verstka/fishing-prestashop/prestashop/themes/default-bootstrap/css/modules/productcomments/img/accept.png' -> 'ftp://fishing-equipment.alintond.bget.ru/themes/default-bootstrap/css/modules/productcomments/img/accept.png' (User Action)
+2015-11-07 22:47:36: Copy Over 'D:/Works/Verstka/fishing-prestashop/prestashop/themes/default-bootstrap/css/modules/productcomments/img/bg_bt.gif' -> 'ftp://fishing-equipment.alintond.bget.ru/themes/default-bootstrap/css/modules/productcomments/img/bg_bt.gif' (User Action)
+2015-11-07 22:47:36: Copy Over 'D:/Works/Verstka/fishing-prestashop/prestashop/themes/default-bootstrap/css/modules/productcomments/img/bg_li.png' -> 'ftp://fishing-equipment.alintond.bget.ru/themes/default-bootstrap/css/modules/productcomments/img/bg_li.png' (User Action)
+2015-11-07 22:47:37: Copy Over 'D:/Works/Verstka/fishing-prestashop/prestashop/themes/default-bootstrap/css/modules/productcomments/img/comment.png' -> 'ftp://fishing-equipment.alintond.bget.ru/themes/default-bootstrap/css/modules/productcomments/img/comment.png' (User Action)
+2015-11-07 22:47:37: Copy Over 'D:/Works/Verstka/fishing-prestashop/prestashop/themes/default-bootstrap/css/modules/productcomments/img/comments_delete.png' -> 'ftp://fishing-equipment.alintond.bget.ru/themes/default-bootstrap/css/modules/productcomments/img/comments_delete.png' (User Action)
+2015-11-07 22:47:38: Copy Over 'D:/Works/Verstka/fishing-prestashop/prestashop/themes/default-bootstrap/css/modules/productcomments/img/delete.gif' -> 'ftp://fishing-equipment.alintond.bget.ru/themes/default-bootstrap/css/modules/productcomments/img/delete.gif' (User Action)
+2015-11-07 22:47:38: Copy Over 'D:/Works/Verstka/fishing-prestashop/prestashop/themes/default-bootstrap/css/modules/productcomments/img/delete.png' -> 'ftp://fishing-equipment.alintond.bget.ru/themes/default-bootstrap/css/modules/productcomments/img/delete.png' (User Action)
+2015-11-07 22:47:39: Copy Over 'D:/Works/Verstka/fishing-prestashop/prestashop/themes/default-bootstrap/css/modules/productcomments/img/index.php' -> 'ftp://fishing-equipment.alintond.bget.ru/themes/default-bootstrap/css/modules/productcomments/img/index.php' (User Action)
+2015-11-07 22:47:39: Copy Over 'D:/Works/Verstka/fishing-prestashop/prestashop/themes/default-bootstrap/css/modules/productcomments/img/note.png' -> 'ftp://fishing-equipment.alintond.bget.ru/themes/default-bootstrap/css/modules/productcomments/img/note.png' (User Action)
+2015-11-07 22:47:40: Copy Over 'D:/Works/Verstka/fishing-prestashop/prestashop/themes/default-bootstrap/css/modules/productcomments/img/note_go.png' -> 'ftp://fishing-equipment.alintond.bget.ru/themes/default-bootstrap/css/modules/productcomments/img/note_go.png' (User Action)
+2015-11-07 22:47:40: Copy Over 'D:/Works/Verstka/fishing-prestashop/prestashop/themes/default-bootstrap/css/modules/productcomments/img/star.gif' -> 'ftp://fishing-equipment.alintond.bget.ru/themes/default-bootstrap/css/modules/productcomments/img/star.gif' (User Action)
+2015-11-07 22:47:41: Copy Over 'D:/Works/Verstka/fishing-prestashop/prestashop/themes/default-bootstrap/css/modules/productcomments/img/star.png' -> 'ftp://fishing-equipment.alintond.bget.ru/themes/default-bootstrap/css/modules/productcomments/img/star.png' (User Action)
+2015-11-07 22:47:41: Copy Over 'D:/Works/Verstka/fishing-prestashop/prestashop/themes/default-bootstrap/css/modules/productcomments/img/star1.gif' -> 'ftp://fishing-equipment.alintond.bget.ru/themes/default-bootstrap/css/modules/productcomments/img/star1.gif' (User Action)
+2015-11-07 22:47:42: Copy Over 'D:/Works/Verstka/fishing-prestashop/prestashop/themes/default-bootstrap/css/modules/productcomments/productcomments.css' -> 'ftp://fishing-equipment.alintond.bget.ru/themes/default-bootstrap/css/modules/productcomments/productcomments.css' (User Action)
+2015-11-07 22:47:43: Copy Over 'D:/Works/Verstka/fishing-prestashop/prestashop/themes/default-bootstrap/css/modules/productscategory/css/images/bx_loader.gif' -> 'ftp://fishing-equipment.alintond.bget.ru/themes/default-bootstrap/css/modules/productscategory/css/images/bx_loader.gif' (User Action)
+2015-11-07 22:47:43: Copy Over 'D:/Works/Verstka/fishing-prestashop/prestashop/themes/default-bootstrap/css/modules/productscategory/css/images/controls.png' -> 'ftp://fishing-equipment.alintond.bget.ru/themes/default-bootstrap/css/modules/productscategory/css/images/controls.png' (User Action)
+2015-11-07 22:47:44: Copy Over 'D:/Works/Verstka/fishing-prestashop/prestashop/themes/default-bootstrap/css/modules/productscategory/css/productscategory.css' -> 'ftp://fishing-equipment.alintond.bget.ru/themes/default-bootstrap/css/modules/productscategory/css/productscategory.css' (User Action)
+2015-11-07 22:47:45: Copy Over 'D:/Works/Verstka/fishing-prestashop/prestashop/themes/default-bootstrap/css/my-account.css' -> 'ftp://fishing-equipment.alintond.bget.ru/themes/default-bootstrap/css/my-account.css' (User Action)
+2015-11-07 22:47:45: Copy Over 'D:/Works/Verstka/fishing-prestashop/prestashop/themes/default-bootstrap/css/order-opc.css' -> 'ftp://fishing-equipment.alintond.bget.ru/themes/default-bootstrap/css/order-opc.css' (User Action)
+2015-11-07 22:47:46: Copy Over 'D:/Works/Verstka/fishing-prestashop/prestashop/themes/default-bootstrap/css/print.css' -> 'ftp://fishing-equipment.alintond.bget.ru/themes/default-bootstrap/css/print.css' (User Action)
+2015-11-07 22:47:46: Copy Over 'D:/Works/Verstka/fishing-prestashop/prestashop/themes/default-bootstrap/css/product.css' -> 'ftp://fishing-equipment.alintond.bget.ru/themes/default-bootstrap/css/product.css' (User Action)
+2015-11-07 22:47:47: Copy Over 'D:/Works/Verstka/fishing-prestashop/prestashop/themes/default-bootstrap/css/product_list.css' -> 'ftp://fishing-equipment.alintond.bget.ru/themes/default-bootstrap/css/product_list.css' (User Action)
+2015-11-07 22:47:47: Copy Over 'D:/Works/Verstka/fishing-prestashop/prestashop/themes/default-bootstrap/css/rtl.css' -> 'ftp://fishing-equipment.alintond.bget.ru/themes/default-bootstrap/css/rtl.css' (User Action)
+2015-11-07 22:47:48: Copy Over 'D:/Works/Verstka/fishing-prestashop/prestashop/themes/default-bootstrap/css/scenes.css' -> 'ftp://fishing-equipment.alintond.bget.ru/themes/default-bootstrap/css/scenes.css' (User Action)
+2015-11-07 22:47:48: Copy Over 'D:/Works/Verstka/fishing-prestashop/prestashop/themes/default-bootstrap/css/scss/custom.scss' -> 'ftp://fishing-equipment.alintond.bget.ru/themes/default-bootstrap/css/scss/custom.scss' (User Action)
+2015-11-07 22:47:49: Copy Over 'D:/Works/Verstka/fishing-prestashop/prestashop/themes/default-bootstrap/css/sitemap.css' -> 'ftp://fishing-equipment.alintond.bget.ru/themes/default-bootstrap/css/sitemap.css' (User Action)
+2015-11-07 22:47:50: Copy Over 'D:/Works/Verstka/fishing-prestashop/prestashop/themes/default-bootstrap/css/stores.css' -> 'ftp://fishing-equipment.alintond.bget.ru/themes/default-bootstrap/css/stores.css' (User Action)
+2015-11-07 22:47:50: Copy Over 'D:/Works/Verstka/fishing-prestashop/prestashop/themes/default-bootstrap/discount.tpl' -> 'ftp://fishing-equipment.alintond.bget.ru/themes/default-bootstrap/discount.tpl' (User Action)
+2015-11-07 22:47:51: Copy Over 'D:/Works/Verstka/fishing-prestashop/prestashop/themes/default-bootstrap/errors.tpl' -> 'ftp://fishing-equipment.alintond.bget.ru/themes/default-bootstrap/errors.tpl' (User Action)
+2015-11-07 22:47:51: Copy Over 'D:/Works/Verstka/fishing-prestashop/prestashop/themes/default-bootstrap/font/.htaccess' -> 'ftp://fishing-equipment.alintond.bget.ru/themes/default-bootstrap/font/.htaccess' (User Action)
+2015-11-07 22:47:52: Copy Over 'D:/Works/Verstka/fishing-prestashop/prestashop/themes/default-bootstrap/font/fontawesome-webfont.eot' -> 'ftp://fishing-equipment.alintond.bget.ru/themes/default-bootstrap/font/fontawesome-webfont.eot' (User Action)
+2015-11-07 22:47:53: Copy Over 'D:/Works/Verstka/fishing-prestashop/prestashop/themes/default-bootstrap/font/fontawesome-webfont.svg' -> 'ftp://fishing-equipment.alintond.bget.ru/themes/default-bootstrap/font/fontawesome-webfont.svg' (User Action)
+2015-11-07 22:47:53: Copy Over 'D:/Works/Verstka/fishing-prestashop/prestashop/themes/default-bootstrap/font/fontawesome-webfont.ttf' -> 'ftp://fishing-equipment.alintond.bget.ru/themes/default-bootstrap/font/fontawesome-webfont.ttf' (User Action)
+2015-11-07 22:47:54: Copy Over 'D:/Works/Verstka/fishing-prestashop/prestashop/themes/default-bootstrap/font/fontawesome-webfont.woff' -> 'ftp://fishing-equipment.alintond.bget.ru/themes/default-bootstrap/font/fontawesome-webfont.woff' (User Action)
+2015-11-07 22:47:55: Copy Over 'D:/Works/Verstka/fishing-prestashop/prestashop/themes/default-bootstrap/font/FontAwesome.otf' -> 'ftp://fishing-equipment.alintond.bget.ru/themes/default-bootstrap/font/FontAwesome.otf' (User Action)
+2015-11-07 22:47:55: Copy Over 'D:/Works/Verstka/fishing-prestashop/prestashop/themes/default-bootstrap/footer.tpl' -> 'ftp://fishing-equipment.alintond.bget.ru/themes/default-bootstrap/footer.tpl' (User Action)
+2015-11-07 22:47:56: Copy Over 'D:/Works/Verstka/fishing-prestashop/prestashop/themes/default-bootstrap/global.tpl' -> 'ftp://fishing-equipment.alintond.bget.ru/themes/default-bootstrap/global.tpl' (User Action)
+2015-11-07 22:47:56: Copy Over 'D:/Works/Verstka/fishing-prestashop/prestashop/themes/default-bootstrap/guest-tracking.tpl' -> 'ftp://fishing-equipment.alintond.bget.ru/themes/default-bootstrap/guest-tracking.tpl' (User Action)
+2015-11-07 22:47:57: Copy Over 'D:/Works/Verstka/fishing-prestashop/prestashop/themes/default-bootstrap/header.tpl' -> 'ftp://fishing-equipment.alintond.bget.ru/themes/default-bootstrap/header.tpl' (User Action)
+2015-11-07 22:47:57: Copy Over 'D:/Works/Verstka/fishing-prestashop/prestashop/themes/default-bootstrap/history.tpl' -> 'ftp://fishing-equipment.alintond.bget.ru/themes/default-bootstrap/history.tpl' (User Action)
+2015-11-07 22:47:58: Copy Over 'D:/Works/Verstka/fishing-prestashop/prestashop/themes/default-bootstrap/identity.tpl' -> 'ftp://fishing-equipment.alintond.bget.ru/themes/default-bootstrap/identity.tpl' (User Action)
+2015-11-07 22:47:58: Copy Over 'D:/Works/Verstka/fishing-prestashop/prestashop/themes/default-bootstrap/img/addcartloader.gif' -> 'ftp://fishing-equipment.alintond.bget.ru/themes/default-bootstrap/img/addcartloader.gif' (User Action)
+2015-11-07 22:47:59: Copy Over 'D:/Works/Verstka/fishing-prestashop/prestashop/themes/default-bootstrap/img/ajax-loader.gif' -> 'ftp://fishing-equipment.alintond.bget.ru/themes/default-bootstrap/img/ajax-loader.gif' (User Action)
+2015-11-07 22:48:00: Copy Over 'D:/Works/Verstka/fishing-prestashop/prestashop/themes/default-bootstrap/img/bankwire.png' -> 'ftp://fishing-equipment.alintond.bget.ru/themes/default-bootstrap/img/bankwire.png' (User Action)
+2015-11-07 22:48:00: Copy Over 'D:/Works/Verstka/fishing-prestashop/prestashop/themes/default-bootstrap/img/bg_bt.gif' -> 'ftp://fishing-equipment.alintond.bget.ru/themes/default-bootstrap/img/bg_bt.gif' (User Action)
+2015-11-07 22:48:01: Copy Over 'D:/Works/Verstka/fishing-prestashop/prestashop/themes/default-bootstrap/img/bg_bt_2.gif' -> 'ftp://fishing-equipment.alintond.bget.ru/themes/default-bootstrap/img/bg_bt_2.gif' (User Action)
+2015-11-07 22:48:01: Copy Over 'D:/Works/Verstka/fishing-prestashop/prestashop/themes/default-bootstrap/img/bg_bt_compare.gif' -> 'ftp://fishing-equipment.alintond.bget.ru/themes/default-bootstrap/img/bg_bt_compare.gif' (User Action)
+2015-11-07 22:48:02: Copy Over 'D:/Works/Verstka/fishing-prestashop/prestashop/themes/default-bootstrap/img/bg_input.png' -> 'ftp://fishing-equipment.alintond.bget.ru/themes/default-bootstrap/img/bg_input.png' (User Action)
+2015-11-07 22:48:02: Copy Over 'D:/Works/Verstka/fishing-prestashop/prestashop/themes/default-bootstrap/img/bg_maintenance.png' -> 'ftp://fishing-equipment.alintond.bget.ru/themes/default-bootstrap/img/bg_maintenance.png' (User Action)
+2015-11-07 22:48:03: Copy Over 'D:/Works/Verstka/fishing-prestashop/prestashop/themes/default-bootstrap/img/bg_table_th.png' -> 'ftp://fishing-equipment.alintond.bget.ru/themes/default-bootstrap/img/bg_table_th.png' (User Action)
+2015-11-07 22:48:03: Copy Over 'D:/Works/Verstka/fishing-prestashop/prestashop/themes/default-bootstrap/img/bl-after-bg.png' -> 'ftp://fishing-equipment.alintond.bget.ru/themes/default-bootstrap/img/bl-after-bg.png' (User Action)
+2015-11-07 22:48:04: Copy Over 'D:/Works/Verstka/fishing-prestashop/prestashop/themes/default-bootstrap/img/bl-before-bg.png' -> 'ftp://fishing-equipment.alintond.bget.ru/themes/default-bootstrap/img/bl-before-bg.png' (User Action)
+2015-11-07 22:48:04: Copy Over 'D:/Works/Verstka/fishing-prestashop/prestashop/themes/default-bootstrap/img/border-1.gif' -> 'ftp://fishing-equipment.alintond.bget.ru/themes/default-bootstrap/img/border-1.gif' (User Action)
+2015-11-07 22:48:05: Copy Over 'D:/Works/Verstka/fishing-prestashop/prestashop/themes/default-bootstrap/img/cart-shadow.png' -> 'ftp://fishing-equipment.alintond.bget.ru/themes/default-bootstrap/img/cart-shadow.png' (User Action)
+2015-11-07 22:48:05: Copy Over 'D:/Works/Verstka/fishing-prestashop/prestashop/themes/default-bootstrap/img/cash.png' -> 'ftp://fishing-equipment.alintond.bget.ru/themes/default-bootstrap/img/cash.png' (User Action)
+2015-11-07 22:48:06: Copy Over 'D:/Works/Verstka/fishing-prestashop/prestashop/themes/default-bootstrap/img/cheque.png' -> 'ftp://fishing-equipment.alintond.bget.ru/themes/default-bootstrap/img/cheque.png' (User Action)
+2015-11-07 22:48:06: Copy Over 'D:/Works/Verstka/fishing-prestashop/prestashop/themes/default-bootstrap/img/contact-form.png' -> 'ftp://fishing-equipment.alintond.bget.ru/themes/default-bootstrap/img/contact-form.png' (User Action)
+2015-11-07 22:48:07: Copy Over 'D:/Works/Verstka/fishing-prestashop/prestashop/themes/default-bootstrap/img/footer-bg.png' -> 'ftp://fishing-equipment.alintond.bget.ru/themes/default-bootstrap/img/footer-bg.png' (User Action)
+2015-11-07 22:48:07: Copy Over 'D:/Works/Verstka/fishing-prestashop/prestashop/themes/default-bootstrap/img/form-contact-shadow.png' -> 'ftp://fishing-equipment.alintond.bget.ru/themes/default-bootstrap/img/form-contact-shadow.png' (User Action)
+2015-11-07 22:48:08: Copy Over 'D:/Works/Verstka/fishing-prestashop/prestashop/themes/default-bootstrap/img/functional-bt-shadow.png' -> 'ftp://fishing-equipment.alintond.bget.ru/themes/default-bootstrap/img/functional-bt-shadow.png' (User Action)
+2015-11-07 22:48:09: Copy Over 'D:/Works/Verstka/fishing-prestashop/prestashop/themes/default-bootstrap/img/icon/cible.gif' -> 'ftp://fishing-equipment.alintond.bget.ru/themes/default-bootstrap/img/icon/cible.gif' (User Action)
+2015-11-07 22:48:09: Copy Over 'D:/Works/Verstka/fishing-prestashop/prestashop/themes/default-bootstrap/img/icon/delete.gif' -> 'ftp://fishing-equipment.alintond.bget.ru/themes/default-bootstrap/img/icon/delete.gif' (User Action)
+2015-11-07 22:48:10: Copy Over 'D:/Works/Verstka/fishing-prestashop/prestashop/themes/default-bootstrap/img/icon/download_product.gif' -> 'ftp://fishing-equipment.alintond.bget.ru/themes/default-bootstrap/img/icon/download_product.gif' (User Action)
+2015-11-07 22:48:10: Copy Over 'D:/Works/Verstka/fishing-prestashop/prestashop/themes/default-bootstrap/img/icon/form-error.png' -> 'ftp://fishing-equipment.alintond.bget.ru/themes/default-bootstrap/img/icon/form-error.png' (User Action)
+2015-11-07 22:48:11: Copy Over 'D:/Works/Verstka/fishing-prestashop/prestashop/themes/default-bootstrap/img/icon/form-ok.png' -> 'ftp://fishing-equipment.alintond.bget.ru/themes/default-bootstrap/img/icon/form-ok.png' (User Action)
+2015-11-07 22:48:11: Copy Over 'D:/Works/Verstka/fishing-prestashop/prestashop/themes/default-bootstrap/img/icon/index.php' -> 'ftp://fishing-equipment.alintond.bget.ru/themes/default-bootstrap/img/icon/index.php' (User Action)
+2015-11-07 22:48:12: Copy Over 'D:/Works/Verstka/fishing-prestashop/prestashop/themes/default-bootstrap/img/icon/infos.gif' -> 'ftp://fishing-equipment.alintond.bget.ru/themes/default-bootstrap/img/icon/infos.gif' (User Action)
+2015-11-07 22:48:12: Copy Over 'D:/Works/Verstka/fishing-prestashop/prestashop/themes/default-bootstrap/img/icon/quantity_down.gif' -> 'ftp://fishing-equipment.alintond.bget.ru/themes/default-bootstrap/img/icon/quantity_down.gif' (User Action)
+2015-11-07 22:48:13: Copy Over 'D:/Works/Verstka/fishing-prestashop/prestashop/themes/default-bootstrap/img/icon/quantity_down_off.gif' -> 'ftp://fishing-equipment.alintond.bget.ru/themes/default-bootstrap/img/icon/quantity_down_off.gif' (User Action)
+2015-11-07 22:48:13: Copy Over 'D:/Works/Verstka/fishing-prestashop/prestashop/themes/default-bootstrap/img/icon/quantity_up.gif' -> 'ftp://fishing-equipment.alintond.bget.ru/themes/default-bootstrap/img/icon/quantity_up.gif' (User Action)
+2015-11-07 22:48:14: Copy Over 'D:/Works/Verstka/fishing-prestashop/prestashop/themes/default-bootstrap/img/icon/serial_scroll_left.gif' -> 'ftp://fishing-equipment.alintond.bget.ru/themes/default-bootstrap/img/icon/serial_scroll_left.gif' (User Action)
+2015-11-07 22:48:14: Copy Over 'D:/Works/Verstka/fishing-prestashop/prestashop/themes/default-bootstrap/img/icon/serial_scroll_right.gif' -> 'ftp://fishing-equipment.alintond.bget.ru/themes/default-bootstrap/img/icon/serial_scroll_right.gif' (User Action)
+2015-11-07 22:48:15: Copy Over 'D:/Works/Verstka/fishing-prestashop/prestashop/themes/default-bootstrap/img/icon/up.gif' -> 'ftp://fishing-equipment.alintond.bget.ru/themes/default-bootstrap/img/icon/up.gif' (User Action)
+2015-11-07 22:48:16: Copy Over 'D:/Works/Verstka/fishing-prestashop/prestashop/themes/default-bootstrap/img/icon/userinfo.gif' -> 'ftp://fishing-equipment.alintond.bget.ru/themes/default-bootstrap/img/icon/userinfo.gif' (User Action)
+2015-11-07 22:48:16: Copy Over 'D:/Works/Verstka/fishing-prestashop/prestashop/themes/default-bootstrap/img/img-404.jpg' -> 'ftp://fishing-equipment.alintond.bget.ru/themes/default-bootstrap/img/img-404.jpg' (User Action)
+2015-11-07 22:48:17: Copy Over 'D:/Works/Verstka/fishing-prestashop/prestashop/themes/default-bootstrap/img/index.php' -> 'ftp://fishing-equipment.alintond.bget.ru/themes/default-bootstrap/img/index.php' (User Action)
+2015-11-07 22:48:17: Copy Over 'D:/Works/Verstka/fishing-prestashop/prestashop/themes/default-bootstrap/img/jquery/index.php' -> 'ftp://fishing-equipment.alintond.bget.ru/themes/default-bootstrap/img/jquery/index.php' (User Action)
+2015-11-07 22:48:18: Copy Over 'D:/Works/Verstka/fishing-prestashop/prestashop/themes/default-bootstrap/img/jquery/macFFBgHack.png' -> 'ftp://fishing-equipment.alintond.bget.ru/themes/default-bootstrap/img/jquery/macFFBgHack.png' (User Action)
+2015-11-07 22:48:19: Copy Over 'D:/Works/Verstka/fishing-prestashop/prestashop/themes/default-bootstrap/img/jquery/uniform/sprite.png' -> 'ftp://fishing-equipment.alintond.bget.ru/themes/default-bootstrap/img/jquery/uniform/sprite.png' (User Action)
+2015-11-07 22:48:19: Copy Over 'D:/Works/Verstka/fishing-prestashop/prestashop/themes/default-bootstrap/img/logo_paiement_mastercard.jpg' -> 'ftp://fishing-equipment.alintond.bget.ru/themes/default-bootstrap/img/logo_paiement_mastercard.jpg' (User Action)
+2015-11-07 22:48:20: Copy Over 'D:/Works/Verstka/fishing-prestashop/prestashop/themes/default-bootstrap/img/logo_paiement_paypal.jpg' -> 'ftp://fishing-equipment.alintond.bget.ru/themes/default-bootstrap/img/logo_paiement_paypal.jpg' (User Action)
+2015-11-07 22:48:20: Copy Over 'D:/Works/Verstka/fishing-prestashop/prestashop/themes/default-bootstrap/img/logo_paiement_visa.jpg' -> 'ftp://fishing-equipment.alintond.bget.ru/themes/default-bootstrap/img/logo_paiement_visa.jpg' (User Action)
+2015-11-07 22:48:21: Copy Over 'D:/Works/Verstka/fishing-prestashop/prestashop/themes/default-bootstrap/img/order-step-a.png' -> 'ftp://fishing-equipment.alintond.bget.ru/themes/default-bootstrap/img/order-step-a.png' (User Action)
+2015-11-07 22:48:21: Copy Over 'D:/Works/Verstka/fishing-prestashop/prestashop/themes/default-bootstrap/img/order-step-current.png' -> 'ftp://fishing-equipment.alintond.bget.ru/themes/default-bootstrap/img/order-step-current.png' (User Action)
+2015-11-07 22:48:22: Copy Over 'D:/Works/Verstka/fishing-prestashop/prestashop/themes/default-bootstrap/img/order-step-done-last.png' -> 'ftp://fishing-equipment.alintond.bget.ru/themes/default-bootstrap/img/order-step-done-last.png' (User Action)
+2015-11-07 22:48:22: Copy Over 'D:/Works/Verstka/fishing-prestashop/prestashop/themes/default-bootstrap/img/order-step-done.png' -> 'ftp://fishing-equipment.alintond.bget.ru/themes/default-bootstrap/img/order-step-done.png' (User Action)
+2015-11-07 22:48:23: Copy Over 'D:/Works/Verstka/fishing-prestashop/prestashop/themes/default-bootstrap/img/pagination-li.gif' -> 'ftp://fishing-equipment.alintond.bget.ru/themes/default-bootstrap/img/pagination-li.gif' (User Action)
+2015-11-07 22:48:24: Copy Over 'D:/Works/Verstka/fishing-prestashop/prestashop/themes/default-bootstrap/img/price-container-bg.png' -> 'ftp://fishing-equipment.alintond.bget.ru/themes/default-bootstrap/img/price-container-bg.png' (User Action)
+2015-11-07 22:48:24: Copy Over 'D:/Works/Verstka/fishing-prestashop/prestashop/themes/default-bootstrap/img/rss.gif' -> 'ftp://fishing-equipment.alintond.bget.ru/themes/default-bootstrap/img/rss.gif' (User Action)
+2015-11-07 22:48:25: Copy Over 'D:/Works/Verstka/fishing-prestashop/prestashop/themes/default-bootstrap/img/sitemap-horizontal.png' -> 'ftp://fishing-equipment.alintond.bget.ru/themes/default-bootstrap/img/sitemap-horizontal.png' (User Action)
+2015-11-07 22:48:25: Copy Over 'D:/Works/Verstka/fishing-prestashop/prestashop/themes/default-bootstrap/img/sitemap-last.png' -> 'ftp://fishing-equipment.alintond.bget.ru/themes/default-bootstrap/img/sitemap-last.png' (User Action)
+2015-11-07 22:48:26: Copy Over 'D:/Works/Verstka/fishing-prestashop/prestashop/themes/default-bootstrap/img/testimon-after.gif' -> 'ftp://fishing-equipment.alintond.bget.ru/themes/default-bootstrap/img/testimon-after.gif' (User Action)
+2015-11-07 22:48:26: Copy Over 'D:/Works/Verstka/fishing-prestashop/prestashop/themes/default-bootstrap/index.php' -> 'ftp://fishing-equipment.alintond.bget.ru/themes/default-bootstrap/index.php' (User Action)
+2015-11-07 22:48:27: Copy Over 'D:/Works/Verstka/fishing-prestashop/prestashop/themes/default-bootstrap/index.tpl' -> 'ftp://fishing-equipment.alintond.bget.ru/themes/default-bootstrap/index.tpl' (User Action)
+2015-11-07 22:48:27: Copy Over 'D:/Works/Verstka/fishing-prestashop/prestashop/themes/default-bootstrap/js/authentication.js' -> 'ftp://fishing-equipment.alintond.bget.ru/themes/default-bootstrap/js/authentication.js' (User Action)
+2015-11-07 22:48:28: Copy Over 'D:/Works/Verstka/fishing-prestashop/prestashop/themes/default-bootstrap/js/autoload/10-bootstrap.min.js' -> 'ftp://fishing-equipment.alintond.bget.ru/themes/default-bootstrap/js/autoload/10-bootstrap.min.js' (User Action)
+2015-11-07 22:48:29: Copy Over 'D:/Works/Verstka/fishing-prestashop/prestashop/themes/default-bootstrap/js/autoload/15-jquery.total-storage.min.js' -> 'ftp://fishing-equipment.alintond.bget.ru/themes/default-bootstrap/js/autoload/15-jquery.total-storage.min.js' (User Action)
+2015-11-07 22:48:29: Copy Over 'D:/Works/Verstka/fishing-prestashop/prestashop/themes/default-bootstrap/js/autoload/15-jquery.uniform-modified.js' -> 'ftp://fishing-equipment.alintond.bget.ru/themes/default-bootstrap/js/autoload/15-jquery.uniform-modified.js' (User Action)
+2015-11-07 22:48:30: Copy Over 'D:/Works/Verstka/fishing-prestashop/prestashop/themes/default-bootstrap/js/cart-summary.js' -> 'ftp://fishing-equipment.alintond.bget.ru/themes/default-bootstrap/js/cart-summary.js' (User Action)
+2015-11-07 22:48:31: Copy Over 'D:/Works/Verstka/fishing-prestashop/prestashop/themes/default-bootstrap/js/category.js' -> 'ftp://fishing-equipment.alintond.bget.ru/themes/default-bootstrap/js/category.js' (User Action)
+2015-11-07 22:48:31: Copy Over 'D:/Works/Verstka/fishing-prestashop/prestashop/themes/default-bootstrap/js/cms.js' -> 'ftp://fishing-equipment.alintond.bget.ru/themes/default-bootstrap/js/cms.js' (User Action)
+2015-11-07 22:48:32: Copy Over 'D:/Works/Verstka/fishing-prestashop/prestashop/themes/default-bootstrap/js/contact-form.js' -> 'ftp://fishing-equipment.alintond.bget.ru/themes/default-bootstrap/js/contact-form.js' (User Action)
+2015-11-07 22:48:32: Copy Over 'D:/Works/Verstka/fishing-prestashop/prestashop/themes/default-bootstrap/js/debug/jquery.lint.js' -> 'ftp://fishing-equipment.alintond.bget.ru/themes/default-bootstrap/js/debug/jquery.lint.js' (User Action)
+2015-11-07 22:48:33: Copy Over 'D:/Works/Verstka/fishing-prestashop/prestashop/themes/default-bootstrap/js/global.js' -> 'ftp://fishing-equipment.alintond.bget.ru/themes/default-bootstrap/js/global.js' (User Action)
+2015-11-07 22:48:34: Copy Over 'D:/Works/Verstka/fishing-prestashop/prestashop/themes/default-bootstrap/js/history.js' -> 'ftp://fishing-equipment.alintond.bget.ru/themes/default-bootstrap/js/history.js' (User Action)
+2015-11-07 22:48:34: Copy Over 'D:/Works/Verstka/fishing-prestashop/prestashop/themes/default-bootstrap/js/index.js' -> 'ftp://fishing-equipment.alintond.bget.ru/themes/default-bootstrap/js/index.js' (User Action)
+2015-11-07 22:48:35: Copy Over 'D:/Works/Verstka/fishing-prestashop/prestashop/themes/default-bootstrap/js/index.php' -> 'ftp://fishing-equipment.alintond.bget.ru/themes/default-bootstrap/js/index.php' (User Action)
+2015-11-07 22:48:36: Copy Over 'D:/Works/Verstka/fishing-prestashop/prestashop/themes/default-bootstrap/js/modules/blockcart/ajax-cart.js' -> 'ftp://fishing-equipment.alintond.bget.ru/themes/default-bootstrap/js/modules/blockcart/ajax-cart.js' (User Action)
+2015-11-07 22:48:36: Copy Over 'D:/Works/Verstka/fishing-prestashop/prestashop/themes/default-bootstrap/js/modules/blocklayered/blocklayered-footer.js' -> 'ftp://fishing-equipment.alintond.bget.ru/themes/default-bootstrap/js/modules/blocklayered/blocklayered-footer.js' (User Action)
+2015-11-07 22:48:37: Copy Over 'D:/Works/Verstka/fishing-prestashop/prestashop/themes/default-bootstrap/js/modules/blocklayered/blocklayered.js' -> 'ftp://fishing-equipment.alintond.bget.ru/themes/default-bootstrap/js/modules/blocklayered/blocklayered.js' (User Action)
+2015-11-07 22:48:38: Copy Over 'D:/Works/Verstka/fishing-prestashop/prestashop/themes/default-bootstrap/js/modules/blocknewsletter/blocknewsletter.js' -> 'ftp://fishing-equipment.alintond.bget.ru/themes/default-bootstrap/js/modules/blocknewsletter/blocknewsletter.js' (User Action)
+2015-11-07 22:48:38: Copy Over 'D:/Works/Verstka/fishing-prestashop/prestashop/themes/default-bootstrap/js/modules/blocksearch/blocksearch.js' -> 'ftp://fishing-equipment.alintond.bget.ru/themes/default-bootstrap/js/modules/blocksearch/blocksearch.js' (User Action)
+2015-11-07 22:48:39: Copy Over 'D:/Works/Verstka/fishing-prestashop/prestashop/themes/default-bootstrap/js/modules/blocktopmenu/js/blocktopmenu.js' -> 'ftp://fishing-equipment.alintond.bget.ru/themes/default-bootstrap/js/modules/blocktopmenu/js/blocktopmenu.js' (User Action)
+2015-11-07 22:48:40: Copy Over 'D:/Works/Verstka/fishing-prestashop/prestashop/themes/default-bootstrap/js/modules/blocktopmenu/js/hoverIntent.js' -> 'ftp://fishing-equipment.alintond.bget.ru/themes/default-bootstrap/js/modules/blocktopmenu/js/hoverIntent.js' (User Action)
+2015-11-07 22:48:40: Copy Over 'D:/Works/Verstka/fishing-prestashop/prestashop/themes/default-bootstrap/js/modules/blocktopmenu/js/superfish-modified.js' -> 'ftp://fishing-equipment.alintond.bget.ru/themes/default-bootstrap/js/modules/blocktopmenu/js/superfish-modified.js' (User Action)
+2015-11-07 22:48:41: Copy Over 'D:/Works/Verstka/fishing-prestashop/prestashop/themes/default-bootstrap/js/modules/blockwishlist/js/ajax-wishlist.js' -> 'ftp://fishing-equipment.alintond.bget.ru/themes/default-bootstrap/js/modules/blockwishlist/js/ajax-wishlist.js' (User Action)
+2015-11-07 22:48:42: Copy Over 'D:/Works/Verstka/fishing-prestashop/prestashop/themes/default-bootstrap/js/modules/crossselling/js/crossselling.js' -> 'ftp://fishing-equipment.alintond.bget.ru/themes/default-bootstrap/js/modules/crossselling/js/crossselling.js' (User Action)
+2015-11-07 22:48:42: Copy Over 'D:/Works/Verstka/fishing-prestashop/prestashop/themes/default-bootstrap/js/modules/homeslider/js/homeslider.js' -> 'ftp://fishing-equipment.alintond.bget.ru/themes/default-bootstrap/js/modules/homeslider/js/homeslider.js' (User Action)
+2015-11-07 22:48:43: Copy Over 'D:/Works/Verstka/fishing-prestashop/prestashop/themes/default-bootstrap/js/modules/loyalty/js/loyalty.js' -> 'ftp://fishing-equipment.alintond.bget.ru/themes/default-bootstrap/js/modules/loyalty/js/loyalty.js' (User Action)
+2015-11-07 22:48:44: Copy Over 'D:/Works/Verstka/fishing-prestashop/prestashop/themes/default-bootstrap/js/modules/mailalerts/mailalerts.js' -> 'ftp://fishing-equipment.alintond.bget.ru/themes/default-bootstrap/js/modules/mailalerts/mailalerts.js' (User Action)
+2015-11-07 22:48:45: Copy Over 'D:/Works/Verstka/fishing-prestashop/prestashop/themes/default-bootstrap/js/modules/productcomments/js/productcomments.js' -> 'ftp://fishing-equipment.alintond.bget.ru/themes/default-bootstrap/js/modules/productcomments/js/productcomments.js' (User Action)
+2015-11-07 22:48:45: Copy Over 'D:/Works/Verstka/fishing-prestashop/prestashop/themes/default-bootstrap/js/modules/productcomments/js/products-comparison.js' -> 'ftp://fishing-equipment.alintond.bget.ru/themes/default-bootstrap/js/modules/productcomments/js/products-comparison.js' (User Action)
+2015-11-07 22:48:46: Copy Over 'D:/Works/Verstka/fishing-prestashop/prestashop/themes/default-bootstrap/js/modules/productscategory/js/productscategory.js' -> 'ftp://fishing-equipment.alintond.bget.ru/themes/default-bootstrap/js/modules/productscategory/js/productscategory.js' (User Action)
+2015-11-07 22:48:47: Copy Over 'D:/Works/Verstka/fishing-prestashop/prestashop/themes/default-bootstrap/js/modules/referralprogram/js/referralprogram.js' -> 'ftp://fishing-equipment.alintond.bget.ru/themes/default-bootstrap/js/modules/referralprogram/js/referralprogram.js' (User Action)
+2015-11-07 22:48:47: Copy Over 'D:/Works/Verstka/fishing-prestashop/prestashop/themes/default-bootstrap/js/modules/sendtoafriend/sendtoafriend.js' -> 'ftp://fishing-equipment.alintond.bget.ru/themes/default-bootstrap/js/modules/sendtoafriend/sendtoafriend.js' (User Action)
+2015-11-07 22:48:48: Copy Over 'D:/Works/Verstka/fishing-prestashop/prestashop/themes/default-bootstrap/js/order-address.js' -> 'ftp://fishing-equipment.alintond.bget.ru/themes/default-bootstrap/js/order-address.js' (User Action)
+2015-11-07 22:48:49: Copy Over 'D:/Works/Verstka/fishing-prestashop/prestashop/themes/default-bootstrap/js/order-carrier.js' -> 'ftp://fishing-equipment.alintond.bget.ru/themes/default-bootstrap/js/order-carrier.js' (User Action)
+2015-11-07 22:48:49: Copy Over 'D:/Works/Verstka/fishing-prestashop/prestashop/themes/default-bootstrap/js/order-opc.js' -> 'ftp://fishing-equipment.alintond.bget.ru/themes/default-bootstrap/js/order-opc.js' (User Action)
+2015-11-07 22:48:50: Copy Over 'D:/Works/Verstka/fishing-prestashop/prestashop/themes/default-bootstrap/js/product.js' -> 'ftp://fishing-equipment.alintond.bget.ru/themes/default-bootstrap/js/product.js' (User Action)
+2015-11-07 22:48:50: Copy Over 'D:/Works/Verstka/fishing-prestashop/prestashop/themes/default-bootstrap/js/products-comparison.js' -> 'ftp://fishing-equipment.alintond.bget.ru/themes/default-bootstrap/js/products-comparison.js' (User Action)
+2015-11-07 22:48:51: Copy Over 'D:/Works/Verstka/fishing-prestashop/prestashop/themes/default-bootstrap/js/scenes.js' -> 'ftp://fishing-equipment.alintond.bget.ru/themes/default-bootstrap/js/scenes.js' (User Action)
+2015-11-07 22:48:51: Copy Over 'D:/Works/Verstka/fishing-prestashop/prestashop/themes/default-bootstrap/js/stores.js' -> 'ftp://fishing-equipment.alintond.bget.ru/themes/default-bootstrap/js/stores.js' (User Action)
+2015-11-07 22:48:52: Copy Over 'D:/Works/Verstka/fishing-prestashop/prestashop/themes/default-bootstrap/js/tools/index.php' -> 'ftp://fishing-equipment.alintond.bget.ru/themes/default-bootstrap/js/tools/index.php' (User Action)
+2015-11-07 22:48:53: Copy Over 'D:/Works/Verstka/fishing-prestashop/prestashop/themes/default-bootstrap/js/tools/statesManagement.js' -> 'ftp://fishing-equipment.alintond.bget.ru/themes/default-bootstrap/js/tools/statesManagement.js' (User Action)
+2015-11-07 22:48:53: Copy Over 'D:/Works/Verstka/fishing-prestashop/prestashop/themes/default-bootstrap/js/tools/treeManagement.js' -> 'ftp://fishing-equipment.alintond.bget.ru/themes/default-bootstrap/js/tools/treeManagement.js' (User Action)
+2015-11-07 22:48:54: Copy Over 'D:/Works/Verstka/fishing-prestashop/prestashop/themes/default-bootstrap/js/tools/vatManagement.js' -> 'ftp://fishing-equipment.alintond.bget.ru/themes/default-bootstrap/js/tools/vatManagement.js' (User Action)
+2015-11-07 22:48:54: Copy Over 'D:/Works/Verstka/fishing-prestashop/prestashop/themes/default-bootstrap/lang/en.php' -> 'ftp://fishing-equipment.alintond.bget.ru/themes/default-bootstrap/lang/en.php' (User Action)
+2015-11-07 22:48:55: Copy Over 'D:/Works/Verstka/fishing-prestashop/prestashop/themes/default-bootstrap/lang/index.php' -> 'ftp://fishing-equipment.alintond.bget.ru/themes/default-bootstrap/lang/index.php' (User Action)
+2015-11-07 22:48:56: Copy Over 'D:/Works/Verstka/fishing-prestashop/prestashop/themes/default-bootstrap/lang/ru.php' -> 'ftp://fishing-equipment.alintond.bget.ru/themes/default-bootstrap/lang/ru.php' (User Action)
+2015-11-07 22:48:56: Copy Over 'D:/Works/Verstka/fishing-prestashop/prestashop/themes/default-bootstrap/layout.tpl' -> 'ftp://fishing-equipment.alintond.bget.ru/themes/default-bootstrap/layout.tpl' (User Action)
+2015-11-07 22:48:57: Copy Over 'D:/Works/Verstka/fishing-prestashop/prestashop/themes/default-bootstrap/maintenance.tpl' -> 'ftp://fishing-equipment.alintond.bget.ru/themes/default-bootstrap/maintenance.tpl' (User Action)
+2015-11-07 22:48:57: Copy Over 'D:/Works/Verstka/fishing-prestashop/prestashop/themes/default-bootstrap/manufacturer-list.tpl' -> 'ftp://fishing-equipment.alintond.bget.ru/themes/default-bootstrap/manufacturer-list.tpl' (User Action)
+2015-11-07 22:48:58: Copy Over 'D:/Works/Verstka/fishing-prestashop/prestashop/themes/default-bootstrap/manufacturer.tpl' -> 'ftp://fishing-equipment.alintond.bget.ru/themes/default-bootstrap/manufacturer.tpl' (User Action)
+2015-11-07 22:48:59: Copy Over 'D:/Works/Verstka/fishing-prestashop/prestashop/themes/default-bootstrap/mobile/css/autoload/index.php' -> 'ftp://fishing-equipment.alintond.bget.ru/themes/default-bootstrap/mobile/css/autoload/index.php' (User Action)
+2015-11-07 22:48:59: Copy Over 'D:/Works/Verstka/fishing-prestashop/prestashop/themes/default-bootstrap/mobile/index.php' -> 'ftp://fishing-equipment.alintond.bget.ru/themes/default-bootstrap/mobile/index.php' (User Action)
+2015-11-07 22:49:00: Copy Over 'D:/Works/Verstka/fishing-prestashop/prestashop/themes/default-bootstrap/mobile/js/autoload/index.php' -> 'ftp://fishing-equipment.alintond.bget.ru/themes/default-bootstrap/mobile/js/autoload/index.php' (User Action)
+2015-11-07 22:49:01: Copy Over 'D:/Works/Verstka/fishing-prestashop/prestashop/themes/default-bootstrap/modules/bankwire/translations/en.php' -> 'ftp://fishing-equipment.alintond.bget.ru/themes/default-bootstrap/modules/bankwire/translations/en.php' (User Action)
+2015-11-07 22:49:01: Copy Over 'D:/Works/Verstka/fishing-prestashop/prestashop/themes/default-bootstrap/modules/bankwire/translations/it.php' -> 'ftp://fishing-equipment.alintond.bget.ru/themes/default-bootstrap/modules/bankwire/translations/it.php' (User Action)
+2015-11-07 22:49:02: Copy Over 'D:/Works/Verstka/fishing-prestashop/prestashop/themes/default-bootstrap/modules/bankwire/views/templates/front/payment_execution.tpl' -> 'ftp://fishing-equipment.alintond.bget.ru/themes/default-bootstrap/modules/bankwire/views/templates/front/payment_execution.tpl' (User Action)
+2015-11-07 22:49:03: Copy Over 'D:/Works/Verstka/fishing-prestashop/prestashop/themes/default-bootstrap/modules/bankwire/views/templates/hook/payment.tpl' -> 'ftp://fishing-equipment.alintond.bget.ru/themes/default-bootstrap/modules/bankwire/views/templates/hook/payment.tpl' (User Action)
+2015-11-07 22:49:04: Copy Over 'D:/Works/Verstka/fishing-prestashop/prestashop/themes/default-bootstrap/modules/bankwire/views/templates/hook/payment_return.tpl' -> 'ftp://fishing-equipment.alintond.bget.ru/themes/default-bootstrap/modules/bankwire/views/templates/hook/payment_return.tpl' (User Action)
+2015-11-07 22:49:04: Copy Over 'D:/Works/Verstka/fishing-prestashop/prestashop/themes/default-bootstrap/modules/blockbestsellers/blockbestsellers-home.tpl' -> 'ftp://fishing-equipment.alintond.bget.ru/themes/default-bootstrap/modules/blockbestsellers/blockbestsellers-home.tpl' (User Action)
+2015-11-07 22:49:05: Copy Over 'D:/Works/Verstka/fishing-prestashop/prestashop/themes/default-bootstrap/modules/blockbestsellers/blockbestsellers.tpl' -> 'ftp://fishing-equipment.alintond.bget.ru/themes/default-bootstrap/modules/blockbestsellers/blockbestsellers.tpl' (User Action)
+2015-11-07 22:49:05: Copy Over 'D:/Works/Verstka/fishing-prestashop/prestashop/themes/default-bootstrap/modules/blockbestsellers/tab.tpl' -> 'ftp://fishing-equipment.alintond.bget.ru/themes/default-bootstrap/modules/blockbestsellers/tab.tpl' (User Action)
+2015-11-07 22:49:06: Copy Over 'D:/Works/Verstka/fishing-prestashop/prestashop/themes/default-bootstrap/modules/blockcallback/blockcallback.tpl' -> 'ftp://fishing-equipment.alintond.bget.ru/themes/default-bootstrap/modules/blockcallback/blockcallback.tpl' (User Action)
+2015-11-07 22:49:07: Copy Over 'D:/Works/Verstka/fishing-prestashop/prestashop/themes/default-bootstrap/modules/blockcallback/blockcallback.tpl1' -> 'ftp://fishing-equipment.alintond.bget.ru/themes/default-bootstrap/modules/blockcallback/blockcallback.tpl1' (User Action)
+2015-11-07 22:49:07: Copy Over 'D:/Works/Verstka/fishing-prestashop/prestashop/themes/default-bootstrap/modules/blockcallback/translations/ru.php' -> 'ftp://fishing-equipment.alintond.bget.ru/themes/default-bootstrap/modules/blockcallback/translations/ru.php' (User Action)
+2015-11-07 22:49:08: Copy Over 'D:/Works/Verstka/fishing-prestashop/prestashop/themes/default-bootstrap/modules/blockcart/blockcart-json.tpl' -> 'ftp://fishing-equipment.alintond.bget.ru/themes/default-bootstrap/modules/blockcart/blockcart-json.tpl' (User Action)
+2015-11-07 22:49:09: Copy Over 'D:/Works/Verstka/fishing-prestashop/prestashop/themes/default-bootstrap/modules/blockcart/blockcart.tpl' -> 'ftp://fishing-equipment.alintond.bget.ru/themes/default-bootstrap/modules/blockcart/blockcart.tpl' (User Action)
+2015-11-07 22:49:09: Copy Over 'D:/Works/Verstka/fishing-prestashop/prestashop/themes/default-bootstrap/modules/blockcart/crossselling.tpl' -> 'ftp://fishing-equipment.alintond.bget.ru/themes/default-bootstrap/modules/blockcart/crossselling.tpl' (User Action)
+2015-11-07 22:49:10: Copy Over 'D:/Works/Verstka/fishing-prestashop/prestashop/themes/default-bootstrap/modules/blockcategories/blockcategories.tpl' -> 'ftp://fishing-equipment.alintond.bget.ru/themes/default-bootstrap/modules/blockcategories/blockcategories.tpl' (User Action)
+2015-11-07 22:49:10: Copy Over 'D:/Works/Verstka/fishing-prestashop/prestashop/themes/default-bootstrap/modules/blockcategories/blockcategories_footer.tpl' -> 'ftp://fishing-equipment.alintond.bget.ru/themes/default-bootstrap/modules/blockcategories/blockcategories_footer.tpl' (User Action)
+2015-11-07 22:49:11: Copy Over 'D:/Works/Verstka/fishing-prestashop/prestashop/themes/default-bootstrap/modules/blockcategories/blockcategories_top.tpl' -> 'ftp://fishing-equipment.alintond.bget.ru/themes/default-bootstrap/modules/blockcategories/blockcategories_top.tpl' (User Action)
+2015-11-07 22:49:11: Copy Over 'D:/Works/Verstka/fishing-prestashop/prestashop/themes/default-bootstrap/modules/blockcategories/category-tree-branch-top.tpl' -> 'ftp://fishing-equipment.alintond.bget.ru/themes/default-bootstrap/modules/blockcategories/category-tree-branch-top.tpl' (User Action)
+2015-11-07 22:49:12: Copy Over 'D:/Works/Verstka/fishing-prestashop/prestashop/themes/default-bootstrap/modules/blockcategories/category-tree-branch.tpl' -> 'ftp://fishing-equipment.alintond.bget.ru/themes/default-bootstrap/modules/blockcategories/category-tree-branch.tpl' (User Action)
+2015-11-07 22:49:12: Copy Over 'D:/Works/Verstka/fishing-prestashop/prestashop/themes/default-bootstrap/modules/blockcms/blockcms.tpl' -> 'ftp://fishing-equipment.alintond.bget.ru/themes/default-bootstrap/modules/blockcms/blockcms.tpl' (User Action)
+2015-11-07 22:49:13: Copy Over 'D:/Works/Verstka/fishing-prestashop/prestashop/themes/default-bootstrap/modules/blockcms/translations/en.php' -> 'ftp://fishing-equipment.alintond.bget.ru/themes/default-bootstrap/modules/blockcms/translations/en.php' (User Action)
+2015-11-07 22:49:14: Copy Over 'D:/Works/Verstka/fishing-prestashop/prestashop/themes/default-bootstrap/modules/blockcontact/blockcontact.tpl' -> 'ftp://fishing-equipment.alintond.bget.ru/themes/default-bootstrap/modules/blockcontact/blockcontact.tpl' (User Action)
+2015-11-07 22:49:14: Copy Over 'D:/Works/Verstka/fishing-prestashop/prestashop/themes/default-bootstrap/modules/blockcontact/nav.tpl' -> 'ftp://fishing-equipment.alintond.bget.ru/themes/default-bootstrap/modules/blockcontact/nav.tpl' (User Action)
+2015-11-07 22:49:15: Copy Over 'D:/Works/Verstka/fishing-prestashop/prestashop/themes/default-bootstrap/modules/blockcontactinfos/blockcontactinfos.tpl' -> 'ftp://fishing-equipment.alintond.bget.ru/themes/default-bootstrap/modules/blockcontactinfos/blockcontactinfos.tpl' (User Action)
+2015-11-07 22:49:16: Copy Over 'D:/Works/Verstka/fishing-prestashop/prestashop/themes/default-bootstrap/modules/blockcurrencies/blockcurrencies.tpl' -> 'ftp://fishing-equipment.alintond.bget.ru/themes/default-bootstrap/modules/blockcurrencies/blockcurrencies.tpl' (User Action)
+2015-11-07 22:49:17: Copy Over 'D:/Works/Verstka/fishing-prestashop/prestashop/themes/default-bootstrap/modules/blockcustomerprivacy/blockcustomerprivacy.tpl' -> 'ftp://fishing-equipment.alintond.bget.ru/themes/default-bootstrap/modules/blockcustomerprivacy/blockcustomerprivacy.tpl' (User Action)
+2015-11-07 22:49:17: Copy Over 'D:/Works/Verstka/fishing-prestashop/prestashop/themes/default-bootstrap/modules/blocklanguages/blocklanguages.tpl' -> 'ftp://fishing-equipment.alintond.bget.ru/themes/default-bootstrap/modules/blocklanguages/blocklanguages.tpl' (User Action)
+2015-11-07 22:49:18: Copy Over 'D:/Works/Verstka/fishing-prestashop/prestashop/themes/default-bootstrap/modules/blocklayered/blocklayered-no-products.tpl' -> 'ftp://fishing-equipment.alintond.bget.ru/themes/default-bootstrap/modules/blocklayered/blocklayered-no-products.tpl' (User Action)
+2015-11-07 22:49:19: Copy Over 'D:/Works/Verstka/fishing-prestashop/prestashop/themes/default-bootstrap/modules/blocklayered/blocklayered.tpl' -> 'ftp://fishing-equipment.alintond.bget.ru/themes/default-bootstrap/modules/blocklayered/blocklayered.tpl' (User Action)
+2015-11-07 22:49:19: Copy Over 'D:/Works/Verstka/fishing-prestashop/prestashop/themes/default-bootstrap/modules/blocklink/blocklink.tpl' -> 'ftp://fishing-equipment.alintond.bget.ru/themes/default-bootstrap/modules/blocklink/blocklink.tpl' (User Action)
+2015-11-07 22:49:20: Copy Over 'D:/Works/Verstka/fishing-prestashop/prestashop/themes/default-bootstrap/modules/blockmanufacturer/blockmanufacturer.tpl' -> 'ftp://fishing-equipment.alintond.bget.ru/themes/default-bootstrap/modules/blockmanufacturer/blockmanufacturer.tpl' (User Action)
+2015-11-07 22:49:21: Copy Over 'D:/Works/Verstka/fishing-prestashop/prestashop/themes/default-bootstrap/modules/blockmyaccount/blockmyaccount.tpl' -> 'ftp://fishing-equipment.alintond.bget.ru/themes/default-bootstrap/modules/blockmyaccount/blockmyaccount.tpl' (User Action)
+2015-11-07 22:49:21: Copy Over 'D:/Works/Verstka/fishing-prestashop/prestashop/themes/default-bootstrap/modules/blockmyaccountfooter/blockmyaccountfooter.tpl' -> 'ftp://fishing-equipment.alintond.bget.ru/themes/default-bootstrap/modules/blockmyaccountfooter/blockmyaccountfooter.tpl' (User Action)
+2015-11-07 22:49:22: Copy Over 'D:/Works/Verstka/fishing-prestashop/prestashop/themes/default-bootstrap/modules/blocknewproducts/blocknewproducts.tpl' -> 'ftp://fishing-equipment.alintond.bget.ru/themes/default-bootstrap/modules/blocknewproducts/blocknewproducts.tpl' (User Action)
+2015-11-07 22:49:23: Copy Over 'D:/Works/Verstka/fishing-prestashop/prestashop/themes/default-bootstrap/modules/blocknewproducts/blocknewproducts_home.tpl' -> 'ftp://fishing-equipment.alintond.bget.ru/themes/default-bootstrap/modules/blocknewproducts/blocknewproducts_home.tpl' (User Action)
+2015-11-07 22:49:23: Copy Over 'D:/Works/Verstka/fishing-prestashop/prestashop/themes/default-bootstrap/modules/blocknewproducts/tab.tpl' -> 'ftp://fishing-equipment.alintond.bget.ru/themes/default-bootstrap/modules/blocknewproducts/tab.tpl' (User Action)
+2015-11-07 22:49:24: Copy Over 'D:/Works/Verstka/fishing-prestashop/prestashop/themes/default-bootstrap/modules/blocknewsletter/blocknewsletter.tpl' -> 'ftp://fishing-equipment.alintond.bget.ru/themes/default-bootstrap/modules/blocknewsletter/blocknewsletter.tpl' (User Action)
+2015-11-07 22:49:24: Copy Over 'D:/Works/Verstka/fishing-prestashop/prestashop/themes/default-bootstrap/modules/blockrss/blockrss.tpl' -> 'ftp://fishing-equipment.alintond.bget.ru/themes/default-bootstrap/modules/blockrss/blockrss.tpl' (User Action)
+2015-11-07 22:49:25: Copy Over 'D:/Works/Verstka/fishing-prestashop/prestashop/themes/default-bootstrap/modules/blocksearch/blocksearch-top.tpl' -> 'ftp://fishing-equipment.alintond.bget.ru/themes/default-bootstrap/modules/blocksearch/blocksearch-top.tpl' (User Action)
+2015-11-07 22:49:26: Copy Over 'D:/Works/Verstka/fishing-prestashop/prestashop/themes/default-bootstrap/modules/blocksearch/blocksearch.tpl' -> 'ftp://fishing-equipment.alintond.bget.ru/themes/default-bootstrap/modules/blocksearch/blocksearch.tpl' (User Action)
+2015-11-07 22:49:26: Copy Over 'D:/Works/Verstka/fishing-prestashop/prestashop/themes/default-bootstrap/modules/blocksocial/blocksocial.tpl' -> 'ftp://fishing-equipment.alintond.bget.ru/themes/default-bootstrap/modules/blocksocial/blocksocial.tpl' (User Action)
+2015-11-07 22:49:27: Copy Over 'D:/Works/Verstka/fishing-prestashop/prestashop/themes/default-bootstrap/modules/blockspecials/blockspecials.tpl' -> 'ftp://fishing-equipment.alintond.bget.ru/themes/default-bootstrap/modules/blockspecials/blockspecials.tpl' (User Action)
+2015-11-07 22:49:28: Copy Over 'D:/Works/Verstka/fishing-prestashop/prestashop/themes/default-bootstrap/modules/blockstore/blockstore.tpl' -> 'ftp://fishing-equipment.alintond.bget.ru/themes/default-bootstrap/modules/blockstore/blockstore.tpl' (User Action)
+2015-11-07 22:49:29: Copy Over 'D:/Works/Verstka/fishing-prestashop/prestashop/themes/default-bootstrap/modules/blocksupplier/blocksupplier.tpl' -> 'ftp://fishing-equipment.alintond.bget.ru/themes/default-bootstrap/modules/blocksupplier/blocksupplier.tpl' (User Action)
+2015-11-07 22:49:29: Copy Over 'D:/Works/Verstka/fishing-prestashop/prestashop/themes/default-bootstrap/modules/blocktags/blocktags.tpl' -> 'ftp://fishing-equipment.alintond.bget.ru/themes/default-bootstrap/modules/blocktags/blocktags.tpl' (User Action)
+2015-11-07 22:49:30: Copy Over 'D:/Works/Verstka/fishing-prestashop/prestashop/themes/default-bootstrap/modules/blocktopmenu/blocktopmenu.tpl' -> 'ftp://fishing-equipment.alintond.bget.ru/themes/default-bootstrap/modules/blocktopmenu/blocktopmenu.tpl' (User Action)
+2015-11-07 22:49:31: Copy Over 'D:/Works/Verstka/fishing-prestashop/prestashop/themes/default-bootstrap/modules/blockuserinfo/blockuserinfo.tpl' -> 'ftp://fishing-equipment.alintond.bget.ru/themes/default-bootstrap/modules/blockuserinfo/blockuserinfo.tpl' (User Action)
+2015-11-07 22:49:31: Copy Over 'D:/Works/Verstka/fishing-prestashop/prestashop/themes/default-bootstrap/modules/blockuserinfo/nav.tpl' -> 'ftp://fishing-equipment.alintond.bget.ru/themes/default-bootstrap/modules/blockuserinfo/nav.tpl' (User Action)
+2015-11-07 22:49:32: Copy Over 'D:/Works/Verstka/fishing-prestashop/prestashop/themes/default-bootstrap/modules/blockviewed/blockviewed.tpl' -> 'ftp://fishing-equipment.alintond.bget.ru/themes/default-bootstrap/modules/blockviewed/blockviewed.tpl' (User Action)
+2015-11-07 22:49:33: Copy Over 'D:/Works/Verstka/fishing-prestashop/prestashop/themes/default-bootstrap/modules/blockwishlist/blockwishlist-ajax.tpl' -> 'ftp://fishing-equipment.alintond.bget.ru/themes/default-bootstrap/modules/blockwishlist/blockwishlist-ajax.tpl' (User Action)
+2015-11-07 22:49:33: Copy Over 'D:/Works/Verstka/fishing-prestashop/prestashop/themes/default-bootstrap/modules/blockwishlist/blockwishlist-extra.tpl' -> 'ftp://fishing-equipment.alintond.bget.ru/themes/default-bootstrap/modules/blockwishlist/blockwishlist-extra.tpl' (User Action)
+2015-11-07 22:49:34: Copy Over 'D:/Works/Verstka/fishing-prestashop/prestashop/themes/default-bootstrap/modules/blockwishlist/blockwishlist.tpl' -> 'ftp://fishing-equipment.alintond.bget.ru/themes/default-bootstrap/modules/blockwishlist/blockwishlist.tpl' (User Action)
+2015-11-07 22:49:34: Copy Over 'D:/Works/Verstka/fishing-prestashop/prestashop/themes/default-bootstrap/modules/blockwishlist/blockwishlist_button.tpl' -> 'ftp://fishing-equipment.alintond.bget.ru/themes/default-bootstrap/modules/blockwishlist/blockwishlist_button.tpl' (User Action)
+2015-11-07 22:49:35: Copy Over 'D:/Works/Verstka/fishing-prestashop/prestashop/themes/default-bootstrap/modules/blockwishlist/blockwishlist_top.tpl' -> 'ftp://fishing-equipment.alintond.bget.ru/themes/default-bootstrap/modules/blockwishlist/blockwishlist_top.tpl' (User Action)
+2015-11-07 22:49:36: Copy Over 'D:/Works/Verstka/fishing-prestashop/prestashop/themes/default-bootstrap/modules/blockwishlist/my-account.tpl' -> 'ftp://fishing-equipment.alintond.bget.ru/themes/default-bootstrap/modules/blockwishlist/my-account.tpl' (User Action)
+2015-11-07 22:49:36: Copy Over 'D:/Works/Verstka/fishing-prestashop/prestashop/themes/default-bootstrap/modules/blockwishlist/views/templates/front/managewishlist.tpl' -> 'ftp://fishing-equipment.alintond.bget.ru/themes/default-bootstrap/modules/blockwishlist/views/templates/front/managewishlist.tpl' (User Action)
+2015-11-07 22:49:37: Copy Over 'D:/Works/Verstka/fishing-prestashop/prestashop/themes/default-bootstrap/modules/blockwishlist/views/templates/front/mywishlist.tpl' -> 'ftp://fishing-equipment.alintond.bget.ru/themes/default-bootstrap/modules/blockwishlist/views/templates/front/mywishlist.tpl' (User Action)
+2015-11-07 22:49:38: Copy Over 'D:/Works/Verstka/fishing-prestashop/prestashop/themes/default-bootstrap/modules/blockwishlist/views/templates/front/view.tpl' -> 'ftp://fishing-equipment.alintond.bget.ru/themes/default-bootstrap/modules/blockwishlist/views/templates/front/view.tpl' (User Action)
+2015-11-07 22:49:38: Copy Over 'D:/Works/Verstka/fishing-prestashop/prestashop/themes/default-bootstrap/modules/carriercompare/template/carriercompare.tpl' -> 'ftp://fishing-equipment.alintond.bget.ru/themes/default-bootstrap/modules/carriercompare/template/carriercompare.tpl' (User Action)
+2015-11-07 22:49:39: Copy Over 'D:/Works/Verstka/fishing-prestashop/prestashop/themes/default-bootstrap/modules/carriercompare/template/configuration.tpl' -> 'ftp://fishing-equipment.alintond.bget.ru/themes/default-bootstrap/modules/carriercompare/template/configuration.tpl' (User Action)
+2015-11-07 22:49:40: Copy Over 'D:/Works/Verstka/fishing-prestashop/prestashop/themes/default-bootstrap/modules/cashondelivery/views/templates/front/validation.tpl' -> 'ftp://fishing-equipment.alintond.bget.ru/themes/default-bootstrap/modules/cashondelivery/views/templates/front/validation.tpl' (User Action)
+2015-11-07 22:49:40: Copy Over 'D:/Works/Verstka/fishing-prestashop/prestashop/themes/default-bootstrap/modules/cashondelivery/views/templates/hook/confirmation.tpl' -> 'ftp://fishing-equipment.alintond.bget.ru/themes/default-bootstrap/modules/cashondelivery/views/templates/hook/confirmation.tpl' (User Action)
+2015-11-07 22:49:41: Copy Over 'D:/Works/Verstka/fishing-prestashop/prestashop/themes/default-bootstrap/modules/cashondelivery/views/templates/hook/payment.tpl' -> 'ftp://fishing-equipment.alintond.bget.ru/themes/default-bootstrap/modules/cashondelivery/views/templates/hook/payment.tpl' (User Action)
+2015-11-07 22:49:42: Copy Over 'D:/Works/Verstka/fishing-prestashop/prestashop/themes/default-bootstrap/modules/cheque/translations/en.php' -> 'ftp://fishing-equipment.alintond.bget.ru/themes/default-bootstrap/modules/cheque/translations/en.php' (User Action)
+2015-11-07 22:49:42: Copy Over 'D:/Works/Verstka/fishing-prestashop/prestashop/themes/default-bootstrap/modules/cheque/translations/it.php' -> 'ftp://fishing-equipment.alintond.bget.ru/themes/default-bootstrap/modules/cheque/translations/it.php' (User Action)
+2015-11-07 22:49:43: Copy Over 'D:/Works/Verstka/fishing-prestashop/prestashop/themes/default-bootstrap/modules/cheque/views/templates/front/payment_execution.tpl' -> 'ftp://fishing-equipment.alintond.bget.ru/themes/default-bootstrap/modules/cheque/views/templates/front/payment_execution.tpl' (User Action)
+2015-11-07 22:49:44: Copy Over 'D:/Works/Verstka/fishing-prestashop/prestashop/themes/default-bootstrap/modules/cheque/views/templates/hook/infos.tpl' -> 'ftp://fishing-equipment.alintond.bget.ru/themes/default-bootstrap/modules/cheque/views/templates/hook/infos.tpl' (User Action)
+2015-11-07 22:49:44: Copy Over 'D:/Works/Verstka/fishing-prestashop/prestashop/themes/default-bootstrap/modules/cheque/views/templates/hook/payment.tpl' -> 'ftp://fishing-equipment.alintond.bget.ru/themes/default-bootstrap/modules/cheque/views/templates/hook/payment.tpl' (User Action)
+2015-11-07 22:49:45: Copy Over 'D:/Works/Verstka/fishing-prestashop/prestashop/themes/default-bootstrap/modules/cheque/views/templates/hook/payment_return.tpl' -> 'ftp://fishing-equipment.alintond.bget.ru/themes/default-bootstrap/modules/cheque/views/templates/hook/payment_return.tpl' (User Action)
+2015-11-07 22:49:46: Copy Over 'D:/Works/Verstka/fishing-prestashop/prestashop/themes/default-bootstrap/modules/crossselling/crossselling.tpl' -> 'ftp://fishing-equipment.alintond.bget.ru/themes/default-bootstrap/modules/crossselling/crossselling.tpl' (User Action)
+2015-11-07 22:49:47: Copy Over 'D:/Works/Verstka/fishing-prestashop/prestashop/themes/default-bootstrap/modules/favoriteproducts/views/templates/front/favoriteproducts-account.tpl' -> 'ftp://fishing-equipment.alintond.bget.ru/themes/default-bootstrap/modules/favoriteproducts/views/templates/front/favoriteproducts-account.tpl' (User Action)
+2015-11-07 22:49:47: Copy Over 'D:/Works/Verstka/fishing-prestashop/prestashop/themes/default-bootstrap/modules/favoriteproducts/views/templates/hook/favoriteproducts-extra.tpl' -> 'ftp://fishing-equipment.alintond.bget.ru/themes/default-bootstrap/modules/favoriteproducts/views/templates/hook/favoriteproducts-extra.tpl' (User Action)
+2015-11-07 22:49:48: Copy Over 'D:/Works/Verstka/fishing-prestashop/prestashop/themes/default-bootstrap/modules/favoriteproducts/views/templates/hook/favoriteproducts-header.tpl' -> 'ftp://fishing-equipment.alintond.bget.ru/themes/default-bootstrap/modules/favoriteproducts/views/templates/hook/favoriteproducts-header.tpl' (User Action)
+2015-11-07 22:49:48: Copy Over 'D:/Works/Verstka/fishing-prestashop/prestashop/themes/default-bootstrap/modules/favoriteproducts/views/templates/hook/my-account.tpl' -> 'ftp://fishing-equipment.alintond.bget.ru/themes/default-bootstrap/modules/favoriteproducts/views/templates/hook/my-account.tpl' (User Action)
+2015-11-07 22:49:49: Copy Over 'D:/Works/Verstka/fishing-prestashop/prestashop/themes/default-bootstrap/modules/homefeatured/homefeatured.tpl' -> 'ftp://fishing-equipment.alintond.bget.ru/themes/default-bootstrap/modules/homefeatured/homefeatured.tpl' (User Action)
+2015-11-07 22:49:50: Copy Over 'D:/Works/Verstka/fishing-prestashop/prestashop/themes/default-bootstrap/modules/homefeatured/tab.tpl' -> 'ftp://fishing-equipment.alintond.bget.ru/themes/default-bootstrap/modules/homefeatured/tab.tpl' (User Action)
+2015-11-07 22:49:50: Copy Over 'D:/Works/Verstka/fishing-prestashop/prestashop/themes/default-bootstrap/modules/homeslider/header.tpl' -> 'ftp://fishing-equipment.alintond.bget.ru/themes/default-bootstrap/modules/homeslider/header.tpl' (User Action)
+2015-11-07 22:49:51: Copy Over 'D:/Works/Verstka/fishing-prestashop/prestashop/themes/default-bootstrap/modules/homeslider/homeslider.tpl' -> 'ftp://fishing-equipment.alintond.bget.ru/themes/default-bootstrap/modules/homeslider/homeslider.tpl' (User Action)
+2015-11-07 22:49:52: Copy Over 'D:/Works/Verstka/fishing-prestashop/prestashop/themes/default-bootstrap/modules/loyalty/views/templates/front/loyalty.tpl' -> 'ftp://fishing-equipment.alintond.bget.ru/themes/default-bootstrap/modules/loyalty/views/templates/front/loyalty.tpl' (User Action)
+2015-11-07 22:49:52: Copy Over 'D:/Works/Verstka/fishing-prestashop/prestashop/themes/default-bootstrap/modules/loyalty/views/templates/hook/my-account.tpl' -> 'ftp://fishing-equipment.alintond.bget.ru/themes/default-bootstrap/modules/loyalty/views/templates/hook/my-account.tpl' (User Action)
+2015-11-07 22:49:53: Copy Over 'D:/Works/Verstka/fishing-prestashop/prestashop/themes/default-bootstrap/modules/loyalty/views/templates/hook/product.tpl' -> 'ftp://fishing-equipment.alintond.bget.ru/themes/default-bootstrap/modules/loyalty/views/templates/hook/product.tpl' (User Action)
+2015-11-07 22:49:53: Copy Over 'D:/Works/Verstka/fishing-prestashop/prestashop/themes/default-bootstrap/modules/loyalty/views/templates/hook/shopping-cart.tpl' -> 'ftp://fishing-equipment.alintond.bget.ru/themes/default-bootstrap/modules/loyalty/views/templates/hook/shopping-cart.tpl' (User Action)
+2015-11-07 22:49:54: Copy Over 'D:/Works/Verstka/fishing-prestashop/prestashop/themes/default-bootstrap/modules/mailalerts/views/templates/front/mailalerts-account.tpl' -> 'ftp://fishing-equipment.alintond.bget.ru/themes/default-bootstrap/modules/mailalerts/views/templates/front/mailalerts-account.tpl' (User Action)
+2015-11-07 22:49:55: Copy Over 'D:/Works/Verstka/fishing-prestashop/prestashop/themes/default-bootstrap/modules/mailalerts/views/templates/hook/my-account.tpl' -> 'ftp://fishing-equipment.alintond.bget.ru/themes/default-bootstrap/modules/mailalerts/views/templates/hook/my-account.tpl' (User Action)
+2015-11-07 22:49:56: Copy Over 'D:/Works/Verstka/fishing-prestashop/prestashop/themes/default-bootstrap/modules/mailalerts/views/templates/hook/product.tpl' -> 'ftp://fishing-equipment.alintond.bget.ru/themes/default-bootstrap/modules/mailalerts/views/templates/hook/product.tpl' (User Action)
+2015-11-07 22:49:56: Copy Over 'D:/Works/Verstka/fishing-prestashop/prestashop/themes/default-bootstrap/modules/productcomments/productcomments-extra.tpl' -> 'ftp://fishing-equipment.alintond.bget.ru/themes/default-bootstrap/modules/productcomments/productcomments-extra.tpl' (User Action)
+2015-11-07 22:49:57: Copy Over 'D:/Works/Verstka/fishing-prestashop/prestashop/themes/default-bootstrap/modules/productcomments/productcomments.tpl' -> 'ftp://fishing-equipment.alintond.bget.ru/themes/default-bootstrap/modules/productcomments/productcomments.tpl' (User Action)
+2015-11-07 22:49:57: Copy Over 'D:/Works/Verstka/fishing-prestashop/prestashop/themes/default-bootstrap/modules/productcomments/productcomments_reviews.tpl' -> 'ftp://fishing-equipment.alintond.bget.ru/themes/default-bootstrap/modules/productcomments/productcomments_reviews.tpl' (User Action)
+2015-11-07 22:49:58: Copy Over 'D:/Works/Verstka/fishing-prestashop/prestashop/themes/default-bootstrap/modules/productcomments/productcomments_top.tpl' -> 'ftp://fishing-equipment.alintond.bget.ru/themes/default-bootstrap/modules/productcomments/productcomments_top.tpl' (User Action)
+2015-11-07 22:49:59: Copy Over 'D:/Works/Verstka/fishing-prestashop/prestashop/themes/default-bootstrap/modules/productcomments/products-comparison.tpl' -> 'ftp://fishing-equipment.alintond.bget.ru/themes/default-bootstrap/modules/productcomments/products-comparison.tpl' (User Action)
+2015-11-07 22:49:59: Copy Over 'D:/Works/Verstka/fishing-prestashop/prestashop/themes/default-bootstrap/modules/productcomments/tab.tpl' -> 'ftp://fishing-equipment.alintond.bget.ru/themes/default-bootstrap/modules/productcomments/tab.tpl' (User Action)
+2015-11-07 22:50:00: Copy Over 'D:/Works/Verstka/fishing-prestashop/prestashop/themes/default-bootstrap/modules/productscategory/productscategory.tpl' -> 'ftp://fishing-equipment.alintond.bget.ru/themes/default-bootstrap/modules/productscategory/productscategory.tpl' (User Action)
+2015-11-07 22:50:01: Copy Over 'D:/Works/Verstka/fishing-prestashop/prestashop/themes/default-bootstrap/modules/referralprogram/views/templates/front/email.tpl' -> 'ftp://fishing-equipment.alintond.bget.ru/themes/default-bootstrap/modules/referralprogram/views/templates/front/email.tpl' (User Action)
+2015-11-07 22:50:01: Copy Over 'D:/Works/Verstka/fishing-prestashop/prestashop/themes/default-bootstrap/modules/referralprogram/views/templates/front/program.tpl' -> 'ftp://fishing-equipment.alintond.bget.ru/themes/default-bootstrap/modules/referralprogram/views/templates/front/program.tpl' (User Action)
+2015-11-07 22:50:02: Copy Over 'D:/Works/Verstka/fishing-prestashop/prestashop/themes/default-bootstrap/modules/referralprogram/views/templates/front/rules.tpl' -> 'ftp://fishing-equipment.alintond.bget.ru/themes/default-bootstrap/modules/referralprogram/views/templates/front/rules.tpl' (User Action)
+2015-11-07 22:50:02: Copy Over 'D:/Works/Verstka/fishing-prestashop/prestashop/themes/default-bootstrap/modules/referralprogram/views/templates/hook/authentication.tpl' -> 'ftp://fishing-equipment.alintond.bget.ru/themes/default-bootstrap/modules/referralprogram/views/templates/hook/authentication.tpl' (User Action)
+2015-11-07 22:50:03: Copy Over 'D:/Works/Verstka/fishing-prestashop/prestashop/themes/default-bootstrap/modules/referralprogram/views/templates/hook/my-account.tpl' -> 'ftp://fishing-equipment.alintond.bget.ru/themes/default-bootstrap/modules/referralprogram/views/templates/hook/my-account.tpl' (User Action)
+2015-11-07 22:50:04: Copy Over 'D:/Works/Verstka/fishing-prestashop/prestashop/themes/default-bootstrap/modules/referralprogram/views/templates/hook/order-confirmation.tpl' -> 'ftp://fishing-equipment.alintond.bget.ru/themes/default-bootstrap/modules/referralprogram/views/templates/hook/order-confirmation.tpl' (User Action)
+2015-11-07 22:50:04: Copy Over 'D:/Works/Verstka/fishing-prestashop/prestashop/themes/default-bootstrap/modules/referralprogram/views/templates/hook/shopping-cart.tpl' -> 'ftp://fishing-equipment.alintond.bget.ru/themes/default-bootstrap/modules/referralprogram/views/templates/hook/shopping-cart.tpl' (User Action)
+2015-11-07 22:50:05: Copy Over 'D:/Works/Verstka/fishing-prestashop/prestashop/themes/default-bootstrap/modules/sendtoafriend/sendtoafriend-extra.tpl' -> 'ftp://fishing-equipment.alintond.bget.ru/themes/default-bootstrap/modules/sendtoafriend/sendtoafriend-extra.tpl' (User Action)
+2015-11-07 22:50:05: Copy Over 'D:/Works/Verstka/fishing-prestashop/prestashop/themes/default-bootstrap/my-account.tpl' -> 'ftp://fishing-equipment.alintond.bget.ru/themes/default-bootstrap/my-account.tpl' (User Action)
+2015-11-07 22:50:06: Copy Over 'D:/Works/Verstka/fishing-prestashop/prestashop/themes/default-bootstrap/nbr-product-page.tpl' -> 'ftp://fishing-equipment.alintond.bget.ru/themes/default-bootstrap/nbr-product-page.tpl' (User Action)
+2015-11-07 22:50:06: Copy Over 'D:/Works/Verstka/fishing-prestashop/prestashop/themes/default-bootstrap/new-products.tpl' -> 'ftp://fishing-equipment.alintond.bget.ru/themes/default-bootstrap/new-products.tpl' (User Action)
+2015-11-07 22:50:07: Copy Over 'D:/Works/Verstka/fishing-prestashop/prestashop/themes/default-bootstrap/order-address-multishipping-products.tpl' -> 'ftp://fishing-equipment.alintond.bget.ru/themes/default-bootstrap/order-address-multishipping-products.tpl' (User Action)
+2015-11-07 22:50:07: Copy Over 'D:/Works/Verstka/fishing-prestashop/prestashop/themes/default-bootstrap/order-address-multishipping.tpl' -> 'ftp://fishing-equipment.alintond.bget.ru/themes/default-bootstrap/order-address-multishipping.tpl' (User Action)
+2015-11-07 22:50:08: Copy Over 'D:/Works/Verstka/fishing-prestashop/prestashop/themes/default-bootstrap/order-address-product-line.tpl' -> 'ftp://fishing-equipment.alintond.bget.ru/themes/default-bootstrap/order-address-product-line.tpl' (User Action)
+2015-11-07 22:50:09: Copy Over 'D:/Works/Verstka/fishing-prestashop/prestashop/themes/default-bootstrap/order-address.tpl' -> 'ftp://fishing-equipment.alintond.bget.ru/themes/default-bootstrap/order-address.tpl' (User Action)
+2015-11-07 22:50:09: Copy Over 'D:/Works/Verstka/fishing-prestashop/prestashop/themes/default-bootstrap/order-carrier.tpl' -> 'ftp://fishing-equipment.alintond.bget.ru/themes/default-bootstrap/order-carrier.tpl' (User Action)
+2015-11-07 22:50:10: Copy Over 'D:/Works/Verstka/fishing-prestashop/prestashop/themes/default-bootstrap/order-confirmation.tpl' -> 'ftp://fishing-equipment.alintond.bget.ru/themes/default-bootstrap/order-confirmation.tpl' (User Action)
+2015-11-07 22:50:10: Copy Over 'D:/Works/Verstka/fishing-prestashop/prestashop/themes/default-bootstrap/order-detail.tpl' -> 'ftp://fishing-equipment.alintond.bget.ru/themes/default-bootstrap/order-detail.tpl' (User Action)
+2015-11-07 22:50:11: Copy Over 'D:/Works/Verstka/fishing-prestashop/prestashop/themes/default-bootstrap/order-follow.tpl' -> 'ftp://fishing-equipment.alintond.bget.ru/themes/default-bootstrap/order-follow.tpl' (User Action)
+2015-11-07 22:50:11: Copy Over 'D:/Works/Verstka/fishing-prestashop/prestashop/themes/default-bootstrap/order-opc-new-account.tpl' -> 'ftp://fishing-equipment.alintond.bget.ru/themes/default-bootstrap/order-opc-new-account.tpl' (User Action)
+2015-11-07 22:50:12: Copy Over 'D:/Works/Verstka/fishing-prestashop/prestashop/themes/default-bootstrap/order-opc.tpl' -> 'ftp://fishing-equipment.alintond.bget.ru/themes/default-bootstrap/order-opc.tpl' (User Action)
+2015-11-07 22:50:12: Copy Over 'D:/Works/Verstka/fishing-prestashop/prestashop/themes/default-bootstrap/order-payment.tpl' -> 'ftp://fishing-equipment.alintond.bget.ru/themes/default-bootstrap/order-payment.tpl' (User Action)
+2015-11-07 22:50:13: Copy Over 'D:/Works/Verstka/fishing-prestashop/prestashop/themes/default-bootstrap/order-return.tpl' -> 'ftp://fishing-equipment.alintond.bget.ru/themes/default-bootstrap/order-return.tpl' (User Action)
+2015-11-07 22:50:14: Copy Over 'D:/Works/Verstka/fishing-prestashop/prestashop/themes/default-bootstrap/order-slip.tpl' -> 'ftp://fishing-equipment.alintond.bget.ru/themes/default-bootstrap/order-slip.tpl' (User Action)
+2015-11-07 22:50:14: Copy Over 'D:/Works/Verstka/fishing-prestashop/prestashop/themes/default-bootstrap/order-steps.tpl' -> 'ftp://fishing-equipment.alintond.bget.ru/themes/default-bootstrap/order-steps.tpl' (User Action)
+2015-11-07 22:50:15: Copy Over 'D:/Works/Verstka/fishing-prestashop/prestashop/themes/default-bootstrap/pagination.tpl' -> 'ftp://fishing-equipment.alintond.bget.ru/themes/default-bootstrap/pagination.tpl' (User Action)
+2015-11-07 22:50:15: Copy Over 'D:/Works/Verstka/fishing-prestashop/prestashop/themes/default-bootstrap/password.tpl' -> 'ftp://fishing-equipment.alintond.bget.ru/themes/default-bootstrap/password.tpl' (User Action)
+2015-11-07 22:50:16: Copy Over 'D:/Works/Verstka/fishing-prestashop/prestashop/themes/default-bootstrap/pdf/index.php' -> 'ftp://fishing-equipment.alintond.bget.ru/themes/default-bootstrap/pdf/index.php' (User Action)
+2015-11-07 22:50:17: Copy Over 'D:/Works/Verstka/fishing-prestashop/prestashop/themes/default-bootstrap/pdf/lang/index.php' -> 'ftp://fishing-equipment.alintond.bget.ru/themes/default-bootstrap/pdf/lang/index.php' (User Action)
+2015-11-07 22:50:17: Copy Over 'D:/Works/Verstka/fishing-prestashop/prestashop/themes/default-bootstrap/preview.jpg' -> 'ftp://fishing-equipment.alintond.bget.ru/themes/default-bootstrap/preview.jpg' (User Action)
+2015-11-07 22:50:18: Copy Over 'D:/Works/Verstka/fishing-prestashop/prestashop/themes/default-bootstrap/prices-drop.tpl' -> 'ftp://fishing-equipment.alintond.bget.ru/themes/default-bootstrap/prices-drop.tpl' (User Action)
+2015-11-07 22:50:18: Copy Over 'D:/Works/Verstka/fishing-prestashop/prestashop/themes/default-bootstrap/product-compare.tpl' -> 'ftp://fishing-equipment.alintond.bget.ru/themes/default-bootstrap/product-compare.tpl' (User Action)
+2015-11-07 22:50:19: Copy Over 'D:/Works/Verstka/fishing-prestashop/prestashop/themes/default-bootstrap/product-list-colors.tpl' -> 'ftp://fishing-equipment.alintond.bget.ru/themes/default-bootstrap/product-list-colors.tpl' (User Action)
+2015-11-07 22:50:19: Copy Over 'D:/Works/Verstka/fishing-prestashop/prestashop/themes/default-bootstrap/product-list.tpl' -> 'ftp://fishing-equipment.alintond.bget.ru/themes/default-bootstrap/product-list.tpl' (User Action)
+2015-11-07 22:50:20: Copy Over 'D:/Works/Verstka/fishing-prestashop/prestashop/themes/default-bootstrap/product-sort.tpl' -> 'ftp://fishing-equipment.alintond.bget.ru/themes/default-bootstrap/product-sort.tpl' (User Action)
+2015-11-07 22:50:20: Copy Over 'D:/Works/Verstka/fishing-prestashop/prestashop/themes/default-bootstrap/product.tpl' -> 'ftp://fishing-equipment.alintond.bget.ru/themes/default-bootstrap/product.tpl' (User Action)
+2015-11-07 22:50:21: Copy Over 'D:/Works/Verstka/fishing-prestashop/prestashop/themes/default-bootstrap/products-comparison.tpl' -> 'ftp://fishing-equipment.alintond.bget.ru/themes/default-bootstrap/products-comparison.tpl' (User Action)
+2015-11-07 22:50:22: Copy Over 'D:/Works/Verstka/fishing-prestashop/prestashop/themes/default-bootstrap/restricted-country.tpl' -> 'ftp://fishing-equipment.alintond.bget.ru/themes/default-bootstrap/restricted-country.tpl' (User Action)
+2015-11-07 22:50:22: Copy Over 'D:/Works/Verstka/fishing-prestashop/prestashop/themes/default-bootstrap/scenes.tpl' -> 'ftp://fishing-equipment.alintond.bget.ru/themes/default-bootstrap/scenes.tpl' (User Action)
+2015-11-07 22:50:23: Copy Over 'D:/Works/Verstka/fishing-prestashop/prestashop/themes/default-bootstrap/search.tpl' -> 'ftp://fishing-equipment.alintond.bget.ru/themes/default-bootstrap/search.tpl' (User Action)
+2015-11-07 22:50:23: Copy Over 'D:/Works/Verstka/fishing-prestashop/prestashop/themes/default-bootstrap/shopping-cart-product-line.tpl' -> 'ftp://fishing-equipment.alintond.bget.ru/themes/default-bootstrap/shopping-cart-product-line.tpl' (User Action)
+2015-11-07 22:50:24: Copy Over 'D:/Works/Verstka/fishing-prestashop/prestashop/themes/default-bootstrap/shopping-cart.tpl' -> 'ftp://fishing-equipment.alintond.bget.ru/themes/default-bootstrap/shopping-cart.tpl' (User Action)
+2015-11-07 22:50:24: Copy Over 'D:/Works/Verstka/fishing-prestashop/prestashop/themes/default-bootstrap/sitemap.tpl' -> 'ftp://fishing-equipment.alintond.bget.ru/themes/default-bootstrap/sitemap.tpl' (User Action)
+2015-11-07 22:50:25: Copy Over 'D:/Works/Verstka/fishing-prestashop/prestashop/themes/default-bootstrap/store_infos.tpl' -> 'ftp://fishing-equipment.alintond.bget.ru/themes/default-bootstrap/store_infos.tpl' (User Action)
+2015-11-07 22:50:25: Copy Over 'D:/Works/Verstka/fishing-prestashop/prestashop/themes/default-bootstrap/stores.tpl' -> 'ftp://fishing-equipment.alintond.bget.ru/themes/default-bootstrap/stores.tpl' (User Action)
+2015-11-07 22:50:26: Copy Over 'D:/Works/Verstka/fishing-prestashop/prestashop/themes/default-bootstrap/supplier-list.tpl' -> 'ftp://fishing-equipment.alintond.bget.ru/themes/default-bootstrap/supplier-list.tpl' (User Action)
+2015-11-07 22:50:27: Copy Over 'D:/Works/Verstka/fishing-prestashop/prestashop/themes/default-bootstrap/supplier.tpl' -> 'ftp://fishing-equipment.alintond.bget.ru/themes/default-bootstrap/supplier.tpl' (User Action)
+2015-11-07 22:50:27: Copy Over 'D:/Works/Verstka/fishing-prestashop/prestashop/themes/index.php' -> 'ftp://fishing-equipment.alintond.bget.ru/themes/index.php' (User Action)
+2015-11-07 22:50:28: Copy Over 'D:/Works/Verstka/fishing-prestashop/prestashop/themes/javascript.tpl' -> 'ftp://fishing-equipment.alintond.bget.ru/themes/javascript.tpl' (User Action)
+2015-11-07 22:50:28: Copy Over 'D:/Works/Verstka/fishing-prestashop/prestashop/themes/live_edit.tpl' -> 'ftp://fishing-equipment.alintond.bget.ru/themes/live_edit.tpl' (User Action)
+2015-11-07 22:50:30: == Sync Complete. Time: 00:03:36, Speed: 11,5 КБ/s, OK: 506, Errors: 0
+2015-11-07 22:50:30: 

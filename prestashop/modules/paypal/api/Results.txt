@@ -1,0 +1,11 @@
+Host : api-3t.paypal.com
+Request : METHOD=SetExpressCheckout&VERSION=106&CANCELURL=http%3A%2F%2Ffishing-equipment.alintond.bget.ru%2Fcasual-dresses%2F3-printed-dress.html%3Fpaypal_ec_canceled%3D1%26&RETURNURL=http%3A%2F%2Ffishing-equipment.alintond.bget.ru%2Fmodules%2Fpaypal%2Fexpress_checkout%2Fpayment.php&NOSHIPPING=0&BUTTONSOURCE=PRESTASHOP_EC&L_PAYMENTREQUEST_0_NUMBER0=3&L_PAYMENTREQUEST_0_NAME0=Printed+Dress+-+Color+%3A+Orange%2C+Size+%3A+S&L_PAYMENTREQUEST_0_DESC0=100%25+cotton+double+printed+dress.+Black+and+white+...&L_PAYMENTREQUEST_0_AMT0=30.68&L_PAYMENTREQUEST_0_QTY0=1&PAYMENTREQUEST_0_PAYMENTACTION=Sale&PAYMENTREQUEST_0_CURRENCYCODE=RUB&PAYMENTREQUEST_0_SHIPPINGAMT=2.36&PAYMENTREQUEST_0_ITEMAMT=30.68&PAYMENTREQUEST_0_AMT=33.04&SOLUTIONTYPE=Sole&LANDINGPAGE=Login
+Result : TIMESTAMP=2015%2d10%2d23T15%3a46%3a50Z&CORRELATIONID=2835ea1b97409&ACK=Failure&VERSION=106&BUILD=18308778&L_ERRORCODE0=10002&L_SHORTMESSAGE0=Authentication%2fAuthorization%20Failed&L_LONGMESSAGE0=You%20do%20not%20have%20permissions%20to%20make%20this%20API%20call&L_SEVERITYCODE0=Error
+Logs : Array
+(
+    [0] => Making new connection to 'api-3t.paypal.com/nvp'
+    [1] => Connect with CURL method successful
+    [2] => <b>Sending this params:</b>
+    [3] => METHOD=SetExpressCheckout&VERSION=106&CANCELURL=http%3A%2F%2Ffishing-equipment.alintond.bget.ru%2Fcasual-dresses%2F3-printed-dress.html%3Fpaypal_ec_canceled%3D1%26&RETURNURL=http%3A%2F%2Ffishing-equipment.alintond.bget.ru%2Fmodules%2Fpaypal%2Fexpress_checkout%2Fpayment.php&NOSHIPPING=0&BUTTONSOURCE=PRESTASHOP_EC&L_PAYMENTREQUEST_0_NUMBER0=3&L_PAYMENTREQUEST_0_NAME0=Printed+Dress+-+Color+%3A+Orange%2C+Size+%3A+S&L_PAYMENTREQUEST_0_DESC0=100%25+cotton+double+printed+dress.+Black+and+white+...&L_PAYMENTREQUEST_0_AMT0=30.68&L_PAYMENTREQUEST_0_QTY0=1&PAYMENTREQUEST_0_PAYMENTACTION=Sale&PAYMENTREQUEST_0_CURRENCYCODE=RUB&PAYMENTREQUEST_0_SHIPPINGAMT=2.36&PAYMENTREQUEST_0_ITEMAMT=30.68&PAYMENTREQUEST_0_AMT=33.04&SOLUTIONTYPE=Sole&LANDINGPAGE=Login
+    [4] => Send with CURL method successful
+)

@@ -1,0 +1,87 @@
+
+#order-opc .form-group .form-control{
+    max-width: none !important;
+    padding-left: 10px;
+}
+
+#belvg_fastcheckout_data {
+    padding:20px;
+}
+
+html #belvg_fastcheckout_data  label{
+    padding: 0;
+    width: 100%;
+    display: inline-block;
+    margin: 0;
+
+}
+
+
+#belvg_fastcheckout_border {
+    border: 1px solid #d6d4d4;
+    width: 100%;
+}
+
+#belvg_fastcheckout_wrapper label{
+    display: block;
+    float: left;
+    width: 120px;
+    padding: 12px;
+    font-weight: bold;
+    font-size: 12px;
+    vertical-align: top;
+}
+
+html #belvg_fastcheckout_data  textarea{
+    margin: 0;
+    padding: 5px 23px 5px 5px;
+    width: 100%;
+}
+
+#belvg_fastcheckout_wrapper input, 
+#belvg_fastcheckout_wrapper textarea{
+
+    font-size: 14px;
+    margin: 5px 5px 7px 0;
+    padding: 5px 5px 7px 0px;
+    transition: all 1s ease 0s;
+
+}
+
+#belvg_fastcheckout_wrapper textarea{
+    margin: 5px 5px 0 0;
+    padding: 5px 23px 5px 5px;
+}
+
+#belvg_fastcheckout_wrapper  .btn-set,
+#belvg_fastcheckout_wrapper  .btn-set-2{
+    margin: 20px 32%;
+    overflow: hidden;
+}
+
+#belvg_fastcheckout_wrapper  .btn-set-2{
+    margin: 0px;
+}
+
+#belvg_fastcheckout_wrapper  .btn-set input,
+#belvg_fastcheckout_wrapper  .btn-set-2 input {
+
+}
+
+#belvg_fastcheckout_wrapper  .btn-set-2 input {
+    width: 100%;
+    margin: 0 0 25px 0;
+}
+
+p.belvg_fastcheckout_required, sup.belvg_fastcheckout_required{
+    color: #990000;
+    padding-left: 12px;
+}
+
+sup.belvg_fastcheckout_required{
+    padding-left: 2px;
+}
+
+.belvg_field_wrapper{
+    margin: 12px 0
+}
