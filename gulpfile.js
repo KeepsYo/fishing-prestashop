@@ -10,26 +10,19 @@ var gulp = require('gulp'),
     replaceString: /\bgulp[\-.]/
   });
 
-/* if work with html == true, else - false */
-var htmlOWp = true,
-  wpThemeName = 'wp-framework',
-  wpDomain = 'wp-framework.dev';
+var domaindevelop = 'prestashop-less.dev',
+  psProjectDir = 'prestashop',
+  themeName = 'default-bootstrap';
 
 var AUTOPREFIXER_BROWSERS = [
   'ie >= 8', 'ie_mob >= 10', 'ff >= 20', 'chrome >= 24', 'safari >= 5', 'opera >= 12', 'ios >= 7', 'android >= 2.3', '> 1%', 'last 4 versions', 'bb >= 10'
 ];
 
-if (htmlOWp === true) {
-  var basePaths = {
-    src: 'assets/',
-    dest: './html/'
-  };
-} else {
-  var basePaths = {
-    src: 'assets/',
-    dest: './wordpress/wp-content/themes/' + wpThemeName + '/'
-  };
-}
+var basePaths = {
+  src: 'assets/',
+  dest: './' + psProjectDir + '/themes/' + themeName + '/'
+};
+
 var paths = {
   images: {
     src: basePaths.src + 'img/',
@@ -45,13 +38,15 @@ var paths = {
     dest: basePaths.dest + 'css/'
   },
   fonts: {
-    src: basePaths.src + 'fonts/**',
-    dest: basePaths.dest + 'fonts/'
+    src: basePaths.src + 'font/**',
+    dest: basePaths.dest + 'font/'
   },
   sprite: {
     src: basePaths.src + 'sprite/*'
   }
 };
+
+
 var appFiles = {
   styles: paths.styles.src + '**/*.scss',
   scripts: [paths.scripts.src]
@@ -142,27 +137,17 @@ gulp.task('styles', function () {
 });
 
 gulp.task('serve', ['sprite', 'images', 'scripts', 'styles', 'fonts'], function () {
-  if (htmlOWp === true) {
-    browserSync({
-      notify: false,
-      port: 9080,
-      server: {
-        baseDir: basePaths.dest,
-      }
-    });
-  } else {
-    browserSync({
-      notify: false,
-      proxy: wpDomain,
-      host: wpDomain,
-      port: 9090
-    });
-  }
+
+  browserSync({
+    notify: false,
+    proxy: domaindevelop,
+    host: domaindevelop,
+    port: 9192
+  });
 
   // watch for changes
   gulp.watch([
-    basePaths.dest + '*.html',
-    basePaths.dest + '*.php'
+    basePaths.dest + '*.tpl'
   ]).on('change', reload);
 
   gulp.watch(paths.sprite.src, ['sprite', 'images', 'styles', reload]);
