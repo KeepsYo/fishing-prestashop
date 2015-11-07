@@ -80,7 +80,7 @@
 						{if empty($limit_warning)}
 						<div class="btn-group-action">
 							<div class="btn-group pull-right">
-								<a href="{$current_url}&edit_filters_template=1&id_layered_filter={(int)$template['id_layered_filter']}" class="btn btn-default">
+								<a href="{$current_url}&amp;edit_filters_template=1&amp;id_layered_filter={(int)$template['id_layered_filter']}" class="btn btn-default">
 									<i class="icon-pencil"></i> {l s='Edit' mod='blocklayered'}
 								</a> 
 								<button class="btn btn-default dropdown-toggle" data-toggle="dropdown">
@@ -88,8 +88,8 @@
 								</button>
 								<ul class="dropdown-menu">
 									<li>
-										<a href="{$current_url}&deleteFilterTemplate=1&id_layered_filter={(int)$template['id_layered_filter']}"
-						onclick="return confirm('{l s='Do you really want to delete this filter template' mod='blocklayered'}');">
+										<a href="{$current_url}&amp;deleteFilterTemplate=1&amp;id_layered_filter={(int)$template['id_layered_filter']}"
+						onclick="return confirm('{l s='Do you really want to delete this filter template?' mod='blocklayered'}');">
 											<i class="icon-trash"></i> {l s='Delete' mod='blocklayered'}
 										</a>
 									</li>
@@ -109,7 +109,7 @@
 	{/if}
 	{if empty($limit_warning)}
 	<div class="panel-footer">
-		<a class="btn btn-default pull-right" href="{$current_url}&add_new_filters_template=1"><i class="process-icon-plus"></i> {l s='Add new template' mod='blocklayered'}</a>
+		<a class="btn btn-default pull-right" href="{$current_url}&amp;add_new_filters_template=1"><i class="process-icon-plus"></i> {l s='Add new template' mod='blocklayered'}</a>
 	</div>
 	{/if}
 </div>
@@ -180,6 +180,22 @@
 					</label>
 					<input type="radio" name="ps_layered_filter_price_usetax" id="ps_layered_filter_price_usetax_off" value="0"{if !$price_use_tax} checked="checked"{/if}>
 					<label for="ps_layered_filter_price_usetax_off" class="radioCheck">
+						<i class="color_danger"></i> {l s='No' mod='blocklayered'}
+					</label>
+					<a class="slide-button btn"></a>
+				</span>
+			</div>
+		</div>
+		<div class="form-group">
+			<label class="col-lg-3 control-label">{l s='Use rounding to filter price' mod='blocklayered'}</label>
+			<div class="col-lg-9">
+				<span class="switch prestashop-switch fixed-width-lg">
+					<input type="radio" name="ps_layered_filter_price_rounding" id="ps_layered_filter_price_rounding_on" value="1"{if $price_use_rounding} checked="checked"{/if}/>
+					<label for="ps_layered_filter_price_rounding_on" class="radioCheck">
+						<i class="color_success"></i> {l s='Yes' mod='blocklayered'}
+					</label>
+					<input type="radio" name="ps_layered_filter_price_rounding" id="ps_layered_filter_price_rounding_off" value="0"{if !$price_use_rounding} checked="checked"{/if}/>
+					<label for="ps_layered_filter_price_rounding_off" class="radioCheck">
 						<i class="color_danger"></i> {l s='No' mod='blocklayered'}
 					</label>
 					<a class="slide-button btn"></a>

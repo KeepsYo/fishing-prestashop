@@ -1,6 +1,6 @@
 <?php
 /*
-* 2007-2014 PrestaShop
+* 2007-2015 PrestaShop
 *
 * NOTICE OF LICENSE
 *
@@ -19,7 +19,7 @@
 * needs please refer to http://www.prestashop.com for more information.
 *
 *  @author PrestaShop SA <contact@prestashop.com>
-*  @copyright  2007-2014 PrestaShop SA
+*  @copyright  2007-2015 PrestaShop SA
 *  @license    http://opensource.org/licenses/afl-3.0.php  Academic Free License (AFL 3.0)
 *  International Registered Trademark & Property of PrestaShop SA
 */
@@ -35,7 +35,7 @@ class BlockNewProducts extends Module
 	{
 		$this->name = 'blocknewproducts';
 		$this->tab = 'front_office_features';
-		$this->version = '1.9.1';
+		$this->version = '1.10.0';
 		$this->author = 'PrestaShop';
 		$this->need_instance = 0;
 
@@ -51,6 +51,7 @@ class BlockNewProducts extends Module
 	{
 		$success = (parent::install()
 			&& $this->registerHook('header')
+			&& $this->registerHook('leftColumn')
 			&& $this->registerHook('addproduct')
 			&& $this->registerHook('updateproduct')
 			&& $this->registerHook('deleteproduct')
@@ -58,20 +59,6 @@ class BlockNewProducts extends Module
 			&& $this->registerHook('displayHomeTab')
 			&& $this->registerHook('displayHomeTabContent')
 		);
-
-		if ($success)
-		{
-			// Hook the module either on the left or right column
-			$theme = new Theme(Context::getContext()->shop->id_theme);
-			if ((!$theme->default_left_column || !$this->registerHook('leftColumn'))
-				&& (!$theme->default_right_column || !$this->registerHook('rightColumn')))
-			{
-				// If there are no colums implemented by the template, throw an error and uninstall the module
-				$this->_errors[] = $this->l('This module need to be hooked in a column and your theme does not implement one');
-				parent::uninstall();
-				return false;
-			}
-		}
 
 		$this->_clearCache('*');
 
@@ -106,7 +93,7 @@ class BlockNewProducts extends Module
 		return $output.$this->renderForm();
 	}
 
-	private function getNewProducts()
+	protected function getNewProducts()
 	{
 		if (!Configuration::get('NEW_PRODUCTS_NBR'))
 			return;

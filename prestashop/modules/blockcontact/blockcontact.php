@@ -1,6 +1,6 @@
 <?php
 /*
-* 2007-2014 PrestaShop
+* 2007-2015 PrestaShop
 *
 * NOTICE OF LICENSE
 *
@@ -19,14 +19,14 @@
 * needs please refer to http://www.prestashop.com for more information.
 *
 *  @author PrestaShop SA <contact@prestashop.com>
-*  @copyright  2007-2014 PrestaShop SA
+*  @copyright  2007-2015 PrestaShop SA
 *  @license    http://opensource.org/licenses/afl-3.0.php  Academic Free License (AFL 3.0)
 *  International Registered Trademark & Property of PrestaShop SA
 */
 
 if (!defined('_CAN_LOAD_FILES_'))
 	exit;
-	
+
 class Blockcontact extends Module
 {
 	public function __construct()
@@ -34,16 +34,16 @@ class Blockcontact extends Module
 		$this->name = 'blockcontact';
 		$this->author = 'PrestaShop';
 		$this->tab = 'front_office_features';
-		$this->version = '1.2';
+		$this->version = '1.4.0';
 
 		$this->bootstrap = true;
-		parent::__construct();	
+		parent::__construct();
 
 		$this->displayName = $this->l('Contact block');
 		$this->description = $this->l('Allows you to add additional information about your store\'s customer service.');
 		$this->ps_versions_compliancy = array('min' => '1.6', 'max' => _PS_VERSION_);
 	}
-	
+
 	public function install()
 	{
 		return parent::install()
@@ -52,19 +52,19 @@ class Blockcontact extends Module
 			&& $this->registerHook('displayNav')
 			&& $this->registerHook('displayHeader');
 	}
-	
+
 	public function uninstall()
 	{
 		// Delete configuration
 		return Configuration::deleteByName('BLOCKCONTACT_TELNUMBER') && Configuration::deleteByName('BLOCKCONTACT_EMAIL') && parent::uninstall();
 	}
-	
+
 	public function getContent()
 	{
 		$html = '';
 		// If we try to update the settings
 		if (Tools::isSubmit('submitModule'))
-		{				
+		{
 			Configuration::updateValue('BLOCKCONTACT_TELNUMBER', Tools::getValue('blockcontact_telnumber'));
 			Configuration::updateValue('BLOCKCONTACT_EMAIL', Tools::getValue('blockcontact_email'));
 			$this->_clearCache('blockcontact.tpl');
@@ -81,7 +81,7 @@ class Blockcontact extends Module
 	{
 		$this->context->controller->addCSS(($this->_path).'blockcontact.css', 'all');
 	}
-	
+
 	public function hookDisplayRightColumn($params)
 	{
 		global $smarty;
@@ -95,7 +95,7 @@ class Blockcontact extends Module
 			));
 		return $this->display(__FILE__, $tpl.'.tpl', $this->getCacheId());
 	}
-	
+
 	public function hookDisplayLeftColumn($params)
 	{
 		return $this->hookDisplayRightColumn($params);
@@ -106,7 +106,7 @@ class Blockcontact extends Module
 		$params['blockcontact_tpl'] = 'nav';
 		return $this->hookDisplayRightColumn($params);
 	}
-	
+
 	public function renderForm()
 	{
 		$fields_form = array(
@@ -115,6 +115,9 @@ class Blockcontact extends Module
 					'title' => $this->l('Settings'),
 					'icon' => 'icon-cogs'
 				),
+				'description' => $this->l('This block displays in the header your phone number (‘Call us now’), and a link to the ‘Contact us’ page.').'<br/><br/>'.
+						$this->l('To edit the email addresses for the ‘Contact us’ page: you should go to the ‘Contacts’ page under the ‘Customer’ menu.').'<br/>'.
+						$this->l('To edit the contact details in the footer: you should go to the ‘Contact Information Block’ module.'),
 				'input' => array(
 					array(
 						'type' => 'text',
@@ -125,6 +128,7 @@ class Blockcontact extends Module
 						'type' => 'text',
 						'label' => $this->l('Email'),
 						'name' => 'blockcontact_email',
+						'desc' => $this->l('Enter here your customer service contact details.'),
 					),
 				),
 				'submit' => array(
@@ -132,7 +136,7 @@ class Blockcontact extends Module
 				)
 			),
 		);
-		
+
 		$helper = new HelperForm();
 		$helper->show_toolbar = false;
 		$helper->table =  $this->table;
@@ -153,7 +157,7 @@ class Blockcontact extends Module
 
 		return $helper->generateForm(array($fields_form));
 	}
-	
+
 	public function getConfigFieldsValues()
 	{
 		return array(

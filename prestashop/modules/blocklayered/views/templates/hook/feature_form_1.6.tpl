@@ -1,5 +1,5 @@
 {*
-* 2007-2014 PrestaShop
+* 2007-2015 PrestaShop
 *
 * NOTICE OF LICENSE
 *
@@ -18,7 +18,7 @@
 * needs please refer to http://www.prestashop.com for more information.
 *
 *  @author PrestaShop SA <contact@prestashop.com>
-*  @copyright  2007-2014 PrestaShop SA
+*  @copyright  2007-2015 PrestaShop SA
 *  @license    http://opensource.org/licenses/afl-3.0.php  Academic Free License (AFL 3.0)
 *  International Registred Trademark & Property of PrestaShop SA
 *}
@@ -47,7 +47,7 @@
 			</div>
 			{/foreach}
 			<div class="col-lg-9">
-				<p class="help-block">{l s='Specific URL format in block layered generation.' mod='blocklayered'}</p>
+				<p class="help-block">{l s='When the Layered Navigation Block module is enabled, you can get more detailed URLs by choosing the word that best represent this feature. By default, PrestaShop uses the feature\'s name, but you can change that setting using this field.' mod='blocklayered'}</p>
 			</div>
 		</div>
 	</div>
@@ -75,7 +75,7 @@
 			</div>
 			{/foreach}
 			<div class="col-lg-9">
-				<p class="help-block">{l s='Specific format for meta title.' mod='blocklayered'}</p>
+				<p class="help-block">{l s='When the Layered Navigation Block module is enabled, you can get more detailed page titles by choosing the word that best represent this feature. By default, PrestaShop uses the feature\'s name, but you can change that setting using this field.' mod='blocklayered'}</p>
 			</div>
 		</div>
 	</div>

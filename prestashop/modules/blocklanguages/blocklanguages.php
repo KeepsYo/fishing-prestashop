@@ -1,6 +1,6 @@
 <?php
 /*
-* 2007-2014 PrestaShop
+* 2007-2015 PrestaShop
 *
 * NOTICE OF LICENSE
 *
@@ -19,7 +19,7 @@
 * needs please refer to http://www.prestashop.com for more information.
 *
 *  @author PrestaShop SA <contact@prestashop.com>
-*  @copyright  2007-2014 PrestaShop SA
+*  @copyright  2007-2015 PrestaShop SA
 *  @license    http://opensource.org/licenses/afl-3.0.php  Academic Free License (AFL 3.0)
 *  International Registered Trademark & Property of PrestaShop SA
 */
@@ -33,13 +33,13 @@ class BlockLanguages extends Module
 	{
 		$this->name = 'blocklanguages';
 		$this->tab = 'front_office_features';
-		$this->version = '1.3.1';
+		$this->version = '1.5.0';
 		$this->author = 'PrestaShop';
 		$this->need_instance = 0;
 
 		parent::__construct();
 
-		$this->displayName = $this->l('Language block');
+		$this->displayName = $this->l('Language selector block');
 		$this->description = $this->l('Adds a block allowing customers to select a language for your store\'s content.');
 		$this->ps_versions_compliancy = array('min' => '1.6', 'max' => _PS_VERSION_);
 	}
@@ -49,7 +49,7 @@ class BlockLanguages extends Module
 		return (parent::install() && $this->registerHook('displayNav') && $this->registerHook('displayHeader'));
 	}
 
-	private function _prepareHook($params)
+	protected function _prepareHook($params)
 	{
 		$languages = Language::getLanguages(true, $this->context->shop->id);
 		if (!count($languages))

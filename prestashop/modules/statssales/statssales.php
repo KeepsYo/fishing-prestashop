@@ -1,6 +1,6 @@
 <?php
 /*
-* 2007-2014 PrestaShop
+* 2007-2015 PrestaShop
 *
 * NOTICE OF LICENSE
 *
@@ -19,7 +19,7 @@
 * needs please refer to http://www.prestashop.com for more information.
 *
 *  @author PrestaShop SA <contact@prestashop.com>
-*  @copyright  2007-2014 PrestaShop SA
+*  @copyright  2007-2015 PrestaShop SA
 *  @license    http://opensource.org/licenses/afl-3.0.php  Academic Free License (AFL 3.0)
 *  International Registered Trademark & Property of PrestaShop SA
 */
@@ -39,7 +39,7 @@ class StatsSales extends ModuleGraph
 	{
 		$this->name = 'statssales';
 		$this->tab = 'analytics_stats';
-		$this->version = '1.2.1';
+		$this->version = '1.3.0';
 		$this->author = 'PrestaShop';
 		$this->need_instance = 0;
 
@@ -85,14 +85,14 @@ class StatsSales extends ModuleGraph
 			<div class="alert alert-warning">
 				<h4>'.$this->l('About order statuses').'</h4>
 				<p>
-					'.$this->l('In your Back Office, you can modify the following order statuses: Awaiting Check Payment, Payment Accepted, Preparation in Progress, Shipping, Delivered, Cancelled, Refund, Payment Error, Out of Stock, and Awaiting Bank Wire Payment.').'<br />
+					'.$this->l('In your Back Office, you can modify the following order statuses: Awaiting Check Payment, Payment Accepted, Preparation in Progress, Shipping, Delivered, Canceled, Refund, Payment Error, Out of Stock, and Awaiting Bank Wire Payment.').'<br />
 					'.$this->l('These order statuses cannot be removed from the Back Office; however you have the option to add more.').'
 				</p>
 			</div>
 			<div class="alert alert-info">
 				<p>'
-					.$this->l('The following graphs represent the evolution of your store\'s orders and sales turnover for a selected period.').'<br/>'
-					.$this->l('You should often consult this screen, as it allows you to quickly monitor your store\'s viability. It also allows you to monitor multiple time periods.').'<br/>'
+					.$this->l('The following graphs represent the evolution of your shop\'s orders and sales turnover for a selected period.').'<br/>'
+					.$this->l('You should often consult this screen, as it allows you to quickly monitor your shop\'s sustainability. It also allows you to monitor multiple time periods.').'<br/>'
 					.$this->l('Only valid orders are graphically represented.')
 				.'</p>
 			</div>
@@ -125,7 +125,7 @@ class StatsSales extends ModuleGraph
 							<li>'.$this->l('Products bought:').' <span class="totalStats">'.(int)$totals['products'].'</span></li>
 						</ul>
 						<hr/>
-						<a class="btn btn-default export-csv" href="'.Tools::safeOutput($_SERVER['REQUEST_URI']).'&export=1">
+						<a class="btn btn-default export-csv" href="'.Tools::safeOutput($_SERVER['REQUEST_URI'].'&export=1').'">
 							<i class="icon-cloud-upload"></i> '.$this->l('CSV Export').'
 						</a>
 					</div>
@@ -144,7 +144,7 @@ class StatsSales extends ModuleGraph
 							<li>'.$this->l('Sales:').' '.Tools::displayPrice($totals['orderSum'], $currency).'</li>
 						</ul>
 						<hr/>
-						<a class="btn btn-default export-csv" href="'.Tools::safeOutput($_SERVER['REQUEST_URI']).'&export=2">
+						<a class="btn btn-default export-csv" href="'.Tools::safeOutput($_SERVER['REQUEST_URI'].'&export=2').'">
 							<i class="icon-cloud-upload"></i> '.$this->l('CSV Export').'
 						</a>
 					</div>
@@ -159,10 +159,10 @@ class StatsSales extends ModuleGraph
 						'.($totals['orderCount'] ? $this->engine(array(
 				'type' => 'pie',
 				'option' => '3-'.(int)Tools::getValue('id_country')
-			)) : $this->l('No orders for this period.')).'</center>
+			)) : $this->l('No orders for this period.')).'
 					</div>
 					<div class="col-lg-4">
-						<a class="btn btn-default export-csv" href="'.Tools::safeOutput($_SERVER['REQUEST_URI']).'&export=3">
+						<a class="btn btn-default export-csv" href="'.Tools::safeOutput($_SERVER['REQUEST_URI'].'&export=3').'">
 							<i class="icon-cloud-upload"></i> '.$this->l('CSV Export').'
 						</a>
 					</div>
@@ -202,8 +202,8 @@ class StatsSales extends ModuleGraph
 		switch ($this->option)
 		{
 			case 1:
-				$this->_titles['main'][0] = $this->l('Products and orders');
-				$this->_titles['main'][1] = $this->l('Orders');
+				$this->_titles['main'][0] = $this->l('Orders placed');
+				$this->_titles['main'][1] = $this->l('Products bought');
 				$this->_titles['main'][2] = $this->l('Products:');
 				break;
 			case 2:

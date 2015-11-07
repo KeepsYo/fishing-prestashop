@@ -78,9 +78,9 @@
 					<td>{Tools::displayDate($template['date_add'],null , true)}</td>
 					<td class="text-right">
 						{if empty($limit_warning)}
-						<a href="{$current_url}&edit_filters_template=1&id_layered_filter={(int)$template['id_layered_filter']}" class="btn btn-default"><img src="{$uri}img/edit.gif" alt="{l s='Edit' mod='blocklayered'}" />{l s='Edit' mod='blocklayered'}</a> 
+						<a href="{$current_url}&amp;edit_filters_template=1&amp;id_layered_filter={(int)$template['id_layered_filter']}" class="btn btn-default"><img src="{$uri}img/edit.gif" alt="{l s='Edit' mod='blocklayered'}" />{l s='Edit' mod='blocklayered'}</a> 
 						{/if}
-						<a href="{$current_url}&deleteFilterTemplate=1&id_layered_filter={(int)$template['id_layered_filter']}"
+						<a href="{$current_url}&amp;deleteFilterTemplate=1&amp;id_layered_filter={(int)$template['id_layered_filter']}"
 						onclick="return confirm('{l s='Do you really want to delete this filter template?' mod='blocklayered'}');"><img src="{$uri}img/cross.png" alt="{l s='Delete' mod='blocklayered'}" />{l s='Delete' mod='blocklayered'}</a>
 					</td>
 				</tr>
@@ -168,6 +168,21 @@
 						</label>
 						<input type="radio" name="ps_layered_filter_price_usetax" id="ps_layered_filter_price_usetax_off" value="0"{if !$price_use_tax} checked="checked"{/if}>
 						<label for="ps_layered_filter_price_usetax_off" class="radioCheck">
+							<i class="icon-ban-circle color_danger"></i> {l s='No' mod='blocklayered'}
+						</label>
+					</td>
+				</tr>
+				<tr>
+					<td class="label">
+						{l s='Use rounding to filter price' mod='blocklayered'}
+					</td>
+					<td>
+						<input type="radio" name="ps_layered_filter_price_rounding" id="ps_layered_filter_price_rounding_on" value="1"{if $price_use_rounding} checked="checked"{/if}/>
+						<label for="ps_layered_filter_price_rounding_on" class="radioCheck">
+							<i class="icon-check-sign color_success"></i> {l s='Yes' mod='blocklayered'}
+						</label>
+						<input type="radio" name="ps_layered_filter_price_rounding" id="ps_layered_filter_price_rounding_off" value="0"{if !$price_use_rounding} checked="checked"{/if}/>
+						<label for="ps_layered_filter_price_rounding_off" class="radioCheck">
 							<i class="icon-ban-circle color_danger"></i> {l s='No' mod='blocklayered'}
 						</label>
 					</td>

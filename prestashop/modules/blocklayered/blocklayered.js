@@ -1,5 +1,5 @@
 /*
-* 2007-2014 PrestaShop
+* 2007-2015 PrestaShop
 *
 * NOTICE OF LICENSE
 *
@@ -18,7 +18,7 @@
 * needs please refer to http://www.prestashop.com for more information.
 *
 *  @author PrestaShop SA <contact@prestashop.com>
-*  @copyright  2007-2014 PrestaShop SA
+*  @copyright  2007-2015 PrestaShop SA
 *  @license    http://opensource.org/licenses/afl-3.0.php  Academic Free License (AFL 3.0)
 *  International Registred Trademark & Property of PrestaShop SA
 */
@@ -44,7 +44,12 @@ $(document).ready(function()
 	});
 	
 	// Click on checkbox
-	$('#layered_form input[type=checkbox], #layered_form input[type=radio], #layered_form select').live('change', function()
+	$('#layered_form input[type=checkbox], #layered_form input[type=radio]').live('click', function()
+	{
+		reloadContent();
+	});
+
+	$(document).on('change', '#layered_form .select', function(e)
 	{
 		reloadContent();
 	});
@@ -392,7 +397,7 @@ function reloadContent(params_plus)
 	}
 	
 	var slideUp = true;
-	if (params_plus == undefined)
+	if (params_plus == undefined || !(typeof params_plus == 'string'))
 	{
 		params_plus = '';
 		slideUp = false;
@@ -496,11 +501,11 @@ function reloadContent(params_plus)
 				}
 				else if ($('#layered_'+sliderType+'_range_min').length)
 				{
-					current_friendly_url += '/'+sliderType+'-'+$('#layered_'+sliderType+'_range_min').val()+'-'+$('#layered_'+sliderType+'_range_max').val();
+					if ($('#layered_' + sliderType + '_range_min').attr('limitValue') != $('#layered_'+sliderType+'_range_min').val()
+                                        || $('#layered_' + sliderType + '_range_max').attr('limitValue') != $('#layered_'+sliderType+'_range_max').val())
+						current_friendly_url += '/'+sliderType+'-'+$('#layered_'+sliderType+'_range_min').val()+'-'+$('#layered_'+sliderType+'_range_max').val();
 				}
 			});
-			if (current_friendly_url == '#')
-				current_friendly_url = '#/';
 			window.location = current_friendly_url;
 			lockLocationChecking = true;
 			

@@ -1,6 +1,6 @@
 <?php
 /*
-* 2007-2014 PrestaShop
+* 2007-2015 PrestaShop
 *
 * NOTICE OF LICENSE
 *
@@ -19,7 +19,7 @@
 * needs please refer to http://www.prestashop.com for more information.
 *
 *  @author PrestaShop SA <contact@prestashop.com>
-*  @copyright  2007-2014 PrestaShop SA
+*  @copyright  2007-2015 PrestaShop SA
 *  @license    http://opensource.org/licenses/afl-3.0.php  Academic Free License (AFL 3.0)
 *  International Registered Trademark & Property of PrestaShop SA
 */
@@ -45,7 +45,7 @@ class BlockAdvertising extends Module
 	{
 		$this->name = 'blockadvertising';
 		$this->tab = 'advertising_marketing';
-		$this->version = '0.9.1';
+		$this->version = '0.10.0';
 		$this->author = 'PrestaShop';
 		$this->need_instance = 0;
 
@@ -240,7 +240,7 @@ class BlockAdvertising extends Module
 						'type' => 'file',
 						'label' => $this->l('Image for the advertisement'),
 						'name' => 'adv_img',
-						'desc' => $this->l('The image will be displayed as 155 pixels by 163 pixels.'),
+						'desc' => $this->l('By default the image will appear in the left column. The recommended dimensions are 155 x 163px.'),
 						'thumb' => $this->context->link->protocol_content.$this->adv_img,
 					),
 					array(
@@ -250,8 +250,9 @@ class BlockAdvertising extends Module
 					),
 					array(
 						'type' => 'text',
-						'label' => $this->l('Name of the target link'),
+						'label' => $this->l('Title of the target link'),
 						'name' => 'adv_title',
+						'desc' => $this->l('This title will be displayed when you mouse over the advertisement block in your shop.')
 					),
 				),
 				'submit' => array(

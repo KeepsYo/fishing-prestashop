@@ -17,7 +17,7 @@
 * needs please refer to http://www.prestashop.com for more information.
 *
 *  @author PrestaShop SA <contact@prestashop.com>
-*  @copyright  2007-2014 PrestaShop SA
+*  @copyright  2007-2015 PrestaShop SA
 *  @license    http://opensource.org/licenses/osl-3.0.php  Open Software License (OSL 3.0)
 *  International Registered Trademark & Property of PrestaShop SA
 */
@@ -36,7 +36,7 @@ function str2url(str, encoding, ucfirst)
 	else
 	{
 		/* Lowercase */
-		str = str.replace(/[\u00E0\u00E1\u00E2\u00E3\u00E4\u00E5\u0101\u0103\u0105\u0430]/g, 'a');
+		str = str.replace(/[\u00E0\u00E1\u00E2\u00E3\u00E5\u0101\u0103\u0105\u0430]/g, 'a');
         str = str.replace(/[\u0431]/g, 'b');
 		str = str.replace(/[\u00E7\u0107\u0109\u010D\u0446]/g, 'c');
 		str = str.replace(/[\u010F\u0111\u0434]/g, 'd');
@@ -50,21 +50,22 @@ function str2url(str, encoding, ucfirst)
 		str = str.replace(/[\u013A\u013C\u013E\u0140\u0142\u043B]/g, 'l');
         str = str.replace(/[\u043C]/g, 'm');
 		str = str.replace(/[\u00F1\u0144\u0146\u0148\u0149\u014B\u043D]/g, 'n');
-		str = str.replace(/[\u00F2\u00F3\u00F4\u00F5\u00F6\u00F8\u014D\u014F\u0151\u043E]/g, 'o');
+		str = str.replace(/[\u00F2\u00F3\u00F4\u00F5\u00F8\u014D\u014F\u0151\u043E]/g, 'o');
         str = str.replace(/[\u043F]/g, 'p');
 		str = str.replace(/[\u0155\u0157\u0159\u0440]/g, 'r');
 		str = str.replace(/[\u015B\u015D\u015F\u0161\u0441]/g, 's');
 		str = str.replace(/[\u00DF]/g, 'ss');
 		str = str.replace(/[\u0163\u0165\u0167\u0442]/g, 't');
-		str = str.replace(/[\u00F9\u00FA\u00FB\u00FC\u0169\u016B\u016D\u016F\u0171\u0173\u0443]/g, 'u');
+		str = str.replace(/[\u00F9\u00FA\u00FB\u0169\u016B\u016D\u016F\u0171\u0173\u0443]/g, 'u');
         str = str.replace(/[\u0432]/g, 'v');
 		str = str.replace(/[\u0175]/g, 'w');
 		str = str.replace(/[\u00FF\u0177\u00FD\u044B]/g, 'y');
 		str = str.replace(/[\u017A\u017C\u017E\u0437]/g, 'z');
-		str = str.replace(/[\u00E6]/g, 'ae');
+		str = str.replace(/[\u00E4\u00E6]/g, 'ae');
         str = str.replace(/[\u0447]/g, 'ch');
         str = str.replace(/[\u0445]/g, 'kh');
-		str = str.replace(/[\u0153]/g, 'oe');
+		str = str.replace(/[\u0153\u00F6]/g, 'oe');
+		str = str.replace(/[\u00FC]/g, 'ue');
         str = str.replace(/[\u0448]/g, 'sh');
         str = str.replace(/[\u0449]/g, 'ssh');
         str = str.replace(/[\u044F]/g, 'ya');
@@ -94,15 +95,16 @@ function str2url(str, encoding, ucfirst)
 		str = str.replace(/[\u0154\u0156\u0158\u0420]/g, 'R');
 		str = str.replace(/[\u015A\u015C\u015E\u0160\u0421]/g, 'S');
 		str = str.replace(/[\u0162\u0164\u0166\u0422]/g, 'T');
-		str = str.replace(/[\u00D9\u00DA\u00DB\u00DC\u0168\u016A\u016C\u016E\u0170\u0172\u0423]/g, 'U');
+		str = str.replace(/[\u00D9\u00DA\u00DB\u0168\u016A\u016C\u016E\u0170\u0172\u0423]/g, 'U');
         str = str.replace(/[\u0412]/g, 'V');
 		str = str.replace(/[\u0174]/g, 'W');
 		str = str.replace(/[\u0176\u042B]/g, 'Y');
 		str = str.replace(/[\u0179\u017B\u017D\u0417]/g, 'Z');
-		str = str.replace(/[\u00C6]/g, 'AE');
+		str = str.replace(/[\u00C4\u00C6]/g, 'AE');
         str = str.replace(/[\u0427]/g, 'CH');
         str = str.replace(/[\u0425]/g, 'KH');
-		str = str.replace(/[\u0152]/g, 'OE');
+		str = str.replace(/[\u0152\u00D6]/g, 'OE');
+		str = str.replace(/[\u00DC]/g, 'UE');
         str = str.replace(/[\u0428]/g, 'SH');
         str = str.replace(/[\u0429]/g, 'SHH');
         str = str.replace(/[\u042F]/g, 'YA');
@@ -133,16 +135,18 @@ function str2url(str, encoding, ucfirst)
 
 function copy2friendlyURL()
 {
+	if (typeof($('#link_rewrite_' + id_language).val()) == 'undefined')
+		return;
 	if (typeof(id_product) == 'undefined')
 		id_product = false;
-	
+
 	if (ps_force_friendly_product || !$('#link_rewrite_' + id_language).val().length || !id_product)//check if user didn't type anything in rewrite field, to prevent overwriting
 	{
-		$('#link_rewrite_' + id_language).val(str2url($('#name_' + id_language).val().replace(/^[0-9]+\./, ''), 'UTF-8').replace('%', ''));
+		$('#link_rewrite_' + id_language).val(str2url($.trim($('#name_' + id_language).val().replace(/^[0-9]+\./, ''), 'UTF-8').replace('%', '')));
 		if ($('#friendly-url'))
 			$('#friendly-url').html($('#link_rewrite_' + id_language).val());
 		// trigger onchange event to use anything binded there
-		$('#link_rewrite_' + id_language).change(); 
+		$('#link_rewrite_' + id_language).change();
 	}
 	return;
 }
@@ -175,10 +179,12 @@ function updateFriendlyURL()
 
 function updateLinkRewrite()
 {
+	$('#name_' + id_language).val($.trim($('#name_' + id_language).val()));
+	$('#link_rewrite_' + id_language).val($.trim($('#link_rewrite_' + id_language).val()));
 	var link = $('#link_rewrite_' + id_language);
 	if (link[0])
 	{
-		link.val(str2url($('#link_rewrite_' + id_language).val(), 'UTF-8'));
+		link.val(str2url(link.val(), 'UTF-8'));
 		$('#friendly-url_' + id_language).text(link.val());
 	}
 }
@@ -210,7 +216,7 @@ function changeFormLanguage(id_language_new, iso_code, employee_cookie)
 		$(this).find('.lang_' + id_language_new)
 			.show()
 			.siblings('div:not(.displayed_flag):not(.clear)').hide();
-		$('.language_current').attr('src', '../img/l/' + id_language_new + '.jpg');
+		$(this).find('.language_current').attr('src', '../img/l/' + id_language_new + '.jpg');
 	});
 
 	// For multishop checkboxes
@@ -340,6 +346,7 @@ function formSubmit(e, button)
 	{
 		getE(button).focus();
 		getE(button).click();
+		e.preventDefault();
 	}
 }
 function noComma(elem)
@@ -358,14 +365,15 @@ function gencode(size)
 }
 
 var tpl_viewing_window = null;
-function viewTemplates(id_select, prefix, ext)
+function viewTemplates(id_select, lang, ext)
 {
 	var loc = $(id_select).val();
 	if (loc != 0)
 	{
 		if (tpl_viewing_window != null && !tpl_viewing_window.closed)
 			tpl_viewing_window.close();
-		tpl_viewing_window = window.open(prefix + loc + ext, 'tpl_viewing', 'toolbar=0,location=0,directories=0,statfr=no,menubar=0,scrollbars=yes,resizable=yes,width=520,height=400,top=50,left=300');
+		var url_preview = $("option[value="+loc+"]", id_select).data('preview');
+		tpl_viewing_window = window.open(url_preview + lang + loc + ext, 'tpl_viewing', 'toolbar=0,location=0,directories=0,statfr=no,menubar=0,scrollbars=yes,resizable=yes,width=520,height=400,top=50,left=300');
 		tpl_viewing_window.focus();
 	}
 }
@@ -540,7 +548,7 @@ function showRedirectProductOptions(show)
 		$('.redirect_product_options').fadeIn();
 	else
 		$('.redirect_product_options').fadeOut();
-	
+
 	redirectSelectChange();
 }
 
@@ -579,7 +587,7 @@ function showRedirectProductSelectOptions(show)
 		$('.redirect_product_options_product_choise').hide();
 		removeRelatedProduct();
 	}
-		
+
 }
 
 function showOptions(show)
@@ -616,16 +624,16 @@ function checkMultishopDefaultValue(obj, key)
 {
 	if (!$(obj).prop('checked') || $('#'+key).hasClass('isInvisible'))
 	{
-		$('#conf_id_'+key+' input, #conf_id_'+key+' textarea, #conf_id_'+key+' select').attr('disabled', true);
+		$('#conf_id_'+key+' input, #conf_id_'+key+' textarea, #conf_id_'+key+' select, #conf_id_'+key+' button').prop('disabled', true);
 		$('#conf_id_'+key+' label.conf_title').addClass('isDisabled');
-		$(obj).attr('disabled', false);
+		$(obj).prop('disabled', false);
 	}
 	else
 	{
-		$('#conf_id_'+key+' input, #conf_id_'+key+' textarea, #conf_id_'+key+' select').attr('disabled', false);
+		$('#conf_id_'+key+' input, #conf_id_'+key+' textarea, #conf_id_'+key+' select, #conf_id_'+key+' button').prop('disabled', false);
 		$('#conf_id_'+key+' label.conf_title').removeClass('isDisabled');
 	}
-	$('#conf_id_'+key+' .preference_default_multishop input').attr('disabled', false);
+	$('#conf_id_'+key+' .preference_default_multishop input').prop('disabled', false);
 }
 
 function toggleAllMultishopDefaultValue($container, value)
@@ -721,7 +729,7 @@ $(document).ready(function()
 	}
 
 	$('select.chosen').each(function(k, item){
-		$(item).chosen({disable_search_threshold: 10});
+		$(item).chosen({disable_search_threshold: 10, search_contains: true});
 	});
 	// Apply chosen() when modal is loaded
 	$(document).on('shown.bs.modal', function (e) {
@@ -780,11 +788,11 @@ $(document).ready(function()
 		setTimeout(function(){element.hide()}, 1000);
 		clearTimeout(ajax_running_timeout);
 	});
-	
+
 	bindTabModuleListAction();
-	
+
 	bindAddonsButtons();
-	
+
 	//Check filters value on submit filter
 	$("[name='submitFilter']").click(function(event) {
 		var list_id = $(this).data('list-id');
@@ -799,11 +807,8 @@ $(document).ready(function()
 		});
 
 		$(document.body).find("select[name*='"+list_id+"Filter']").each(function() {
-			if ($(this).val() != '')
-			{
-				empty_filters = false;
-				return false;
-			}
+			empty_filters = false;
+			return false;
 		});
 
 		if (empty_filters)
@@ -835,7 +840,7 @@ $(document).ready(function()
 				{
 					$(this).css('width', $(this).width());
 					// fixing parent height will prevent that annoying "pagequake" thing
-					// the order is important : this has to be set before adding class fix-toolbar 
+					// the order is important : this has to be set before adding class fix-toolbar
 					$(this).parent().css('height', $(this).parent().height());
 					$(this).addClass("fix-toolbar");
 				}
@@ -852,12 +857,35 @@ $(document).ready(function()
 	$(document).on('click', '.untrustedaddon', function(e){
 		e.preventDefault();
 		var moduleName = $(this).data('module-name');
+		var moduleDisplayName = $(this).data('module-display-name');
+		var moduleImage = $(this).data('module-image');
+		var authorName = $(this).data('author-name');
 		var moduleLink = $(this).data('link');
-		var addonsSearchLink = 'http://addons.prestashop.com/en/search?search_query='+encodeURIComponent(moduleName)+'&utm_source=back-office&utm_medium=addons-certified&utm_campaign=back-office-'+iso_user.toUpperCase();
+		var authorUri = $(this).data('author-uri');
+		var isValidUri = /(https?):\/\/([a-z0-9\.]*)?(prestashop.com).*/gi;
+		var addonsSearchLink = 'http://addons.prestashop.com/en/search?search_query='+encodeURIComponent(moduleDisplayName)+'&utm_source=back-office&utm_medium=addons-certified&utm_campaign=back-office-'+iso_user.toUpperCase();
 
-		$('.modal .module-name-placeholder').text(moduleName);
+		$('.modal #untrusted-module-logo').attr('src', moduleImage);
+		$('.modal .module-display-name-placeholder').text(moduleDisplayName);
+		$('.modal .author-name-placeholder').text(authorName);
+
+		if (isValidUri.test(authorUri))
+			$('.modal .author-name-placeholder').wrap('<a href="'+authorUri+'" onclick="window.open(this.href);return false;"></a>');
+
 		$('.modal #proceed-install-anyway').attr('href', moduleLink);
 		$('.modal .catalog-link').attr('href', addonsSearchLink);
+		$('.modal .catalog-link').attr('onclick', 'window.open(this.href);return false;');
+	});
+
+	$(document).on('click', '#untrusted-show-risk', function(e){
+		e.preventDefault();
+		$('.untrusted-content-action').hide();
+		$('.untrusted-content-more-info').show();
+	});
+	$(document).on('click', '#untrusted-show-action', function(e){
+		e.preventDefault();
+		$('.untrusted-content-more-info').hide();
+		$('.untrusted-content-action').show();
 	});
 
 	// if count errors
@@ -892,8 +920,61 @@ $(document).ready(function()
 		});
 		return false;
 	});
+
+	/** make sure that all the swap id is present in the dom to prevent mistake **/
+	if (typeof $('#addSwap') !== undefined && typeof $("#removeSwap") !== undefined &&
+		typeof $('#selectedSwap') !== undefined && typeof $('#availableSwap') !== undefined)
+	{
+		bindSwapButton('add', 'available', 'selected');
+		bindSwapButton('remove', 'selected', 'available');
+
+		$('button:submit').click(bindSwapSave);
+	}
+
+	if (typeof host_mode !== 'undefined' && host_mode)
+	{
+        // http://status.prestashop.com/
+        var status_map = {
+            operational: status_operational,
+            degraded_performance: status_degraded_performance,
+            partial_outage: status_partial_outage,
+            major_outage: status_major_outage,
+        };
+
+        var components_map = {'ca1': 0, 'fr1': 1};
+
+        var sp = new StatusPage.page({page: 'rmfc0cm3rk9y'});
+        sp.components({
+            success: function (data) {
+                $('.status-page-description').text(status_map[data.components[components_map[host_cluster]].status]);
+                $('.status-page-dot').addClass(data.components[components_map[host_cluster]].status);
+            }
+        });
+    }
+    if ($('.kpi-container').length) {
+        refresh_kpis();
+    }
 });
 
+function bindSwapSave()
+{
+	if ($('#selectedSwap option').length !== 0)
+		$('#selectedSwap option').attr('selected', 'selected');
+	else
+		$('#availableSwap option').attr('selected', 'selected');
+}
+
+function bindSwapButton(prefix_button, prefix_select_remove, prefix_select_add)
+{
+	$('#'+prefix_button+'Swap').on('click', function(e) {
+		e.preventDefault();
+		$('#' + prefix_select_remove + 'Swap option:selected').each(function() {
+			$('#' + prefix_select_add + 'Swap').append("<option value='"+$(this).val()+"'>"+$(this).text()+"</option>");
+			$(this).remove();
+		});
+		$('#selectedSwap option').prop('selected', true);
+	});
+}
 
 function bindTabModuleListAction()
 {
@@ -902,7 +983,6 @@ function bindTabModuleListAction()
 			option = $('#'+$(this).data('option')+' :selected');
 			if ($(option).data('onclick') != '')
 			{
-				
 				var f = eval("(function(){ "+$(option).data('onclick')+"})");
 				if (f.call())
 					window.location.href = $(option).data('href');
@@ -910,7 +990,7 @@ function bindTabModuleListAction()
 			else
 				window.location.href = $(option).data('href');
 			return false;
-		});			
+		});
 	});
 }
 
@@ -1037,7 +1117,7 @@ function display_action_details(row_id, controller, token, action, params)
 				}
 				current_element.data('dataMaped', true);
 				current_element.data('opened', false);
-				
+
 				if (typeof(initTableDnD) != 'undefined')
 					initTableDnD('.details_'+id+' table.tableDnD');
 			}
@@ -1073,7 +1153,7 @@ function changeEmployeeLanguage()
 {
 	if (typeof allowEmployeeFormLang !== 'undefined' && allowEmployeeFormLang)
 		$.post("index.php", {
-			action: 'formLanguage', 
+			action: 'formLanguage',
 			tab: 'AdminEmployees',
 			ajax: 1,
 			token: employee_token,
@@ -1114,7 +1194,7 @@ function sendBulkAction(form, action)
 	$(form).submit();
 }
 
-function openModulesList() 
+function openModulesList()
 {
 	if (!modules_list_loaded)
 	{
@@ -1174,17 +1254,17 @@ function bindAddonsButtons()
 					{
 						$('#addons_loading').html('');
 						$('#addons_login_div').fadeOut();
-						window.location.href = admin_modules_link + '&conf=32';
+						window.location.href = currentIndex + '&token=' + token + '&conf=32';
 					}
 					else
-						$('#addons_loading').html(errorLogin);
+						$('#addons_loading').html('<br><div class="alert alert-danger">'+errorLogin+'</div>');
 				}
 			});
 		}
 		catch(e){}
 		return false;
 	});
-	
+
 	// Method to log out PrestaShop Addons WebServices
 	$('#addons_logout_button').click(function()
 	{
@@ -1246,7 +1326,7 @@ function ajaxStates(id_state_selected)
 	{
 		$.ajax({
 			type: "GET",
-			url: module_dir + "vatnumber/ajax.php?id_country=" + $('#id_country').val(),
+			url: window.location.origin + module_dir + "vatnumber/ajax.php?id_country=" + $('#id_country').val(),
 			success: function(isApplicable)
 			{
 				if(isApplicable == 1)
@@ -1263,7 +1343,7 @@ function check_for_all_accesses(tabsize, tabnumber)
 	var i = 0;
 	var res = 0;
 	var right = 0;
-	var rights = new Array('view', 'add', 'edit', 'delete', 'all'); 
+	var rights = new Array('view', 'add', 'edit', 'delete', 'all');
 
 	while (i != parseInt(tabsize) + 1)
 	{
@@ -1309,14 +1389,14 @@ function perfect_access_js_gestion(src, action, id_tab, tabsize, tabnumber, tabl
 	check_for_all_accesses(tabsize, tabnumber);
 }
 
-verifMailREGEX = /^([\w+-]+(?:\.[\w+-]+)*)@((?:[\w-]+\.)*\w[\w-]{0,66})\.([a-z]{2,6}(?:\.[a-z]{2})?)$/;
+verifMailREGEX = /^([\w+-]+(?:\.[\w+-]+)*)@((?:[\w-]+\.)*\w[\w-]{0,66})\.([a-z]{2,66}(?:\.[a-z]{2})?)$/;
 function verifyMail(testMsg, testSubject)
 {
 	$("#mailResultCheck").removeClass("alert-danger").removeClass('alert-success').html('<img src="../img/admin/ajax-loader.gif" alt="" />');
 	$("#mailResultCheck").slideDown("slow");
 
 	//local verifications
-	if ($("#testEmail[value=]").length > 0)
+	if (!($("#testEmail").val().length > 0))
 	{
 		$("#mailResultCheck").addClass("alert-danger").removeClass("alert-success").removeClass('userInfos').html(errorMail);
 		return false;
@@ -1379,7 +1459,7 @@ function checkLangPack(token){
 				action:'checkLangPack',
 				token:token,
 				ajax:1,
-				iso_lang:($('#iso_code').val()).toLowerCase(), 
+				iso_lang:($('#iso_code').val()).toLowerCase(),
 				ps_version:$('#ps_version').val()
 			},
 			function(ret)
@@ -1432,7 +1512,7 @@ function isCleanHtml(content)
 	events += '|ondragleave|ondragover|ondragstart|ondrop|onerrorupdate|onfilterchange|onfinish|onfocusin|onfocusout|onhashchange|onhelp|oninput|onlosecapture|onmessage|onmouseup|onmovestart';
 	events += '|onoffline|ononline|onpaste|onpropertychange|onreadystatechange|onresizeend|onresizestart|onrowenter|onrowexit|onrowsdelete|onrowsinserted|onscroll|onsearch|onselectionchange';
 	events += '|onselectstart|onstart|onstop';
-	
+
 	var script1 = /<[\s]*script/im;
 	var script2 = new RegExp('('+events+')[\s]*=', 'im');
 	var script3 = /.*script\:/im;
@@ -1446,4 +1526,68 @@ function isCleanHtml(content)
 
 function parseDate(date){
 	return $.datepicker.parseDate("yy-mm-dd", date);
+}
+
+function refresh_kpis()
+{
+	$('.box-stats').each(function() {
+		if ($(this).attr('id')) {
+			var functionName = 'refresh_' + $(this).attr('id').replace(/-/g, '_');
+
+			if (typeof window[functionName] === 'function') {
+				window[functionName]();
+			}
+		}
+	});
+}
+
+function createSqlQueryName()
+{
+	var container = false;
+	if ($('.breadcrumb-container'))
+		container = $('.breadcrumb-container').first().text().replace(/\s+/g, ' ').trim();
+	var current = false;
+	if ($('.breadcrumb-current'))
+		current = $('.breadcrumb-current').first().text().replace(/\s+/g, ' ').trim();
+	var title = false;
+	if ($('.page-title'))
+		title = $('.page-title').first().text().replace(/\s+/g, ' ').trim();
+
+	var name = false;
+	if (container && current && container != current)
+		name = container + ' > ' + current;
+	else if (container)
+		name = container;
+	else if (current)
+		name = current;
+
+	if (title && title != current && title != container)
+	{
+		if (name)
+			name = name + ' > ' + title;
+		else
+			name = title;
+	}
+
+	return name.trim();
+}
+
+function confirm_link(head_text, display_text, confirm_text, cancel_text, confirm_link, cancel_link)
+{
+	$.alerts.okButton = confirm_text;
+	$.alerts.cancelButton = cancel_text;
+	jConfirm(display_text, head_text, function(confirm){
+		if (confirm === true)
+			document.location = confirm_link;
+		else
+			document.location = cancel_link;
+	});
+}
+function countDown($source, $target) {
+	var max = $source.attr("data-maxchar");
+	$target.html(max-$source.val().length);
+
+	$source.keyup(function(){
+		$target.html(max-$source.val().length);
+	});
 }

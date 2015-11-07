@@ -1,6 +1,6 @@
 <?php
 /*
-* 2007-2014 PrestaShop
+* 2007-2015 PrestaShop
 *
 * NOTICE OF LICENSE
 *
@@ -19,7 +19,7 @@
 * needs please refer to http://www.prestashop.com for more information.
 *
 *  @author PrestaShop SA <contact@prestashop.com>
-*  @copyright  2007-2014 PrestaShop SA
+*  @copyright  2007-2015 PrestaShop SA
 *  @license    http://opensource.org/licenses/afl-3.0.php  Academic Free License (AFL 3.0)
 *  International Registered Trademark & Property of PrestaShop SA
 */
@@ -33,7 +33,7 @@ class ProductPaymentLogos extends Module
 	{
 		$this->name = 'productpaymentlogos';
 		$this->tab = 'front_office_features';
-		$this->version = '1.3.5';
+		$this->version = '1.4.0';
 		$this->author = 'PrestaShop';
 		$this->need_instance = 0;
 
@@ -70,11 +70,12 @@ class ProductPaymentLogos extends Module
 			return;
 		if (!$this->isCached('productpaymentlogos.tpl', $this->getCacheId()))
 		{
-			$this->smarty->assign('banner_img', 'img/'.Configuration::get('PRODUCTPAYMENTLOGOS_IMG'));
-			$this->smarty->assign('banner_link', Configuration::get('PRODUCTPAYMENTLOGOS_LINK'));
-			$this->smarty->assign('banner_title', Configuration::get('PRODUCTPAYMENTLOGOS_TITLE'));
+			$this->smarty->assign(array(
+				'banner_img' => 'img/'.Configuration::get('PRODUCTPAYMENTLOGOS_IMG'),
+				'banner_link' => Configuration::get('PRODUCTPAYMENTLOGOS_LINK'),
+				'banner_title' => Configuration::get('PRODUCTPAYMENTLOGOS_TITLE')
+			));
 		}
-
 		return $this->display(__FILE__, 'productpaymentlogos.tpl', $this->getCacheId());
 	}
 

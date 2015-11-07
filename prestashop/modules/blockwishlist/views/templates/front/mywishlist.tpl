@@ -1,5 +1,5 @@
 {*
-* 2007-2014 PrestaShop
+* 2007-2015 PrestaShop
 *
 * NOTICE OF LICENSE
 *
@@ -18,7 +18,7 @@
 * needs please refer to http://www.prestashop.com for more information.
 *
 *  @author PrestaShop SA <contact@prestashop.com>
-*  @copyright  2007-2014 PrestaShop SA
+*  @copyright  2007-2015 PrestaShop SA
 *  @license    http://opensource.org/licenses/afl-3.0.php  Academic Free License (AFL 3.0)
 *  International Registered Trademark & Property of PrestaShop SA
 *}
@@ -90,10 +90,12 @@
 						<td><a href="javascript:;" onclick="javascript:WishlistManage('block-order-detail', '{$wishlists[i].id_wishlist|intval}');">{l s='View' mod='blockwishlist'}</a></td>
 						<td class="wishlist_default">
 							{if isset($wishlists[i].default) && $wishlists[i].default == 1}
-								<p class="is_wish_list_default">{l s='Is default' mod='blockwishlist'}</p>
+								<p class="is_wish_list_default">
+									<i class="icon icon-check-square"></i>
+								</p>
 							{else}
 								<a href="#" onclick="javascript:event.preventDefault();(WishlistDefault('wishlist_{$wishlists[i].id_wishlist|intval}', '{$wishlists[i].id_wishlist|intval}'));">
-									{l s='Set as default' mod='blockwishlist'}
+									<i class="icon icon-square"></i>
 								</a>
 							{/if}
 						</td>

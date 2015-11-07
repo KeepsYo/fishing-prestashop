@@ -1,6 +1,6 @@
 <?php
 /*
-* 2007-2014 PrestaShop
+* 2007-2015 PrestaShop
 *
 * NOTICE OF LICENSE
 *
@@ -19,7 +19,7 @@
 * needs please refer to http://www.prestashop.com for more information.
 *
 *  @author PrestaShop SA <contact@prestashop.com>
-*  @copyright  2007-2014 PrestaShop SA
+*  @copyright  2007-2015 PrestaShop SA
 *  @license    http://opensource.org/licenses/afl-3.0.php  Academic Free License (AFL 3.0)
 *  International Registered Trademark & Property of PrestaShop SA
 */
@@ -29,12 +29,12 @@ if (!defined('_PS_VERSION_'))
 
 class ProductsCategory extends Module
 {
-	private $html;
+	protected $html;
 
 	public function __construct()
 	{
 		$this->name = 'productscategory';
-		$this->version = '1.6.2';
+		$this->version = '1.8.0';
 		$this->author = 'PrestaShop';
 		$this->tab = 'front_office_features';
 		$this->need_instance = 0;
@@ -90,7 +90,7 @@ class ProductsCategory extends Module
 		return $this->html;
 	}
 
-	private function getCurrentProduct($products, $id_current)
+	protected function getCurrentProduct($products, $id_current)
 	{
 		if ($products)
 		{
@@ -109,7 +109,7 @@ class ProductsCategory extends Module
 		$id_product = (int)$params['product']->id;
 		$product = $params['product'];
 
-		$cache_id = 'productscategory|'.$id_product.'|'.(isset($params['category']->id_category) ? (int)$params['category']->id_category : $product->id_category_default);
+		$cache_id = 'productscategory|'.$id_product.'|'.(isset($params['category']->id_category) ? (int)$params['category']->id_category : (int)$product->id_category_default);
 
 		if (!$this->isCached('productscategory.tpl', $this->getCacheId($cache_id)))
 		{
@@ -215,17 +215,35 @@ class ProductsCategory extends Module
 
 	public function hookAddProduct($params)
 	{
-		$this->_clearCache('productscategory.tpl');
+		if (!isset($params['product']))
+			return;
+		$id_product = (int)$params['product']->id;
+		$product = $params['product'];
+
+		$cache_id = 'productscategory|'.$id_product.'|'.(isset($params['category']->id_category) ? (int)$params['category']->id_category : (int)$product->id_category_default);
+		$this->_clearCache('productscategory.tpl', $this->getCacheId($cache_id));
 	}
 
 	public function hookUpdateProduct($params)
 	{
-		$this->_clearCache('productscategory.tpl');
+		if (!isset($params['product']))
+			return;
+		$id_product = (int)$params['product']->id;
+		$product = $params['product'];
+
+		$cache_id = 'productscategory|'.$id_product.'|'.(isset($params['category']->id_category) ? (int)$params['category']->id_category : (int)$product->id_category_default);
+		$this->_clearCache('productscategory.tpl', $this->getCacheId($cache_id));
 	}
 
 	public function hookDeleteProduct($params)
 	{
-		$this->_clearCache('productscategory.tpl');
+		if (!isset($params['product']))
+			return;
+		$id_product = (int)$params['product']->id;
+		$product = $params['product'];
+
+		$cache_id = 'productscategory|'.$id_product.'|'.(isset($params['category']->id_category) ? (int)$params['category']->id_category : (int)$product->id_category_default);
+		$this->_clearCache('productscategory.tpl', $this->getCacheId($cache_id));
 	}
 
 	public function renderForm()

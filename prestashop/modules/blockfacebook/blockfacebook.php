@@ -1,6 +1,6 @@
 <?php
 /*
-* 2007-2014 PrestaShop
+* 2007-2015 PrestaShop
 *
 * NOTICE OF LICENSE
 *
@@ -19,7 +19,7 @@
 * needs please refer to http://www.prestashop.com for more information.
 *
 *  @author PrestaShop SA <contact@prestashop.com>
-*  @copyright  2007-2014 PrestaShop SA
+*  @copyright  2007-2015 PrestaShop SA
 *  @license    http://opensource.org/licenses/afl-3.0.php  Academic Free License (AFL 3.0)
 *  International Registered Trademark & Property of PrestaShop SA
 */
@@ -33,13 +33,13 @@ class BlockFacebook extends Module
 	{
 		$this->name = 'blockfacebook';
 		$this->tab = 'front_office_features';
-		$this->version = '1.3.1';
+		$this->version = '1.4.0';
 		$this->author = 'PrestaShop';
 
 		$this->bootstrap = true;
 		parent::__construct();
-		$this->displayName = $this->l('Facebook block');
-		$this->description = $this->l('Displays a block for subscribing to your Facebook page.');
+		$this->displayName = $this->l('Facebook Like Box block');
+		$this->description = $this->l('Displays a block for subscribing to your Facebook Page.');
 		$this->ps_versions_compliancy = array('min' => '1.6', 'max' => _PS_VERSION_);
 	}
 
@@ -92,14 +92,31 @@ class BlockFacebook extends Module
 		return $this->display(__FILE__, 'blockfacebook.tpl', $this->getCacheId());
 	}
 
+	public function hookDisplayLeftColumn()
+	{
+		if ($this->page_name !== 'index')
+			$this->_assignMedia();
+		return $this->hookDisplayHome();
+	}
+
+	public function hookDisplayRightColumn()
+	{
+		if ($this->page_name !== 'index')
+			$this->_assignMedia();
+		return $this->hookDisplayHome();
+	}
+
 	public function hookHeader()
 	{
 		$this->page_name = Dispatcher::getInstance()->getController();
 		if ($this->page_name == 'index')
-		{
-			$this->context->controller->addCss(($this->_path).'css/blockfacebook.css');
-			$this->context->controller->addJS(($this->_path).'blockfacebook.js');
-		}
+			$this->_assignMedia();
+	}
+
+	protected function _assignMedia()
+	{
+		$this->context->controller->addCss(($this->_path).'css/blockfacebook.css');
+		$this->context->controller->addJS(($this->_path).'blockfacebook.js');
 	}
 
 	public function renderForm()

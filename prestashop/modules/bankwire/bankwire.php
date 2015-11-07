@@ -1,6 +1,6 @@
 <?php
 /*
-* 2007-2014 PrestaShop
+* 2007-2015 PrestaShop
 *
 * NOTICE OF LICENSE
 *
@@ -19,7 +19,7 @@
 * needs please refer to http://www.prestashop.com for more information.
 *
 *  @author PrestaShop SA <contact@prestashop.com>
-*  @copyright  2007-2014 PrestaShop SA
+*  @copyright  2007-2015 PrestaShop SA
 *  @license    http://opensource.org/licenses/afl-3.0.php  Academic Free License (AFL 3.0)
 *  International Registered Trademark & Property of PrestaShop SA
 */
@@ -29,8 +29,8 @@ if (!defined('_PS_VERSION_'))
 
 class BankWire extends PaymentModule
 {
-	private $_html = '';
-	private $_postErrors = array();
+	protected $_html = '';
+	protected $_postErrors = array();
 
 	public $details;
 	public $owner;
@@ -40,10 +40,11 @@ class BankWire extends PaymentModule
 	{
 		$this->name = 'bankwire';
 		$this->tab = 'payments_gateways';
-		$this->version = '0.7.2';
+		$this->version = '1.1.1';
 		$this->author = 'PrestaShop';
 		$this->controllers = array('payment', 'validation');
-		
+		$this->is_eu_compatible = 1;
+
 		$this->currencies = true;
 		$this->currencies_mode = 'checkbox';
 
@@ -56,7 +57,7 @@ class BankWire extends PaymentModule
 			$this->address = $config['BANK_WIRE_ADDRESS'];
 
 		$this->bootstrap = true;
-		parent::__construct();	
+		parent::__construct();
 
 		$this->displayName = $this->l('Bank wire');
 		$this->description = $this->l('Accept payments for your products via bank wire transfer.');
@@ -75,7 +76,7 @@ class BankWire extends PaymentModule
 
 	public function install()
 	{
-		if (!parent::install() || !$this->registerHook('payment') || !$this->registerHook('paymentReturn'))
+		if (!parent::install() || !$this->registerHook('payment') || ! $this->registerHook('displayPaymentEU') || !$this->registerHook('paymentReturn'))
 			return false;
 		return true;
 	}
@@ -90,7 +91,7 @@ class BankWire extends PaymentModule
 		return true;
 	}
 
-	private function _postValidation()
+	protected function _postValidation()
 	{
 		if (Tools::isSubmit('btnSubmit'))
 		{
@@ -101,7 +102,7 @@ class BankWire extends PaymentModule
 		}
 	}
 
-	private function _postProcess()
+	protected function _postProcess()
 	{
 		if (Tools::isSubmit('btnSubmit'))
 		{
@@ -112,7 +113,7 @@ class BankWire extends PaymentModule
 		$this->_html .= $this->displayConfirmation($this->l('Settings updated'));
 	}
 
-	private function _displayBankWire()
+	protected function _displayBankWire()
 	{
 		return $this->display(__FILE__, 'infos.tpl');
 	}
@@ -130,7 +131,7 @@ class BankWire extends PaymentModule
 		}
 		else
 			$this->_html .= '<br />';
-		
+
 		$this->_html .= $this->_displayBankWire();
 		$this->_html .= $this->renderForm();
 
@@ -144,7 +145,6 @@ class BankWire extends PaymentModule
 		if (!$this->checkCurrency($params['cart']))
 			return;
 
-
 		$this->smarty->assign(array(
 			'this_path' => $this->_path,
 			'this_path_bw' => $this->_path,
@@ -153,13 +153,30 @@ class BankWire extends PaymentModule
 		return $this->display(__FILE__, 'payment.tpl');
 	}
 
+	public function hookDisplayPaymentEU($params)
+	{
+		if (!$this->active)
+			return;
+
+		if (!$this->checkCurrency($params['cart']))
+			return;
+
+		$payment_options = array(
+			'cta_text' => $this->l('Pay by Bank Wire'),
+			'logo' => Media::getMediaPath(_PS_MODULE_DIR_.$this->name.'/bankwire.jpg'),
+			'action' => $this->context->link->getModuleLink($this->name, 'validation', array(), true)
+		);
+
+		return $payment_options;
+	}
+
 	public function hookPaymentReturn($params)
 	{
 		if (!$this->active)
 			return;
 
 		$state = $params['objOrder']->getCurrentState();
-		if ($state == Configuration::get('PS_OS_BANKWIRE') || $state == Configuration::get('PS_OS_OUTOFSTOCK'))
+		if (in_array($state, array(Configuration::get('PS_OS_BANKWIRE'), Configuration::get('PS_OS_OUTOFSTOCK'), Configuration::get('PS_OS_OUTOFSTOCK_UNPAID'))))
 		{
 			$this->smarty->assign(array(
 				'total_to_pay' => Tools::displayPrice($params['total_to_pay'], $params['currencyObj'], false),
@@ -176,7 +193,7 @@ class BankWire extends PaymentModule
 			$this->smarty->assign('status', 'failed');
 		return $this->display(__FILE__, 'payment_return.tpl');
 	}
-	
+
 	public function checkCurrency($cart)
 	{
 		$currency_order = new Currency($cart->id_currency);
@@ -188,7 +205,7 @@ class BankWire extends PaymentModule
 					return true;
 		return false;
 	}
-	
+
 	public function renderForm()
 	{
 		$fields_form = array(
@@ -202,17 +219,20 @@ class BankWire extends PaymentModule
 						'type' => 'text',
 						'label' => $this->l('Account owner'),
 						'name' => 'BANK_WIRE_OWNER',
+						'required' => true
 					),
 					array(
 						'type' => 'textarea',
 						'label' => $this->l('Details'),
 						'name' => 'BANK_WIRE_DETAILS',
-						'desc' => $this->l('Such as bank branch, IBAN number, BIC, etc.')
+						'desc' => $this->l('Such as bank branch, IBAN number, BIC, etc.'),
+						'required' => true
 					),
 					array(
 						'type' => 'textarea',
 						'label' => $this->l('Bank address'),
 						'name' => 'BANK_WIRE_ADDRESS',
+						'required' => true
 					),
 				),
 				'submit' => array(
@@ -220,10 +240,10 @@ class BankWire extends PaymentModule
 				)
 			),
 		);
-		
+
 		$helper = new HelperForm();
 		$helper->show_toolbar = false;
-		$helper->table =  $this->table;
+		$helper->table = $this->table;
 		$lang = new Language((int)Configuration::get('PS_LANG_DEFAULT'));
 		$helper->default_form_language = $lang->id;
 		$helper->allow_employee_form_lang = Configuration::get('PS_BO_ALLOW_EMPLOYEE_FORM_LANG') ? Configuration::get('PS_BO_ALLOW_EMPLOYEE_FORM_LANG') : 0;
@@ -241,7 +261,7 @@ class BankWire extends PaymentModule
 
 		return $helper->generateForm(array($fields_form));
 	}
-	
+
 	public function getConfigFieldsValues()
 	{
 		return array(
