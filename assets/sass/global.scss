@@ -4403,6 +4403,16 @@ input {
   .navbar-right {
     float: right !important;
   }
+  .navbar-form {
+    width: auto;
+    margin-right: 0;
+    margin-left: 0;
+    padding-top: 0;
+    padding-bottom: 0;
+
+    border: 0;
+    box-shadow: none;
+  }
 }
 
 .navbar-form {
@@ -4414,27 +4424,12 @@ input {
 
   border-top: 1px solid transparent;
   border-bottom: 1px solid transparent;
-  -webkit-box-shadow: inset 0 1px 0 rgba(255, 255, 255, .1), 0 1px 0 rgba(255, 255, 255, .1);
-          box-shadow: inset 0 1px 0 rgba(255, 255, 255, .1), 0 1px 0 rgba(255, 255, 255, .1);
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, .1), 0 1px 0 rgba(255, 255, 255, .1);
 }
 
 @media (max-width: 767px) {
   .navbar-form .form-group {
     margin-bottom: 5px;
-  }
-}
-
-@media (min-width: 768px) {
-  .navbar-form {
-    width: auto;
-    margin-right: 0;
-    margin-left: 0;
-    padding-top: 0;
-    padding-bottom: 0;
-
-    border: 0;
-    -webkit-box-shadow: none;
-            box-shadow: none;
   }
 }
 
@@ -5313,8 +5308,7 @@ a.thumbnail {
 
   border-radius: 0;
   background-color: whitesmoke;
-  -webkit-box-shadow: inset 0 1px 2px rgba(0, 0, 0, .1);
-          box-shadow: inset 0 1px 2px rgba(0, 0, 0, .1);
+  box-shadow: inset 0 1px 2px rgba(0, 0, 0, .1);
 }
 
 .progress-bar {
@@ -5325,14 +5319,12 @@ a.thumbnail {
   width: 0;
   height: 100%;
 
-  -webkit-transition: width .6s ease;
-          transition: width .6s ease;
+  transition: width .6s ease;
   text-align: center;
 
   color: white;
   background-color: #428bca;
-  -webkit-box-shadow: inset 0 -1px 0 rgba(0, 0, 0, .15);
-          box-shadow: inset 0 -1px 0 rgba(0, 0, 0, .15);
+  box-shadow: inset 0 -1px 0 rgba(0, 0, 0, .15);
 }
 
 .progress-striped .progress-bar {
@@ -5344,11 +5336,7 @@ a.thumbnail {
 }
 
 .progress.active .progress-bar {
-  -webkit-animation: progress-bar-stripes 2s linear infinite;
-     -moz-animation: progress-bar-stripes 2s linear infinite;
-      -ms-animation: progress-bar-stripes 2s linear infinite;
-       -o-animation: progress-bar-stripes 2s linear infinite;
-          animation: progress-bar-stripes 2s linear infinite;
+  animation: progress-bar-stripes 2s linear infinite;
 }
 
 .progress-bar-success {

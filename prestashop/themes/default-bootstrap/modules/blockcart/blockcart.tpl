@@ -24,7 +24,7 @@
 *}
 <!-- MODULE Block cart -->
 {if isset($blockcart_top) && $blockcart_top}
-<div class="col-sm-4 clearfix{if $PS_CATALOG_MODE} header_user_catalog{/if}">
+<div class="col-sm-3 clearfix{if $PS_CATALOG_MODE} header_user_catalog{/if}">
 {/if}
 	<div class="shopping_cart">
 		<a href="{$link->getPageLink($order_process, true)|escape:'html':'UTF-8'}" title="{l s='View my shopping cart' mod='blockcart'}" rel="nofollow">
@@ -235,7 +235,7 @@
 						{l s='There is 1 item in your cart.' mod='blockcart'}
 					</span>
 				</h2>
-	
+
 				<div class="layer_cart_row">
 					<strong class="dark">
 						{l s='Total products' mod='blockcart'}
@@ -253,7 +253,7 @@
 						{/if}
 					</span>
 				</div>
-	
+
 				{if $show_wrapping}
 					<div class="layer_cart_row">
 						<strong class="dark">
@@ -293,7 +293,7 @@
 						<span class="price cart_block_tax_cost ajax_cart_tax_cost">{$tax_cost}</span>
 					</div>
 				{/if}
-				<div class="layer_cart_row">	
+				<div class="layer_cart_row">
 					<strong class="dark">
 						{l s='Total' mod='blockcart'}
 						{if $display_tax_label}
@@ -314,7 +314,7 @@
 						{/if}
 					</span>
 				</div>
-				<div class="button-container">	
+				<div class="button-container">
 					<span class="continue btn btn-default button exclusive-medium" title="{l s='Continue shopping' mod='blockcart'}">
 						<span>
 							<i class="icon-chevron-left left"></i>{l s='Continue shopping' mod='blockcart'}
@@ -324,7 +324,7 @@
 						<span>
 							{l s='Proceed to checkout' mod='blockcart'}<i class="icon-chevron-right right"></i>
 						</span>
-					</a>	
+					</a>
 				</div>
 			</div>
 		</div>
