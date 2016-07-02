@@ -5,34 +5,6 @@ body {
   background-repeat: no-repeat;
   background-position: center top;
 }
-
-
-#contact_block p.tel i {
-  font-size: 25px;
-
-  padding-right: 10px;
-
-  vertical-align: -2px;
-}
-
-#contact_block .label {
-  display: none;
-}
-
-#contact-link a:hover,
-#contact-link a.active {
-  background: #2b2b2b;
-}
-
-.shop-phone i {
-  font-size: 21px;
-  line-height: 21px;
-
-  padding-right: 7px;
-
-  color: #fff;
-}
-
 header {
   background: transparent;
   .nav {
@@ -64,12 +36,66 @@ form {
     background: #fbfbfb;
   }
 }
+#contact_block {
+  .label {
+    display: none;
+  }
+  .block_content {
+    color: #888;
+  }
+  p {
+    margin-bottom: 4px;
+    &.tel {
+      font: 400 17px/21px Arial,Helvetica,sans-serif;
+
+      margin-bottom: 6px;
+
+      color: #333;
+      i {
+        font-size: 25px;
+
+        padding-right: 10px;
+
+        vertical-align: -2px;
+      }
+    }
+  }
+}
+
+#contact-link {
+  a {
+    &:hover,
+    &.active {
+      background: #2b2b2b;
+    }
+  }
+}
+
+.shop-phone {
+  line-height: 18px;
+
+  display: inline-block;
+  float: left;
+
+  padding: 10px 0 10px;
+  i {
+    font-size: 21px;
+    line-height: 21px;
+
+    padding-right: 7px;
+
+    color: #fff;
+  }
+  strong {
+    color: #fff;
+  }
+}
 
 .blockcallback_block_left {
   float: left;
 
   margin: 0;
-  padding: 0;
+  padding: 6px 0 0;
   .callback-js {
     display: inline-block;
 
@@ -114,20 +140,29 @@ form {
 
 
 #contact-link {
+  float: right;
+
   padding-top: 7px;
 
   border-left: none;
   a {
     font-size: 14px;
     font-weight: normal;
+    line-height: 18px;
+
+    display: block;
 
     padding: 5px 9px 6px 8px;
 
+    cursor: pointer;
     text-decoration: underline;
 
     color: #79b031;
+    text-shadow: 1px 1px rgba(0,0,0,.2);
   }
 }
+
+
 .header_user_info {
   padding-top: 7px;
 
@@ -199,59 +234,13 @@ form {
 
 #search_block_top {
   padding-top: 30px;
-  .btn.button-search {
-    color: #79b031;
-    background: transparent;
+  .btn {
+    &.button-search {
+      color: #79b031;
+      background: transparent;
+    }
   }
   #search_query_top {
     border-radius: 3px;
-  }
-}
-
-.shop-phone {
-  line-height: 18px;
-
-  display: inline-block;
-  float: left;
-
-  padding: 10px 0 10px;
-  strong {
-    color: #fff;
-  }
-}
-
-
-#contact-link {
-  float: right;
-
-  border-left: 1px solid #515151;
-  a {
-    font-weight: 700;
-    line-height: 18px;
-
-    display: block;
-
-    padding: 8px 10px 11px;
-
-    cursor: pointer;
-
-    color: #fff;
-    text-shadow: 1px 1px rgba(0,0,0,.2);
-  }
-}
-
-#contact_block {
-  .block_content {
-    color: #888;
-  }
-  p {
-    margin-bottom: 4px;
-    &.tel {
-      font: 400 17px/21px Arial,Helvetica,sans-serif;
-
-      margin-bottom: 6px;
-
-      color: #333;
-    }
   }
 }
